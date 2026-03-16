@@ -1,0 +1,12 @@
+# ROS 2 build a logovacie adresáre
+build/
+install/
+log/
+
+# Súbory z IDE (napr. CLion, VSCode)
+.idea/
+.vscode/
+
+# Kompilované Python súbory (ak nejaké máš)
+__pycache__/
+*.pyc
