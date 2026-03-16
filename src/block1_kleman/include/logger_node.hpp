@@ -1,19 +1,28 @@
-// Created by kllemo on 2/24/26.
-
-#ifndef ROS2_WS_LOGGER_NODE_HPP
-#define ROS2_WS_LOGGER_NODE_HPP
+#ifndef LOGGER_NODE_HPP
+#define LOGGER_NODE_HPP
 
 #include "rclcpp/rclcpp.hpp"
 #include "sensor_msgs/msg/joint_state.hpp"
+#include "kleman_interface/srv/save_point.hpp"
+#include <vector>
+#include <fstream>
 
-// Definujeme triedu pre node JointLogger
-class JointLogger : public rclcpp::Node
-{
+class JointLogger : public rclcpp::Node {
 public:
     JointLogger();
-    void joint_states_callback(const sensor_msgs::msg::JointState::SharedPtr msg);
+
 private:
+    void joint_states_callback(const sensor_msgs::msg::JointState::SharedPtr msg);
+    void save_point_callback(
+        const std::shared_ptr<kleman_interface::srv::SavePoint::Request> request,
+        std::shared_ptr<kleman_interface::srv::SavePoint::Response> response);
+    void save_to_file(int id, const std::vector<double>& positions, double max_velocity);
+
     rclcpp::Subscription<sensor_msgs::msg::JointState>::SharedPtr subscription_;
+    rclcpp::Service<kleman_interface::srv::SavePoint>::SharedPtr service_;
+
+    std::vector<double> current_positions_;
+    int point_counter_ = 0;
 };
 
-#endif //ROS2_WS_LOGGER_NODE_HPP
+#endif

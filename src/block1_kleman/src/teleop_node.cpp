@@ -1,53 +1,71 @@
 #include "Teleop.hpp"
 #include <iostream>
-#include <vector>
+#include <fstream>
+#include <sstream>
 
 int main(int argc, char ** argv) {
     rclcpp::init(argc, argv);
     auto node = std::make_shared<Teleop>();
 
-    std::cout << "--- RRM Service Teleop (Zadanie 1.3) ---" << std::endl;
-
     while (rclcpp::ok()) {
-        std::vector<double> cielove_polohy(3);
-        double max_v;
+        char volba;
+        std::cout << "\n----------------------------------------" << std::endl;
+        std::cout << "MENU: (m) - Pohyb, (s) - Ulozit bod, (l) - Nacitat trajektoriu, (q) - Koniec" << std::endl;
+        std::cout << "Vasa volba: ";
+        std::cin >> volba;
 
-        std::cout << "\nZadajte polohy pre 3 klby:" << std::endl;
-        std::cout << "Klb 1: "; if (!(std::cin >> cielove_polohy[0])) break;
-        std::cout << "Klb 2: "; if (!(std::cin >> cielove_polohy[1])) break;
-        std::cout << "Klb 3: "; if (!(std::cin >> cielove_polohy[2])) break;
-        std::cout << "Maximalna rychlost od 0 po 100: "; if (!(std::cin >> max_v)) break;
+        if (volba == 'q') break;
 
+        if (volba == 'm') {
+            std::vector<double> ciel(3);
+            double v;
 
-        if (!(std::cin >> max_v)) {
-            rclcpp::shutdown();
-            return 0;
+            std::cout << "Zadajte polohu klbu 1: ";
+            if (!(std::cin >> ciel[0])) break;
+
+            std::cout << "Zadajte polohu klbu 2: ";
+            if (!(std::cin >> ciel[1])) break;
+
+            std::cout << "Zadajte polohu klbu 3: ";
+            if (!(std::cin >> ciel[2])) break;
+
+            std::cout << "Zadajte rychlost (0-100): ";
+            if (!(std::cin >> v)) break;
+
+            node->move(ciel, v / 100.0);
+            std::cout << ">>> Prikaz na pohyb odoslany." << std::endl;
         }
+        else if (volba == 's') {
+            auto request = std::make_shared<kleman_interface::srv::SavePoint::Request>();
+            request->velocity = node->get_last_velocity();
 
-
-        while (max_v <= 0.0 || max_v > 100.0) {
-            std::cout << ">>> Neplatna rychlost! Hodnota musi byt vacsia ako 0 a maximalne 100.\n";
-            std::cout << "Zadajte rychlost znova: ";
-
-
-            if (!(std::cin >> max_v)) {
-                rclcpp::shutdown();
-                return 0;
+            auto result = node->get_save_client()->async_send_request(request);
+            std::cout << ">>> Poziadavka na ulozenie odoslana do Loggera." << std::endl;
+        }
+        else if (volba == 'l' || volba == 'L') {
+            std::ifstream infile("trajektoria.txt");
+            if (!infile.is_open()) {
+                std::cout << ">>> Chyba: Subor trajektoria.txt neexistuje!" << std::endl;
+            } else {
+                std::string line;
+                while (std::getline(infile, line)) {
+                    std::stringstream ss(line);
+                    int id; double p1, p2, p3, vel;
+                    // Format: ID, k1, k2, k3, rychlost
+                    if (ss >> id >> p1 >> p2 >> p3 >> vel) {
+                        std::cout << ">>> Vykonavam bod ID: " << id << std::endl;
+                        node->move({p1, p2, p3}, vel);
+                        // Pauza medzi bodmi aby simulacia stihala
+                        rclcpp::sleep_for(std::chrono::milliseconds(500));
+                        rclcpp::spin_some(node);
+                    }
+                }
+                infile.close();
+                std::cout << ">>> Trajektoria dokoncena." << std::endl;
             }
         }
 
-
-
-        max_v = max_v / 100.0;
-
         rclcpp::spin_some(node);
-
-        if (node->move(cielove_polohy, max_v)) {
-            std::cout << ">>> Prikaz odoslany a vykonany." << std::endl;
-        }gitgitgitdsaasggggggdasdasdasdasd
-			else{
-            std::cout << ">>> Chyba pri vykonavani prikazu." << std::endl;
-        }
     }
 
     rclcpp::shutdown();
