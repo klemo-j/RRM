@@ -1,0 +1,4 @@
+source;share/block1_kleman/local_setup.bash
+source;share/block1_kleman/local_setup.dsv
+source;share/block1_kleman/local_setup.sh
+source;share/block1_kleman/local_setup.zsh

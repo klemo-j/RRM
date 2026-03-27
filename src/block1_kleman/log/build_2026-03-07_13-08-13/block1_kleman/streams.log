@@ -1,0 +1,69 @@
+[0.018s] Invoking command in '/home/kllemo/ros2_ws/block1_kleman/build/block1_kleman': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake /home/kllemo/ros2_ws/block1_kleman -DCMAKE_INSTALL_PREFIX=/home/kllemo/ros2_ws/block1_kleman/install/block1_kleman
+[0.174s] -- The C compiler identification is GNU 13.3.0
+[0.283s] -- The CXX compiler identification is GNU 13.3.0
+[0.318s] -- Detecting C compiler ABI info
+[0.476s] -- Detecting C compiler ABI info - done
+[0.494s] -- Check for working C compiler: /usr/bin/cc - skipped
+[0.494s] -- Detecting C compile features
+[0.495s] -- Detecting C compile features - done
+[0.512s] -- Detecting CXX compiler ABI info
+[0.690s] -- Detecting CXX compiler ABI info - done
+[0.710s] -- Check for working CXX compiler: /usr/bin/c++ - skipped
+[0.710s] -- Detecting CXX compile features
+[0.711s] -- Detecting CXX compile features - done
+[0.726s] -- Found ament_cmake: 2.5.5 (/opt/ros/jazzy/share/ament_cmake/cmake)
+[1.021s] -- Found Python3: /usr/bin/python3 (found version "3.12.3") found components: Interpreter 
+[1.265s] -- Found rclcpp: 28.1.16 (/opt/ros/jazzy/share/rclcpp/cmake)
+[1.365s] -- Found rosidl_generator_c: 4.6.7 (/opt/ros/jazzy/share/rosidl_generator_c/cmake)
+[1.396s] -- Found rosidl_generator_cpp: 4.6.7 (/opt/ros/jazzy/share/rosidl_generator_cpp/cmake)
+[1.438s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[1.482s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[1.670s] -- Found rmw_implementation_cmake: 7.3.3 (/opt/ros/jazzy/share/rmw_implementation_cmake/cmake)
+[1.677s] -- Found rmw_fastrtps_cpp: 8.4.3 (/opt/ros/jazzy/share/rmw_fastrtps_cpp/cmake)
+[1.833s] -- Found OpenSSL: /usr/lib/x86_64-linux-gnu/libcrypto.so (found version "3.0.13")  
+[1.873s] -- Found FastRTPS: /opt/ros/jazzy/include (Required is at least version "2.13") 
+[1.921s] -- Using RMW implementation 'rmw_fastrtps_cpp' as default
+[2.100s] -- Found rrm_msgs: 0.0.0 (/home/kllemo/ros2_ws/install/rrm_msgs/share/rrm_msgs/cmake)
+[2.137s] -- Found sensor_msgs: 5.3.6 (/opt/ros/jazzy/share/sensor_msgs/cmake)
+[2.285s] -- Found ament_lint_auto: 0.17.4 (/opt/ros/jazzy/share/ament_lint_auto/cmake)
+[2.532s] -- Added test 'cppcheck' to perform static code analysis on C / C++ code
+[2.532s] -- Configured cppcheck include dirs: $<BUILD_INTERFACE:/home/kllemo/ros2_ws/block1_kleman/include>
+[2.533s] -- Configured cppcheck exclude dirs and/or files: 
+[2.539s] -- Added test 'lint_cmake' to check CMake code style
+[2.550s] -- Added test 'uncrustify' to check C / C++ code style
+[2.551s] -- Configured uncrustify additional arguments: 
+[2.553s] -- Added test 'xmllint' to check XML markup files
+[2.557s] -- Configuring done (2.5s)
+[2.586s] -- Generating done (0.0s)
+[2.597s] -- Build files have been written to: /home/kllemo/ros2_ws/block1_kleman/build/block1_kleman
+[2.617s] Invoked command in '/home/kllemo/ros2_ws/block1_kleman/build/block1_kleman' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake /home/kllemo/ros2_ws/block1_kleman -DCMAKE_INSTALL_PREFIX=/home/kllemo/ros2_ws/block1_kleman/install/block1_kleman
+[2.620s] Invoking command in '/home/kllemo/ros2_ws/block1_kleman/build/block1_kleman': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --build /home/kllemo/ros2_ws/block1_kleman/build/block1_kleman -- -j16 -l16
+[2.710s] [ 25%] [32mBuilding CXX object CMakeFiles/logger_node.dir/src/logger_node.cpp.o[0m
+[2.711s] [ 50%] [32mBuilding CXX object CMakeFiles/teleop_node.dir/src/teleop_node.cpp.o[0m
+[11.964s] [ 75%] [32m[1mLinking CXX executable teleop_node[0m
+[12.287s] [ 75%] Built target teleop_node
+[18.389s] [100%] [32m[1mLinking CXX executable logger_node[0m
+[18.947s] [100%] Built target logger_node
+[18.966s] Invoked command in '/home/kllemo/ros2_ws/block1_kleman/build/block1_kleman' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --build /home/kllemo/ros2_ws/block1_kleman/build/block1_kleman -- -j16 -l16
+[18.983s] Invoking command in '/home/kllemo/ros2_ws/block1_kleman/build/block1_kleman': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --install /home/kllemo/ros2_ws/block1_kleman/build/block1_kleman
+[18.997s] -- Install configuration: ""
+[18.997s] -- Installing: /home/kllemo/ros2_ws/block1_kleman/install/block1_kleman/lib/block1_kleman/teleop_node
+[18.999s] -- Set non-toolchain portion of runtime path of "/home/kllemo/ros2_ws/block1_kleman/install/block1_kleman/lib/block1_kleman/teleop_node" to ""
+[18.999s] -- Installing: /home/kllemo/ros2_ws/block1_kleman/install/block1_kleman/lib/block1_kleman/logger_node
+[19.004s] -- Set non-toolchain portion of runtime path of "/home/kllemo/ros2_ws/block1_kleman/install/block1_kleman/lib/block1_kleman/logger_node" to ""
+[19.005s] -- Installing: /home/kllemo/ros2_ws/block1_kleman/install/block1_kleman/share/ament_index/resource_index/package_run_dependencies/block1_kleman
+[19.005s] -- Installing: /home/kllemo/ros2_ws/block1_kleman/install/block1_kleman/share/ament_index/resource_index/parent_prefix_path/block1_kleman
+[19.006s] -- Installing: /home/kllemo/ros2_ws/block1_kleman/install/block1_kleman/share/block1_kleman/environment/ament_prefix_path.sh
+[19.006s] -- Installing: /home/kllemo/ros2_ws/block1_kleman/install/block1_kleman/share/block1_kleman/environment/ament_prefix_path.dsv
+[19.006s] -- Installing: /home/kllemo/ros2_ws/block1_kleman/install/block1_kleman/share/block1_kleman/environment/path.sh
+[19.007s] -- Installing: /home/kllemo/ros2_ws/block1_kleman/install/block1_kleman/share/block1_kleman/environment/path.dsv
+[19.007s] -- Installing: /home/kllemo/ros2_ws/block1_kleman/install/block1_kleman/share/block1_kleman/local_setup.bash
+[19.007s] -- Installing: /home/kllemo/ros2_ws/block1_kleman/install/block1_kleman/share/block1_kleman/local_setup.sh
+[19.007s] -- Installing: /home/kllemo/ros2_ws/block1_kleman/install/block1_kleman/share/block1_kleman/local_setup.zsh
+[19.007s] -- Installing: /home/kllemo/ros2_ws/block1_kleman/install/block1_kleman/share/block1_kleman/local_setup.dsv
+[19.007s] -- Installing: /home/kllemo/ros2_ws/block1_kleman/install/block1_kleman/share/block1_kleman/package.dsv
+[19.008s] -- Installing: /home/kllemo/ros2_ws/block1_kleman/install/block1_kleman/share/ament_index/resource_index/packages/block1_kleman
+[19.008s] -- Installing: /home/kllemo/ros2_ws/block1_kleman/install/block1_kleman/share/block1_kleman/cmake/block1_klemanConfig.cmake
+[19.008s] -- Installing: /home/kllemo/ros2_ws/block1_kleman/install/block1_kleman/share/block1_kleman/cmake/block1_klemanConfig-version.cmake
+[19.008s] -- Installing: /home/kllemo/ros2_ws/block1_kleman/install/block1_kleman/share/block1_kleman/package.xml
+[19.011s] Invoked command in '/home/kllemo/ros2_ws/block1_kleman/build/block1_kleman' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --install /home/kllemo/ros2_ws/block1_kleman/build/block1_kleman
