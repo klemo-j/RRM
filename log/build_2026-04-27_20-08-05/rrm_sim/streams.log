@@ -1,0 +1,24 @@
+[0.020s] Invoking command in '/home/kllemo/ros2_ws/build/rrm_sim': CMAKE_PREFIX_PATH=/home/kllemo/ros2_ws/install/rrm_msgs:/home/kllemo/ros2_ws/install/rrm_simple_robot_model:/home/kllemo/ros2_ws/install/rrm_sim:/home/kllemo/ros2_ws/install/kleman_interface:/home/kllemo/ros2_ws/install/block1_kleman:/home/kllemo/ros2_ws/install/abb_model:/home/kllemo/ros2_ws/install/abb_irb4600_ikfast:/opt/ros/jazzy/opt/gz_math_vendor:/opt/ros/jazzy/opt/gz_utils_vendor:/opt/ros/jazzy/opt/gz_cmake_vendor:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --build /home/kllemo/ros2_ws/build/rrm_sim -- -j16 -l16
+[0.146s] [100%] Built target robot_sim_node
+[0.182s] Invoked command in '/home/kllemo/ros2_ws/build/rrm_sim' returned '0': CMAKE_PREFIX_PATH=/home/kllemo/ros2_ws/install/rrm_msgs:/home/kllemo/ros2_ws/install/rrm_simple_robot_model:/home/kllemo/ros2_ws/install/rrm_sim:/home/kllemo/ros2_ws/install/kleman_interface:/home/kllemo/ros2_ws/install/block1_kleman:/home/kllemo/ros2_ws/install/abb_model:/home/kllemo/ros2_ws/install/abb_irb4600_ikfast:/opt/ros/jazzy/opt/gz_math_vendor:/opt/ros/jazzy/opt/gz_utils_vendor:/opt/ros/jazzy/opt/gz_cmake_vendor:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --build /home/kllemo/ros2_ws/build/rrm_sim -- -j16 -l16
+[0.185s] Invoking command in '/home/kllemo/ros2_ws/build/rrm_sim': CMAKE_PREFIX_PATH=/home/kllemo/ros2_ws/install/rrm_msgs:/home/kllemo/ros2_ws/install/rrm_simple_robot_model:/home/kllemo/ros2_ws/install/rrm_sim:/home/kllemo/ros2_ws/install/kleman_interface:/home/kllemo/ros2_ws/install/block1_kleman:/home/kllemo/ros2_ws/install/abb_model:/home/kllemo/ros2_ws/install/abb_irb4600_ikfast:/opt/ros/jazzy/opt/gz_math_vendor:/opt/ros/jazzy/opt/gz_utils_vendor:/opt/ros/jazzy/opt/gz_cmake_vendor:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --install /home/kllemo/ros2_ws/build/rrm_sim
+[0.205s] -- Install configuration: ""
+[0.206s] -- Execute custom install script
+[0.207s] -- Up-to-date symlink: /home/kllemo/ros2_ws/install/rrm_sim/lib/rrm_sim/robot_sim_node
+[0.208s] -- Up-to-date symlink: /home/kllemo/ros2_ws/install/rrm_sim/share/rrm_sim/launch/rrm_sim.launch.xml
+[0.209s] -- Up-to-date symlink: /home/kllemo/ros2_ws/install/rrm_sim/share/ament_index/resource_index/package_run_dependencies/rrm_sim
+[0.210s] -- Up-to-date symlink: /home/kllemo/ros2_ws/install/rrm_sim/share/ament_index/resource_index/parent_prefix_path/rrm_sim
+[0.210s] -- Up-to-date symlink: /home/kllemo/ros2_ws/install/rrm_sim/share/rrm_sim/environment/ament_prefix_path.sh
+[0.211s] -- Up-to-date symlink: /home/kllemo/ros2_ws/install/rrm_sim/share/rrm_sim/environment/ament_prefix_path.dsv
+[0.211s] -- Up-to-date symlink: /home/kllemo/ros2_ws/install/rrm_sim/share/rrm_sim/environment/path.sh
+[0.212s] -- Up-to-date symlink: /home/kllemo/ros2_ws/install/rrm_sim/share/rrm_sim/environment/path.dsv
+[0.212s] -- Up-to-date symlink: /home/kllemo/ros2_ws/install/rrm_sim/share/rrm_sim/local_setup.bash
+[0.213s] -- Up-to-date symlink: /home/kllemo/ros2_ws/install/rrm_sim/share/rrm_sim/local_setup.sh
+[0.213s] -- Up-to-date symlink: /home/kllemo/ros2_ws/install/rrm_sim/share/rrm_sim/local_setup.zsh
+[0.214s] -- Up-to-date symlink: /home/kllemo/ros2_ws/install/rrm_sim/share/rrm_sim/local_setup.dsv
+[0.214s] -- Symlinking: /home/kllemo/ros2_ws/install/rrm_sim/share/rrm_sim/package.dsv
+[0.239s] -- Up-to-date symlink: /home/kllemo/ros2_ws/install/rrm_sim/share/ament_index/resource_index/packages/rrm_sim
+[0.239s] -- Up-to-date symlink: /home/kllemo/ros2_ws/install/rrm_sim/share/rrm_sim/cmake/rrm_simConfig.cmake
+[0.239s] -- Up-to-date symlink: /home/kllemo/ros2_ws/install/rrm_sim/share/rrm_sim/cmake/rrm_simConfig-version.cmake
+[0.240s] -- Up-to-date symlink: /home/kllemo/ros2_ws/install/rrm_sim/share/rrm_sim/package.xml
+[0.244s] Invoked command in '/home/kllemo/ros2_ws/build/rrm_sim' returned '0': CMAKE_PREFIX_PATH=/home/kllemo/ros2_ws/install/rrm_msgs:/home/kllemo/ros2_ws/install/rrm_simple_robot_model:/home/kllemo/ros2_ws/install/rrm_sim:/home/kllemo/ros2_ws/install/kleman_interface:/home/kllemo/ros2_ws/install/block1_kleman:/home/kllemo/ros2_ws/install/abb_model:/home/kllemo/ros2_ws/install/abb_irb4600_ikfast:/opt/ros/jazzy/opt/gz_math_vendor:/opt/ros/jazzy/opt/gz_utils_vendor:/opt/ros/jazzy/opt/gz_cmake_vendor:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --install /home/kllemo/ros2_ws/build/rrm_sim

@@ -1,0 +1,1 @@
+/home/kllemo/ros2_ws/build/block1_kleman/ament_cmake_core/block1_klemanConfig-version.cmake

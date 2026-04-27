@@ -1,0 +1,1 @@
+/home/kllemo/ros2_ws/build/abb_model/ament_cmake_core/abb_modelConfig-version.cmake

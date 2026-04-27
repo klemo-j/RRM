@@ -1,0 +1,13 @@
+{
+  "package_name": "kleman_interface",
+  "output_dir": "/home/kllemo/ros2_ws/build/kleman_interface/rosidl_generator_type_description/kleman_interface",
+  "idl_tuples": [
+    "/home/kllemo/ros2_ws/build/kleman_interface/rosidl_adapter/kleman_interface:srv/SavePoint.idl",
+    "/home/kllemo/ros2_ws/build/kleman_interface/rosidl_adapter/kleman_interface:srv/SolveIK.idl",
+    "/home/kllemo/ros2_ws/build/kleman_interface/rosidl_adapter/kleman_interface:srv/MoveToXYZ.idl"
+  ],
+  "include_paths": [
+    "service_msgs:/opt/ros/jazzy/share/service_msgs",
+    "builtin_interfaces:/opt/ros/jazzy/share/builtin_interfaces"
+  ]
+}

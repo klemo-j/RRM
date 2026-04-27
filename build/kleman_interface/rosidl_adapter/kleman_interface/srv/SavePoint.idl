@@ -1,0 +1,17 @@
+// generated from rosidl_adapter/resource/srv.idl.em
+// with input from kleman_interface/srv/SavePoint.srv
+// generated code does not contain a copyright notice
+
+
+module kleman_interface {
+  module srv {
+    struct SavePoint_Request {
+      double velocity;
+    };
+    struct SavePoint_Response {
+      boolean result;
+
+      string message;
+    };
+  };
+};

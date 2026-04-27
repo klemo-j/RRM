@@ -1,0 +1,52 @@
+{
+  "package_name": "kleman_interface",
+  "output_dir": "/home/kllemo/ros2_ws/build/kleman_interface/rosidl_generator_c/kleman_interface",
+  "template_dir": "/opt/ros/jazzy/share/rosidl_generator_c/cmake/../resource",
+  "idl_tuples": [
+    "/home/kllemo/ros2_ws/build/kleman_interface/rosidl_adapter/kleman_interface:srv/SavePoint.idl",
+    "/home/kllemo/ros2_ws/build/kleman_interface/rosidl_adapter/kleman_interface:srv/SolveIK.idl",
+    "/home/kllemo/ros2_ws/build/kleman_interface/rosidl_adapter/kleman_interface:srv/MoveToXYZ.idl"
+  ],
+  "ros_interface_files": [
+    "/home/kllemo/ros2_ws/src/kleman_interface/srv/SavePoint.srv",
+    "/home/kllemo/ros2_ws/src/kleman_interface/srv/SolveIK.srv",
+    "/home/kllemo/ros2_ws/src/kleman_interface/srv/MoveToXYZ.srv"
+  ],
+  "ros_interface_dependencies": [
+    "service_msgs:/opt/ros/jazzy/share/service_msgs/msg/ServiceEventInfo.idl",
+    "builtin_interfaces:/opt/ros/jazzy/share/builtin_interfaces/msg/Duration.idl",
+    "builtin_interfaces:/opt/ros/jazzy/share/builtin_interfaces/msg/Time.idl"
+  ],
+  "target_dependencies": [
+    "/opt/ros/jazzy/share/rosidl_generator_c/cmake/../../../lib/rosidl_generator_c/rosidl_generator_c",
+    "/opt/ros/jazzy/share/rosidl_generator_c/cmake/../../../lib/python3.12/site-packages/rosidl_generator_c/__init__.py",
+    "/opt/ros/jazzy/share/rosidl_generator_c/cmake/../resource/action__type_support.h.em",
+    "/opt/ros/jazzy/share/rosidl_generator_c/cmake/../resource/action__type_support.c.em",
+    "/opt/ros/jazzy/share/rosidl_generator_c/cmake/../resource/empty__description.c.em",
+    "/opt/ros/jazzy/share/rosidl_generator_c/cmake/../resource/full__description.c.em",
+    "/opt/ros/jazzy/share/rosidl_generator_c/cmake/../resource/idl.h.em",
+    "/opt/ros/jazzy/share/rosidl_generator_c/cmake/../resource/idl__description.c.em",
+    "/opt/ros/jazzy/share/rosidl_generator_c/cmake/../resource/idl__functions.c.em",
+    "/opt/ros/jazzy/share/rosidl_generator_c/cmake/../resource/idl__functions.h.em",
+    "/opt/ros/jazzy/share/rosidl_generator_c/cmake/../resource/idl__struct.h.em",
+    "/opt/ros/jazzy/share/rosidl_generator_c/cmake/../resource/idl__type_support.c.em",
+    "/opt/ros/jazzy/share/rosidl_generator_c/cmake/../resource/idl__type_support.h.em",
+    "/opt/ros/jazzy/share/rosidl_generator_c/cmake/../resource/msg__functions.c.em",
+    "/opt/ros/jazzy/share/rosidl_generator_c/cmake/../resource/msg__functions.h.em",
+    "/opt/ros/jazzy/share/rosidl_generator_c/cmake/../resource/msg__struct.h.em",
+    "/opt/ros/jazzy/share/rosidl_generator_c/cmake/../resource/msg__type_support.h.em",
+    "/opt/ros/jazzy/share/rosidl_generator_c/cmake/../resource/srv__type_support.c.em",
+    "/opt/ros/jazzy/share/rosidl_generator_c/cmake/../resource/srv__type_support.h.em",
+    "/home/kllemo/ros2_ws/build/kleman_interface/rosidl_adapter/kleman_interface/srv/SavePoint.idl",
+    "/home/kllemo/ros2_ws/build/kleman_interface/rosidl_adapter/kleman_interface/srv/SolveIK.idl",
+    "/home/kllemo/ros2_ws/build/kleman_interface/rosidl_adapter/kleman_interface/srv/MoveToXYZ.idl",
+    "/opt/ros/jazzy/share/service_msgs/msg/ServiceEventInfo.idl",
+    "/opt/ros/jazzy/share/builtin_interfaces/msg/Duration.idl",
+    "/opt/ros/jazzy/share/builtin_interfaces/msg/Time.idl"
+  ],
+  "type_description_tuples": [
+    "srv/SavePoint.idl:/home/kllemo/ros2_ws/build/kleman_interface/rosidl_generator_type_description/kleman_interface/srv/SavePoint.json",
+    "srv/SolveIK.idl:/home/kllemo/ros2_ws/build/kleman_interface/rosidl_generator_type_description/kleman_interface/srv/SolveIK.json",
+    "srv/MoveToXYZ.idl:/home/kllemo/ros2_ws/build/kleman_interface/rosidl_generator_type_description/kleman_interface/srv/MoveToXYZ.json"
+  ]
+}

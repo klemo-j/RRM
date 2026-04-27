@@ -1,0 +1,1 @@
+/home/kllemo/ros2_ws/build/rrm_msgs/ament_cmake_core/rrm_msgsConfig.cmake

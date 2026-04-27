@@ -1,0 +1,26 @@
+{
+  "type_description_msg": {
+    "type_description": {
+      "type_name": "kleman_interface/srv/SavePoint_Request",
+      "fields": [
+        {
+          "name": "velocity",
+          "type": {
+            "type_id": 11,
+            "capacity": 0,
+            "string_capacity": 0,
+            "nested_type_name": ""
+          },
+          "default_value": ""
+        }
+      ]
+    },
+    "referenced_type_descriptions": []
+  },
+  "type_hashes": [
+    {
+      "type_name": "kleman_interface/srv/SavePoint_Request",
+      "hash_string": "RIHS01_afa3b6d7f7b63160081d8dd86bddf23beeb92c0b7685efdcf36eb8fe248f9485"
+    }
+  ]
+}

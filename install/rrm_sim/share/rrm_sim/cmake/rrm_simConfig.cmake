@@ -1,0 +1,1 @@
+/home/kllemo/ros2_ws/build/rrm_sim/ament_cmake_core/rrm_simConfig.cmake

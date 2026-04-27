@@ -1,0 +1,47 @@
+[0.036s] Invoking command in '/home/kllemo/ros2_ws/build/abb_model': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --build /home/kllemo/ros2_ws/build/abb_model -- -j16 -l16
+[0.098s] Invoked command in '/home/kllemo/ros2_ws/build/abb_model' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --build /home/kllemo/ros2_ws/build/abb_model -- -j16 -l16
+[0.115s] Invoking command in '/home/kllemo/ros2_ws/build/abb_model': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --install /home/kllemo/ros2_ws/build/abb_model
+[0.128s] -- Install configuration: ""
+[0.129s] -- Execute custom install script
+[0.129s] -- Up-to-date symlink: /home/kllemo/ros2_ws/install/abb_model/share/abb_model/urdf/robot.urdf
+[0.130s] -- Up-to-date symlink: /home/kllemo/ros2_ws/install/abb_model/share/abb_model/config/urdf.rviz
+[0.131s] -- Up-to-date symlink: /home/kllemo/ros2_ws/install/abb_model/share/abb_model/launch/rsp_irb4600.launch.py
+[0.131s] -- Up-to-date symlink: /home/kllemo/ros2_ws/install/abb_model/share/abb_model/launch/rsp_irb4600.launch.xml
+[0.131s] -- Up-to-date symlink: /home/kllemo/ros2_ws/install/abb_model/share/abb_model/launch/test_irb4600.launch.py
+[0.132s] -- Up-to-date symlink: /home/kllemo/ros2_ws/install/abb_model/share/abb_model/launch/test_irb4600.launch.xml
+[0.133s] -- Up-to-date symlink: /home/kllemo/ros2_ws/install/abb_model/share/abb_model/meshes/abb_irb4600_60_205/collision/base_link.stl
+[0.133s] -- Up-to-date symlink: /home/kllemo/ros2_ws/install/abb_model/share/abb_model/meshes/abb_irb4600_60_205/collision/link_1.stl
+[0.134s] -- Up-to-date symlink: /home/kllemo/ros2_ws/install/abb_model/share/abb_model/meshes/abb_irb4600_60_205/collision/link_2.stl
+[0.134s] -- Up-to-date symlink: /home/kllemo/ros2_ws/install/abb_model/share/abb_model/meshes/abb_irb4600_60_205/collision/link_3.stl
+[0.135s] -- Up-to-date symlink: /home/kllemo/ros2_ws/install/abb_model/share/abb_model/meshes/abb_irb4600_60_205/collision/link_4.stl
+[0.135s] -- Up-to-date symlink: /home/kllemo/ros2_ws/install/abb_model/share/abb_model/meshes/abb_irb4600_60_205/collision/link_5.stl
+[0.136s] -- Up-to-date symlink: /home/kllemo/ros2_ws/install/abb_model/share/abb_model/meshes/abb_irb4600_60_205/collision/link_6.stl
+[0.136s] -- Up-to-date symlink: /home/kllemo/ros2_ws/install/abb_model/share/abb_model/meshes/abb_irb4600_60_205/collision/mount.stl
+[0.137s] -- Up-to-date symlink: /home/kllemo/ros2_ws/install/abb_model/share/abb_model/meshes/abb_irb4600_60_205/visual/base_link.stl
+[0.138s] -- Up-to-date symlink: /home/kllemo/ros2_ws/install/abb_model/share/abb_model/meshes/abb_irb4600_60_205/visual/link_1.stl
+[0.141s] -- Up-to-date symlink: /home/kllemo/ros2_ws/install/abb_model/share/abb_model/meshes/abb_irb4600_60_205/visual/link_2.stl
+[0.141s] -- Up-to-date symlink: /home/kllemo/ros2_ws/install/abb_model/share/abb_model/meshes/abb_irb4600_60_205/visual/link_3.stl
+[0.142s] -- Up-to-date symlink: /home/kllemo/ros2_ws/install/abb_model/share/abb_model/meshes/abb_irb4600_60_205/visual/link_4.stl
+[0.143s] -- Up-to-date symlink: /home/kllemo/ros2_ws/install/abb_model/share/abb_model/meshes/abb_irb4600_60_205/visual/link_5.stl
+[0.143s] -- Up-to-date symlink: /home/kllemo/ros2_ws/install/abb_model/share/abb_model/meshes/abb_irb4600_60_205/visual/link_6.stl
+[0.143s] -- Up-to-date symlink: /home/kllemo/ros2_ws/install/abb_model/share/abb_model/meshes/abb_irb4600_60_205/visual/mount.stl
+[0.144s] -- Up-to-date symlink: /home/kllemo/ros2_ws/install/abb_model/share/abb_model/meshes/kinect/collision/kinect_sensor.stl
+[0.144s] -- Up-to-date symlink: /home/kllemo/ros2_ws/install/abb_model/share/abb_model/meshes/kinect/collision/kinect_sensor_empty.stl
+[0.144s] -- Up-to-date symlink: /home/kllemo/ros2_ws/install/abb_model/share/abb_model/meshes/kinect/visual/kinect_sensor.stl
+[0.145s] -- Up-to-date symlink: /home/kllemo/ros2_ws/install/abb_model/share/abb_model/meshes/kinect/visual/kinect_sensor_empty.stl
+[0.145s] -- Up-to-date symlink: /home/kllemo/ros2_ws/install/abb_model/share/ament_index/resource_index/package_run_dependencies/abb_model
+[0.145s] -- Up-to-date symlink: /home/kllemo/ros2_ws/install/abb_model/share/ament_index/resource_index/parent_prefix_path/abb_model
+[0.147s] -- Up-to-date symlink: /home/kllemo/ros2_ws/install/abb_model/share/abb_model/environment/ament_prefix_path.sh
+[0.147s] -- Up-to-date symlink: /home/kllemo/ros2_ws/install/abb_model/share/abb_model/environment/ament_prefix_path.dsv
+[0.147s] -- Up-to-date symlink: /home/kllemo/ros2_ws/install/abb_model/share/abb_model/environment/path.sh
+[0.147s] -- Up-to-date symlink: /home/kllemo/ros2_ws/install/abb_model/share/abb_model/environment/path.dsv
+[0.147s] -- Up-to-date symlink: /home/kllemo/ros2_ws/install/abb_model/share/abb_model/local_setup.bash
+[0.147s] -- Up-to-date symlink: /home/kllemo/ros2_ws/install/abb_model/share/abb_model/local_setup.sh
+[0.148s] -- Up-to-date symlink: /home/kllemo/ros2_ws/install/abb_model/share/abb_model/local_setup.zsh
+[0.148s] -- Up-to-date symlink: /home/kllemo/ros2_ws/install/abb_model/share/abb_model/local_setup.dsv
+[0.148s] -- Symlinking: /home/kllemo/ros2_ws/install/abb_model/share/abb_model/package.dsv
+[0.158s] -- Up-to-date symlink: /home/kllemo/ros2_ws/install/abb_model/share/ament_index/resource_index/packages/abb_model
+[0.159s] -- Up-to-date symlink: /home/kllemo/ros2_ws/install/abb_model/share/abb_model/cmake/abb_modelConfig.cmake
+[0.159s] -- Up-to-date symlink: /home/kllemo/ros2_ws/install/abb_model/share/abb_model/cmake/abb_modelConfig-version.cmake
+[0.159s] -- Up-to-date symlink: /home/kllemo/ros2_ws/install/abb_model/share/abb_model/package.xml
+[0.227s] Invoked command in '/home/kllemo/ros2_ws/build/abb_model' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --install /home/kllemo/ros2_ws/build/abb_model

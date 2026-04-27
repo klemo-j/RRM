@@ -1,0 +1,1 @@
+/home/kllemo/ros2_ws/build/rrm_msgs/rosidl_typesupport_introspection_c/rrm_msgs/msg/rosidl_typesupport_introspection_c__visibility_control.h

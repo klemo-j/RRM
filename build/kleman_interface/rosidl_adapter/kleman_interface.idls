@@ -1,0 +1,3 @@
+/home/kllemo/ros2_ws/build/kleman_interface/rosidl_adapter/kleman_interface:srv/SavePoint.idl
+/home/kllemo/ros2_ws/build/kleman_interface/rosidl_adapter/kleman_interface:srv/SolveIK.idl
+/home/kllemo/ros2_ws/build/kleman_interface/rosidl_adapter/kleman_interface:srv/MoveToXYZ.idl

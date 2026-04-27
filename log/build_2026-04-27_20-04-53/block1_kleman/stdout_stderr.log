@@ -1,0 +1,29 @@
+-- Found ament_cmake: 2.5.5 (/opt/ros/jazzy/share/ament_cmake/cmake)
+-- Override CMake install command with custom implementation using symlinks instead of copying resources
+-- Found rclcpp: 28.1.16 (/opt/ros/jazzy/share/rclcpp/cmake)
+-- Found rosidl_generator_c: 4.6.7 (/opt/ros/jazzy/share/rosidl_generator_c/cmake)
+-- Found rosidl_generator_cpp: 4.6.7 (/opt/ros/jazzy/share/rosidl_generator_cpp/cmake)
+-- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+-- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+-- Found rmw_implementation_cmake: 7.3.3 (/opt/ros/jazzy/share/rmw_implementation_cmake/cmake)
+-- Found rmw_fastrtps_cpp: 8.4.3 (/opt/ros/jazzy/share/rmw_fastrtps_cpp/cmake)
+-- Using RMW implementation 'rmw_fastrtps_cpp' as default
+-- Found sensor_msgs: 5.3.6 (/opt/ros/jazzy/share/sensor_msgs/cmake)
+-- Found visualization_msgs: 5.3.6 (/opt/ros/jazzy/share/visualization_msgs/cmake)
+-- Found interactive_markers: 2.5.5 (/opt/ros/jazzy/share/interactive_markers/cmake)
+-- Found abb_irb4600_ikfast: 0.0.0 (/home/kllemo/ros2_ws/install/abb_irb4600_ikfast/share/abb_irb4600_ikfast/cmake)
+-- Configuring done (1.5s)
+-- Generating done (0.0s)
+-- Build files have been written to: /home/kllemo/ros2_ws/build/block1_kleman
+[ 25%] [32mBuilding CXX object CMakeFiles/model_spawner.dir/src/model_spawner.cpp.o[0m
+[ 50%] [32mBuilding CXX object CMakeFiles/pose_teacher.dir/src/pose_teacher.cpp.o[0m
+[01m[K/home/kllemo/ros2_ws/src/block1_kleman/src/model_spawner.cpp:1:10:[m[K [01;31m[Kfatal error: [m[Kblock1_kleman/model_spawner.hpp: No such file or directory
+    1 | #include [01;31m[K"block1_kleman/model_spawner.hpp"[m[K
+      |          [01;31m[K^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+compilation terminated.
+gmake[2]: *** [CMakeFiles/model_spawner.dir/build.make:76: CMakeFiles/model_spawner.dir/src/model_spawner.cpp.o] Error 1
+gmake[1]: *** [CMakeFiles/Makefile2:139: CMakeFiles/model_spawner.dir/all] Error 2
+gmake[1]: *** Waiting for unfinished jobs....
+[ 75%] [32m[1mLinking CXX executable pose_teacher[0m
+[ 75%] Built target pose_teacher
+gmake: *** [Makefile:146: all] Error 2

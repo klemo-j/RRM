@@ -1,0 +1,4 @@
+source;share/abb_model/local_setup.bash
+source;share/abb_model/local_setup.dsv
+source;share/abb_model/local_setup.sh
+source;share/abb_model/local_setup.zsh

@@ -1,0 +1,59 @@
+-- The C compiler identification is GNU 13.3.0
+-- The CXX compiler identification is GNU 13.3.0
+-- Detecting C compiler ABI info
+-- Detecting C compiler ABI info - done
+-- Check for working C compiler: /usr/bin/cc - skipped
+-- Detecting C compile features
+-- Detecting C compile features - done
+-- Detecting CXX compiler ABI info
+-- Detecting CXX compiler ABI info - done
+-- Check for working CXX compiler: /usr/bin/c++ - skipped
+-- Detecting CXX compile features
+-- Detecting CXX compile features - done
+-- Found ament_cmake: 2.5.5 (/opt/ros/jazzy/share/ament_cmake/cmake)
+-- Found Python3: /usr/bin/python3 (found version "3.12.3") found components: Interpreter 
+-- Override CMake install command with custom implementation using symlinks instead of copying resources
+-- Found rclcpp: 28.1.16 (/opt/ros/jazzy/share/rclcpp/cmake)
+-- Found rosidl_generator_c: 4.6.7 (/opt/ros/jazzy/share/rosidl_generator_c/cmake)
+-- Found rosidl_generator_cpp: 4.6.7 (/opt/ros/jazzy/share/rosidl_generator_cpp/cmake)
+-- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+-- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+-- Found rmw_implementation_cmake: 7.3.3 (/opt/ros/jazzy/share/rmw_implementation_cmake/cmake)
+-- Found rmw_fastrtps_cpp: 8.4.3 (/opt/ros/jazzy/share/rmw_fastrtps_cpp/cmake)
+-- Found OpenSSL: /usr/lib/x86_64-linux-gnu/libcrypto.so (found version "3.0.13")  
+-- Found FastRTPS: /opt/ros/jazzy/include (Required is at least version "2.13") 
+-- Using RMW implementation 'rmw_fastrtps_cpp' as default
+-- Found sensor_msgs: 5.3.6 (/opt/ros/jazzy/share/sensor_msgs/cmake)
+-- Found visualization_msgs: 5.3.6 (/opt/ros/jazzy/share/visualization_msgs/cmake)
+-- Found interactive_markers: 2.5.5 (/opt/ros/jazzy/share/interactive_markers/cmake)
+-- Found abb_irb4600_ikfast: 0.0.0 (/home/kllemo/ros2_ws/install/abb_irb4600_ikfast/share/abb_irb4600_ikfast/cmake)
+-- Configuring done (3.6s)
+-- Generating done (0.0s)
+-- Build files have been written to: /home/kllemo/ros2_ws/build/block1_kleman
+[ 25%] [32mBuilding CXX object CMakeFiles/model_spawner.dir/src/model_spawner.cpp.o[0m
+[ 50%] [32mBuilding CXX object CMakeFiles/pose_teacher.dir/src/pose_teacher.cpp.o[0m
+[ 75%] [32m[1mLinking CXX executable model_spawner[0m
+[ 75%] Built target model_spawner
+[100%] [32m[1mLinking CXX executable pose_teacher[0m
+[100%] Built target pose_teacher
+-- Install configuration: ""
+-- Execute custom install script
+-- Symlinking: /home/kllemo/ros2_ws/install/block1_kleman/lib/block1_kleman/model_spawner
+-- Symlinking: /home/kllemo/ros2_ws/install/block1_kleman/lib/block1_kleman/pose_teacher
+-- Symlinking: /home/kllemo/ros2_ws/install/block1_kleman/share/block1_kleman/launch/teach_scene.launch.py
+-- Symlinking: /home/kllemo/ros2_ws/install/block1_kleman/share/block1_kleman/meshes/tie.stl
+-- Symlinking: /home/kllemo/ros2_ws/install/block1_kleman/share/ament_index/resource_index/package_run_dependencies/block1_kleman
+-- Symlinking: /home/kllemo/ros2_ws/install/block1_kleman/share/ament_index/resource_index/parent_prefix_path/block1_kleman
+-- Symlinking: /home/kllemo/ros2_ws/install/block1_kleman/share/block1_kleman/environment/ament_prefix_path.sh
+-- Symlinking: /home/kllemo/ros2_ws/install/block1_kleman/share/block1_kleman/environment/ament_prefix_path.dsv
+-- Symlinking: /home/kllemo/ros2_ws/install/block1_kleman/share/block1_kleman/environment/path.sh
+-- Symlinking: /home/kllemo/ros2_ws/install/block1_kleman/share/block1_kleman/environment/path.dsv
+-- Symlinking: /home/kllemo/ros2_ws/install/block1_kleman/share/block1_kleman/local_setup.bash
+-- Symlinking: /home/kllemo/ros2_ws/install/block1_kleman/share/block1_kleman/local_setup.sh
+-- Symlinking: /home/kllemo/ros2_ws/install/block1_kleman/share/block1_kleman/local_setup.zsh
+-- Symlinking: /home/kllemo/ros2_ws/install/block1_kleman/share/block1_kleman/local_setup.dsv
+-- Symlinking: /home/kllemo/ros2_ws/install/block1_kleman/share/block1_kleman/package.dsv
+-- Symlinking: /home/kllemo/ros2_ws/install/block1_kleman/share/ament_index/resource_index/packages/block1_kleman
+-- Symlinking: /home/kllemo/ros2_ws/install/block1_kleman/share/block1_kleman/cmake/block1_klemanConfig.cmake
+-- Symlinking: /home/kllemo/ros2_ws/install/block1_kleman/share/block1_kleman/cmake/block1_klemanConfig-version.cmake
+-- Symlinking: /home/kllemo/ros2_ws/install/block1_kleman/share/block1_kleman/package.xml

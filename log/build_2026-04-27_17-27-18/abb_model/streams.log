@@ -1,0 +1,69 @@
+[0.030s] Invoking command in '/home/kllemo/ros2_ws/build/abb_model': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake /home/kllemo/ros2_ws/src/abb_model -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/home/kllemo/ros2_ws/install/abb_model
+[0.126s] -- The C compiler identification is GNU 13.3.0
+[0.226s] -- The CXX compiler identification is GNU 13.3.0
+[0.257s] -- Detecting C compiler ABI info
+[0.402s] -- Detecting C compiler ABI info - done
+[0.438s] -- Check for working C compiler: /usr/bin/cc - skipped
+[0.439s] -- Detecting C compile features
+[0.440s] -- Detecting C compile features - done
+[0.458s] -- Detecting CXX compiler ABI info
+[0.621s] -- Detecting CXX compiler ABI info - done
+[0.642s] -- Check for working CXX compiler: /usr/bin/c++ - skipped
+[0.642s] -- Detecting CXX compile features
+[0.644s] -- Detecting CXX compile features - done
+[0.648s] -- Found ament_cmake: 2.5.5 (/opt/ros/jazzy/share/ament_cmake/cmake)
+[0.929s] -- Found Python3: /usr/bin/python3 (found version "3.12.3") found components: Interpreter 
+[1.090s] -- Override CMake install command with custom implementation using symlinks instead of copying resources
+[1.169s] -- Found rviz2: 14.1.19 (/opt/ros/jazzy/share/rviz2/cmake)
+[1.395s] -- Configuring done (1.4s)
+[1.403s] -- Generating done (0.0s)
+[1.410s] -- Build files have been written to: /home/kllemo/ros2_ws/build/abb_model
+[1.421s] Invoked command in '/home/kllemo/ros2_ws/build/abb_model' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake /home/kllemo/ros2_ws/src/abb_model -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/home/kllemo/ros2_ws/install/abb_model
+[1.423s] Invoking command in '/home/kllemo/ros2_ws/build/abb_model': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --build /home/kllemo/ros2_ws/build/abb_model -- -j16 -l16
+[1.509s] Invoked command in '/home/kllemo/ros2_ws/build/abb_model' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --build /home/kllemo/ros2_ws/build/abb_model -- -j16 -l16
+[1.512s] Invoking command in '/home/kllemo/ros2_ws/build/abb_model': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --install /home/kllemo/ros2_ws/build/abb_model
+[1.528s] -- Install configuration: ""
+[1.529s] -- Execute custom install script
+[1.530s] -- Symlinking: /home/kllemo/ros2_ws/install/abb_model/share/abb_model/urdf/robot.urdf
+[1.549s] -- Symlinking: /home/kllemo/ros2_ws/install/abb_model/share/abb_model/config/urdf.rviz
+[1.567s] -- Symlinking: /home/kllemo/ros2_ws/install/abb_model/share/abb_model/launch/rsp_irb4600.launch.py
+[1.585s] -- Symlinking: /home/kllemo/ros2_ws/install/abb_model/share/abb_model/launch/rsp_irb4600.launch.xml
+[1.604s] -- Symlinking: /home/kllemo/ros2_ws/install/abb_model/share/abb_model/launch/test_irb4600.launch.py
+[1.624s] -- Symlinking: /home/kllemo/ros2_ws/install/abb_model/share/abb_model/launch/test_irb4600.launch.xml
+[1.644s] -- Symlinking: /home/kllemo/ros2_ws/install/abb_model/share/abb_model/meshes/abb_irb4600_60_205/collision/base_link.stl
+[1.664s] -- Symlinking: /home/kllemo/ros2_ws/install/abb_model/share/abb_model/meshes/abb_irb4600_60_205/collision/link_1.stl
+[1.683s] -- Symlinking: /home/kllemo/ros2_ws/install/abb_model/share/abb_model/meshes/abb_irb4600_60_205/collision/link_2.stl
+[1.701s] -- Symlinking: /home/kllemo/ros2_ws/install/abb_model/share/abb_model/meshes/abb_irb4600_60_205/collision/link_3.stl
+[1.720s] -- Symlinking: /home/kllemo/ros2_ws/install/abb_model/share/abb_model/meshes/abb_irb4600_60_205/collision/link_4.stl
+[1.738s] -- Symlinking: /home/kllemo/ros2_ws/install/abb_model/share/abb_model/meshes/abb_irb4600_60_205/collision/link_5.stl
+[1.757s] -- Symlinking: /home/kllemo/ros2_ws/install/abb_model/share/abb_model/meshes/abb_irb4600_60_205/collision/link_6.stl
+[1.774s] -- Symlinking: /home/kllemo/ros2_ws/install/abb_model/share/abb_model/meshes/abb_irb4600_60_205/collision/mount.stl
+[1.796s] -- Symlinking: /home/kllemo/ros2_ws/install/abb_model/share/abb_model/meshes/abb_irb4600_60_205/visual/base_link.stl
+[1.815s] -- Symlinking: /home/kllemo/ros2_ws/install/abb_model/share/abb_model/meshes/abb_irb4600_60_205/visual/link_1.stl
+[1.835s] -- Symlinking: /home/kllemo/ros2_ws/install/abb_model/share/abb_model/meshes/abb_irb4600_60_205/visual/link_2.stl
+[1.853s] -- Symlinking: /home/kllemo/ros2_ws/install/abb_model/share/abb_model/meshes/abb_irb4600_60_205/visual/link_3.stl
+[1.874s] -- Symlinking: /home/kllemo/ros2_ws/install/abb_model/share/abb_model/meshes/abb_irb4600_60_205/visual/link_4.stl
+[1.894s] -- Symlinking: /home/kllemo/ros2_ws/install/abb_model/share/abb_model/meshes/abb_irb4600_60_205/visual/link_5.stl
+[1.917s] -- Symlinking: /home/kllemo/ros2_ws/install/abb_model/share/abb_model/meshes/abb_irb4600_60_205/visual/link_6.stl
+[1.938s] -- Symlinking: /home/kllemo/ros2_ws/install/abb_model/share/abb_model/meshes/abb_irb4600_60_205/visual/mount.stl
+[1.961s] -- Symlinking: /home/kllemo/ros2_ws/install/abb_model/share/abb_model/meshes/kinect/collision/kinect_sensor.stl
+[1.983s] -- Symlinking: /home/kllemo/ros2_ws/install/abb_model/share/abb_model/meshes/kinect/collision/kinect_sensor_empty.stl
+[2.002s] -- Symlinking: /home/kllemo/ros2_ws/install/abb_model/share/abb_model/meshes/kinect/visual/kinect_sensor.stl
+[2.020s] -- Symlinking: /home/kllemo/ros2_ws/install/abb_model/share/abb_model/meshes/kinect/visual/kinect_sensor_empty.stl
+[2.039s] -- Symlinking: /home/kllemo/ros2_ws/install/abb_model/share/abb_model/meshes/tie.stl
+[2.060s] -- Symlinking: /home/kllemo/ros2_ws/install/abb_model/share/ament_index/resource_index/package_run_dependencies/abb_model
+[2.078s] -- Symlinking: /home/kllemo/ros2_ws/install/abb_model/share/ament_index/resource_index/parent_prefix_path/abb_model
+[2.094s] -- Symlinking: /home/kllemo/ros2_ws/install/abb_model/share/abb_model/environment/ament_prefix_path.sh
+[2.109s] -- Symlinking: /home/kllemo/ros2_ws/install/abb_model/share/abb_model/environment/ament_prefix_path.dsv
+[2.125s] -- Symlinking: /home/kllemo/ros2_ws/install/abb_model/share/abb_model/environment/path.sh
+[2.140s] -- Symlinking: /home/kllemo/ros2_ws/install/abb_model/share/abb_model/environment/path.dsv
+[2.155s] -- Symlinking: /home/kllemo/ros2_ws/install/abb_model/share/abb_model/local_setup.bash
+[2.171s] -- Symlinking: /home/kllemo/ros2_ws/install/abb_model/share/abb_model/local_setup.sh
+[2.187s] -- Symlinking: /home/kllemo/ros2_ws/install/abb_model/share/abb_model/local_setup.zsh
+[2.203s] -- Symlinking: /home/kllemo/ros2_ws/install/abb_model/share/abb_model/local_setup.dsv
+[2.219s] -- Symlinking: /home/kllemo/ros2_ws/install/abb_model/share/abb_model/package.dsv
+[2.235s] -- Symlinking: /home/kllemo/ros2_ws/install/abb_model/share/ament_index/resource_index/packages/abb_model
+[2.250s] -- Symlinking: /home/kllemo/ros2_ws/install/abb_model/share/abb_model/cmake/abb_modelConfig.cmake
+[2.265s] -- Symlinking: /home/kllemo/ros2_ws/install/abb_model/share/abb_model/cmake/abb_modelConfig-version.cmake
+[2.280s] -- Symlinking: /home/kllemo/ros2_ws/install/abb_model/share/abb_model/package.xml
+[2.300s] Invoked command in '/home/kllemo/ros2_ws/build/abb_model' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --install /home/kllemo/ros2_ws/build/abb_model

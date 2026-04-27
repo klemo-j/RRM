@@ -1,0 +1,23 @@
+// generated from rosidl_adapter/resource/srv.idl.em
+// with input from kleman_interface/srv/MoveToXYZ.srv
+// generated code does not contain a copyright notice
+
+
+module kleman_interface {
+  module srv {
+    struct MoveToXYZ_Request {
+      double x;
+
+      double y;
+
+      double z;
+
+      double velocity;
+    };
+    struct MoveToXYZ_Response {
+      boolean success;
+
+      string message;
+    };
+  };
+};

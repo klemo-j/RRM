@@ -1,0 +1,1 @@
+/home/kllemo/ros2_ws/build/block1_kleman/ament_cmake_environment_hooks/local_setup.bash

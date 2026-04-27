@@ -1,0 +1,79 @@
+{
+	"backtrace" : 1,
+	"backtraceGraph" : 
+	{
+		"commands" : 
+		[
+			"add_custom_target"
+		],
+		"files" : 
+		[
+			"/home/kllemo/ros2_ws/build/kleman_interface/kleman_interface__py/CMakeLists.txt"
+		],
+		"nodes" : 
+		[
+			{
+				"file" : 0
+			},
+			{
+				"command" : 0,
+				"file" : 0,
+				"line" : 36,
+				"parent" : 0
+			}
+		]
+	},
+	"dependencies" : 
+	[
+		{
+			"id" : "kleman_interface::@6890427a1f51a3e7e1df"
+		}
+	],
+	"id" : "kleman_interface__py::@bb2ab172953ce9cc05e0",
+	"name" : "kleman_interface__py",
+	"paths" : 
+	{
+		"build" : "kleman_interface__py",
+		"source" : "/home/kllemo/ros2_ws/build/kleman_interface/kleman_interface__py"
+	},
+	"sourceGroups" : 
+	[
+		{
+			"name" : "",
+			"sourceIndexes" : 
+			[
+				0
+			]
+		},
+		{
+			"name" : "CMake Rules",
+			"sourceIndexes" : 
+			[
+				1,
+				2
+			]
+		}
+	],
+	"sources" : 
+	[
+		{
+			"backtrace" : 1,
+			"isGenerated" : true,
+			"path" : "/home/kllemo/ros2_ws/build/kleman_interface/kleman_interface__py/CMakeFiles/kleman_interface__py",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 0,
+			"isGenerated" : true,
+			"path" : "/home/kllemo/ros2_ws/build/kleman_interface/kleman_interface__py/CMakeFiles/kleman_interface__py.rule",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 0,
+			"isGenerated" : true,
+			"path" : "/home/kllemo/ros2_ws/build/kleman_interface/rosidl_generator_py/kleman_interface/_kleman_interface_s.ep.rosidl_typesupport_fastrtps_c.c.rule",
+			"sourceGroupIndex" : 1
+		}
+	],
+	"type" : "UTILITY"
+}

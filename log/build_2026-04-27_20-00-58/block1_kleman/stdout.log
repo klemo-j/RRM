@@ -1,0 +1,25 @@
+[ 25%] [32mBuilding CXX object CMakeFiles/pose_teacher.dir/src/pose_teacher.cpp.o[0m
+[ 75%] Built target model_spawner
+[100%] [32m[1mLinking CXX executable pose_teacher[0m
+[100%] Built target pose_teacher
+-- Install configuration: ""
+-- Execute custom install script
+-- Up-to-date symlink: /home/kllemo/ros2_ws/install/block1_kleman/lib/block1_kleman/model_spawner
+-- Up-to-date symlink: /home/kllemo/ros2_ws/install/block1_kleman/lib/block1_kleman/pose_teacher
+-- Up-to-date symlink: /home/kllemo/ros2_ws/install/block1_kleman/share/block1_kleman/launch/teach_scene.launch.py
+-- Up-to-date symlink: /home/kllemo/ros2_ws/install/block1_kleman/share/block1_kleman/meshes/tie.stl
+-- Up-to-date symlink: /home/kllemo/ros2_ws/install/block1_kleman/share/ament_index/resource_index/package_run_dependencies/block1_kleman
+-- Up-to-date symlink: /home/kllemo/ros2_ws/install/block1_kleman/share/ament_index/resource_index/parent_prefix_path/block1_kleman
+-- Up-to-date symlink: /home/kllemo/ros2_ws/install/block1_kleman/share/block1_kleman/environment/ament_prefix_path.sh
+-- Up-to-date symlink: /home/kllemo/ros2_ws/install/block1_kleman/share/block1_kleman/environment/ament_prefix_path.dsv
+-- Up-to-date symlink: /home/kllemo/ros2_ws/install/block1_kleman/share/block1_kleman/environment/path.sh
+-- Up-to-date symlink: /home/kllemo/ros2_ws/install/block1_kleman/share/block1_kleman/environment/path.dsv
+-- Up-to-date symlink: /home/kllemo/ros2_ws/install/block1_kleman/share/block1_kleman/local_setup.bash
+-- Up-to-date symlink: /home/kllemo/ros2_ws/install/block1_kleman/share/block1_kleman/local_setup.sh
+-- Up-to-date symlink: /home/kllemo/ros2_ws/install/block1_kleman/share/block1_kleman/local_setup.zsh
+-- Up-to-date symlink: /home/kllemo/ros2_ws/install/block1_kleman/share/block1_kleman/local_setup.dsv
+-- Symlinking: /home/kllemo/ros2_ws/install/block1_kleman/share/block1_kleman/package.dsv
+-- Up-to-date symlink: /home/kllemo/ros2_ws/install/block1_kleman/share/ament_index/resource_index/packages/block1_kleman
+-- Up-to-date symlink: /home/kllemo/ros2_ws/install/block1_kleman/share/block1_kleman/cmake/block1_klemanConfig.cmake
+-- Up-to-date symlink: /home/kllemo/ros2_ws/install/block1_kleman/share/block1_kleman/cmake/block1_klemanConfig-version.cmake
+-- Up-to-date symlink: /home/kllemo/ros2_ws/install/block1_kleman/share/block1_kleman/package.xml

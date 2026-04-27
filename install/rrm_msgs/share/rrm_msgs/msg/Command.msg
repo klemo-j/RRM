@@ -1,0 +1,1 @@
+/home/kllemo/ros2_ws/src/cvicenie_2/rrm_msgs/msg/Command.msg

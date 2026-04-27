@@ -1,0 +1,63 @@
+-- The C compiler identification is GNU 13.3.0
+-- The CXX compiler identification is GNU 13.3.0
+-- Detecting C compiler ABI info
+-- Detecting C compiler ABI info - done
+-- Check for working C compiler: /usr/bin/cc - skipped
+-- Detecting C compile features
+-- Detecting C compile features - done
+-- Detecting CXX compiler ABI info
+-- Detecting CXX compiler ABI info - done
+-- Check for working CXX compiler: /usr/bin/c++ - skipped
+-- Detecting CXX compile features
+-- Detecting CXX compile features - done
+-- Found ament_cmake: 2.5.5 (/opt/ros/jazzy/share/ament_cmake/cmake)
+-- Found Python3: /usr/bin/python3 (found version "3.12.3") found components: Interpreter 
+-- Override CMake install command with custom implementation using symlinks instead of copying resources
+-- Found rviz2: 14.1.19 (/opt/ros/jazzy/share/rviz2/cmake)
+-- Configuring done (1.4s)
+-- Generating done (0.0s)
+-- Build files have been written to: /home/kllemo/ros2_ws/build/abb_model
+-- Install configuration: ""
+-- Execute custom install script
+-- Symlinking: /home/kllemo/ros2_ws/install/abb_model/share/abb_model/urdf/robot.urdf
+-- Symlinking: /home/kllemo/ros2_ws/install/abb_model/share/abb_model/config/urdf.rviz
+-- Symlinking: /home/kllemo/ros2_ws/install/abb_model/share/abb_model/launch/rsp_irb4600.launch.py
+-- Symlinking: /home/kllemo/ros2_ws/install/abb_model/share/abb_model/launch/rsp_irb4600.launch.xml
+-- Symlinking: /home/kllemo/ros2_ws/install/abb_model/share/abb_model/launch/test_irb4600.launch.py
+-- Symlinking: /home/kllemo/ros2_ws/install/abb_model/share/abb_model/launch/test_irb4600.launch.xml
+-- Symlinking: /home/kllemo/ros2_ws/install/abb_model/share/abb_model/meshes/abb_irb4600_60_205/collision/base_link.stl
+-- Symlinking: /home/kllemo/ros2_ws/install/abb_model/share/abb_model/meshes/abb_irb4600_60_205/collision/link_1.stl
+-- Symlinking: /home/kllemo/ros2_ws/install/abb_model/share/abb_model/meshes/abb_irb4600_60_205/collision/link_2.stl
+-- Symlinking: /home/kllemo/ros2_ws/install/abb_model/share/abb_model/meshes/abb_irb4600_60_205/collision/link_3.stl
+-- Symlinking: /home/kllemo/ros2_ws/install/abb_model/share/abb_model/meshes/abb_irb4600_60_205/collision/link_4.stl
+-- Symlinking: /home/kllemo/ros2_ws/install/abb_model/share/abb_model/meshes/abb_irb4600_60_205/collision/link_5.stl
+-- Symlinking: /home/kllemo/ros2_ws/install/abb_model/share/abb_model/meshes/abb_irb4600_60_205/collision/link_6.stl
+-- Symlinking: /home/kllemo/ros2_ws/install/abb_model/share/abb_model/meshes/abb_irb4600_60_205/collision/mount.stl
+-- Symlinking: /home/kllemo/ros2_ws/install/abb_model/share/abb_model/meshes/abb_irb4600_60_205/visual/base_link.stl
+-- Symlinking: /home/kllemo/ros2_ws/install/abb_model/share/abb_model/meshes/abb_irb4600_60_205/visual/link_1.stl
+-- Symlinking: /home/kllemo/ros2_ws/install/abb_model/share/abb_model/meshes/abb_irb4600_60_205/visual/link_2.stl
+-- Symlinking: /home/kllemo/ros2_ws/install/abb_model/share/abb_model/meshes/abb_irb4600_60_205/visual/link_3.stl
+-- Symlinking: /home/kllemo/ros2_ws/install/abb_model/share/abb_model/meshes/abb_irb4600_60_205/visual/link_4.stl
+-- Symlinking: /home/kllemo/ros2_ws/install/abb_model/share/abb_model/meshes/abb_irb4600_60_205/visual/link_5.stl
+-- Symlinking: /home/kllemo/ros2_ws/install/abb_model/share/abb_model/meshes/abb_irb4600_60_205/visual/link_6.stl
+-- Symlinking: /home/kllemo/ros2_ws/install/abb_model/share/abb_model/meshes/abb_irb4600_60_205/visual/mount.stl
+-- Symlinking: /home/kllemo/ros2_ws/install/abb_model/share/abb_model/meshes/kinect/collision/kinect_sensor.stl
+-- Symlinking: /home/kllemo/ros2_ws/install/abb_model/share/abb_model/meshes/kinect/collision/kinect_sensor_empty.stl
+-- Symlinking: /home/kllemo/ros2_ws/install/abb_model/share/abb_model/meshes/kinect/visual/kinect_sensor.stl
+-- Symlinking: /home/kllemo/ros2_ws/install/abb_model/share/abb_model/meshes/kinect/visual/kinect_sensor_empty.stl
+-- Symlinking: /home/kllemo/ros2_ws/install/abb_model/share/abb_model/meshes/tie.stl
+-- Symlinking: /home/kllemo/ros2_ws/install/abb_model/share/ament_index/resource_index/package_run_dependencies/abb_model
+-- Symlinking: /home/kllemo/ros2_ws/install/abb_model/share/ament_index/resource_index/parent_prefix_path/abb_model
+-- Symlinking: /home/kllemo/ros2_ws/install/abb_model/share/abb_model/environment/ament_prefix_path.sh
+-- Symlinking: /home/kllemo/ros2_ws/install/abb_model/share/abb_model/environment/ament_prefix_path.dsv
+-- Symlinking: /home/kllemo/ros2_ws/install/abb_model/share/abb_model/environment/path.sh
+-- Symlinking: /home/kllemo/ros2_ws/install/abb_model/share/abb_model/environment/path.dsv
+-- Symlinking: /home/kllemo/ros2_ws/install/abb_model/share/abb_model/local_setup.bash
+-- Symlinking: /home/kllemo/ros2_ws/install/abb_model/share/abb_model/local_setup.sh
+-- Symlinking: /home/kllemo/ros2_ws/install/abb_model/share/abb_model/local_setup.zsh
+-- Symlinking: /home/kllemo/ros2_ws/install/abb_model/share/abb_model/local_setup.dsv
+-- Symlinking: /home/kllemo/ros2_ws/install/abb_model/share/abb_model/package.dsv
+-- Symlinking: /home/kllemo/ros2_ws/install/abb_model/share/ament_index/resource_index/packages/abb_model
+-- Symlinking: /home/kllemo/ros2_ws/install/abb_model/share/abb_model/cmake/abb_modelConfig.cmake
+-- Symlinking: /home/kllemo/ros2_ws/install/abb_model/share/abb_model/cmake/abb_modelConfig-version.cmake
+-- Symlinking: /home/kllemo/ros2_ws/install/abb_model/share/abb_model/package.xml

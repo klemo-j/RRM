@@ -1,0 +1,25 @@
+// generated from rosidl_adapter/resource/srv.idl.em
+// with input from kleman_interface/srv/SolveIK.srv
+// generated code does not contain a copyright notice
+
+
+module kleman_interface {
+  module srv {
+    struct SolveIK_Request {
+      double x;
+
+      double y;
+
+      double z;
+
+      sequence<double> current_positions;
+    };
+    struct SolveIK_Response {
+      sequence<double> best_positions;
+
+      boolean success;
+
+      string message;
+    };
+  };
+};

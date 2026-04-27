@@ -1,0 +1,25 @@
+[0.035s] Invoking command in '/home/kllemo/ros2_ws/build/rrm_simple_robot_model': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --build /home/kllemo/ros2_ws/build/rrm_simple_robot_model -- -j16 -l16
+[0.103s] Invoked command in '/home/kllemo/ros2_ws/build/rrm_simple_robot_model' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --build /home/kllemo/ros2_ws/build/rrm_simple_robot_model -- -j16 -l16
+[0.106s] Invoking command in '/home/kllemo/ros2_ws/build/rrm_simple_robot_model': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --install /home/kllemo/ros2_ws/build/rrm_simple_robot_model
+[0.120s] -- Install configuration: ""
+[0.120s] -- Execute custom install script
+[0.121s] -- Up-to-date symlink: /home/kllemo/ros2_ws/install/rrm_simple_robot_model/share/rrm_simple_robot_model/urdf/arm.urdf
+[0.123s] -- Up-to-date symlink: /home/kllemo/ros2_ws/install/rrm_simple_robot_model/share/rrm_simple_robot_model/config/rrm_cv3.rviz
+[0.124s] -- Up-to-date symlink: /home/kllemo/ros2_ws/install/rrm_simple_robot_model/share/rrm_simple_robot_model/launch/robot_state_publisher.launch.py
+[0.125s] -- Up-to-date symlink: /home/kllemo/ros2_ws/install/rrm_simple_robot_model/share/rrm_simple_robot_model/launch/robot_state_publisher.launch.xml
+[0.125s] -- Up-to-date symlink: /home/kllemo/ros2_ws/install/rrm_simple_robot_model/share/ament_index/resource_index/package_run_dependencies/rrm_simple_robot_model
+[0.126s] -- Up-to-date symlink: /home/kllemo/ros2_ws/install/rrm_simple_robot_model/share/ament_index/resource_index/parent_prefix_path/rrm_simple_robot_model
+[0.126s] -- Up-to-date symlink: /home/kllemo/ros2_ws/install/rrm_simple_robot_model/share/rrm_simple_robot_model/environment/ament_prefix_path.sh
+[0.126s] -- Up-to-date symlink: /home/kllemo/ros2_ws/install/rrm_simple_robot_model/share/rrm_simple_robot_model/environment/ament_prefix_path.dsv
+[0.126s] -- Up-to-date symlink: /home/kllemo/ros2_ws/install/rrm_simple_robot_model/share/rrm_simple_robot_model/environment/path.sh
+[0.126s] -- Up-to-date symlink: /home/kllemo/ros2_ws/install/rrm_simple_robot_model/share/rrm_simple_robot_model/environment/path.dsv
+[0.127s] -- Up-to-date symlink: /home/kllemo/ros2_ws/install/rrm_simple_robot_model/share/rrm_simple_robot_model/local_setup.bash
+[0.127s] -- Up-to-date symlink: /home/kllemo/ros2_ws/install/rrm_simple_robot_model/share/rrm_simple_robot_model/local_setup.sh
+[0.128s] -- Up-to-date symlink: /home/kllemo/ros2_ws/install/rrm_simple_robot_model/share/rrm_simple_robot_model/local_setup.zsh
+[0.128s] -- Up-to-date symlink: /home/kllemo/ros2_ws/install/rrm_simple_robot_model/share/rrm_simple_robot_model/local_setup.dsv
+[0.128s] -- Symlinking: /home/kllemo/ros2_ws/install/rrm_simple_robot_model/share/rrm_simple_robot_model/package.dsv
+[0.139s] -- Up-to-date symlink: /home/kllemo/ros2_ws/install/rrm_simple_robot_model/share/ament_index/resource_index/packages/rrm_simple_robot_model
+[0.139s] -- Up-to-date symlink: /home/kllemo/ros2_ws/install/rrm_simple_robot_model/share/rrm_simple_robot_model/cmake/rrm_simple_robot_modelConfig.cmake
+[0.140s] -- Up-to-date symlink: /home/kllemo/ros2_ws/install/rrm_simple_robot_model/share/rrm_simple_robot_model/cmake/rrm_simple_robot_modelConfig-version.cmake
+[0.140s] -- Up-to-date symlink: /home/kllemo/ros2_ws/install/rrm_simple_robot_model/share/rrm_simple_robot_model/package.xml
+[0.144s] Invoked command in '/home/kllemo/ros2_ws/build/rrm_simple_robot_model' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --install /home/kllemo/ros2_ws/build/rrm_simple_robot_model

@@ -1,0 +1,48 @@
+[0.024s] Invoking command in '/home/kllemo/ros2_ws/build/block1_kleman': AMENT_PREFIX_PATH=/home/kllemo/ros2_ws/install/abb_model:/home/kllemo/ros2_ws/install/abb_irb4600_ikfast:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/kllemo/ros2_ws/install/abb_model:/home/kllemo/ros2_ws/install/abb_irb4600_ikfast:/opt/ros/jazzy/opt/gz_math_vendor:/opt/ros/jazzy/opt/gz_utils_vendor:/opt/ros/jazzy/opt/gz_cmake_vendor:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com LD_LIBRARY_PATH=/home/kllemo/ros2_ws/install/abb_irb4600_ikfast/lib:${LD_LIBRARY_PATH} /usr/bin/cmake /home/kllemo/ros2_ws/src/block1_kleman -DCMAKE_INSTALL_PREFIX=/home/kllemo/ros2_ws/install/block1_kleman
+[0.055s] -- Found ament_cmake: 2.5.5 (/opt/ros/jazzy/share/ament_cmake/cmake)
+[0.534s] -- Override CMake install command with custom implementation using symlinks instead of copying resources
+[0.560s] -- Found rclcpp: 28.1.16 (/opt/ros/jazzy/share/rclcpp/cmake)
+[0.629s] -- Found rosidl_generator_c: 4.6.7 (/opt/ros/jazzy/share/rosidl_generator_c/cmake)
+[0.650s] -- Found rosidl_generator_cpp: 4.6.7 (/opt/ros/jazzy/share/rosidl_generator_cpp/cmake)
+[0.677s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[0.708s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[0.846s] -- Found rmw_implementation_cmake: 7.3.3 (/opt/ros/jazzy/share/rmw_implementation_cmake/cmake)
+[0.849s] -- Found rmw_fastrtps_cpp: 8.4.3 (/opt/ros/jazzy/share/rmw_fastrtps_cpp/cmake)
+[0.992s] -- Using RMW implementation 'rmw_fastrtps_cpp' as default
+[1.162s] -- Found sensor_msgs: 5.3.6 (/opt/ros/jazzy/share/sensor_msgs/cmake)
+[1.374s] -- Found visualization_msgs: 5.3.6 (/opt/ros/jazzy/share/visualization_msgs/cmake)
+[1.486s] -- Found interactive_markers: 2.5.5 (/opt/ros/jazzy/share/interactive_markers/cmake)
+[1.519s] -- Found abb_irb4600_ikfast: 0.0.0 (/home/kllemo/ros2_ws/install/abb_irb4600_ikfast/share/abb_irb4600_ikfast/cmake)
+[1.844s] -- Configuring done (1.8s)
+[1.882s] -- Generating done (0.0s)
+[1.894s] -- Build files have been written to: /home/kllemo/ros2_ws/build/block1_kleman
+[1.914s] Invoked command in '/home/kllemo/ros2_ws/build/block1_kleman' returned '0': AMENT_PREFIX_PATH=/home/kllemo/ros2_ws/install/abb_model:/home/kllemo/ros2_ws/install/abb_irb4600_ikfast:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/kllemo/ros2_ws/install/abb_model:/home/kllemo/ros2_ws/install/abb_irb4600_ikfast:/opt/ros/jazzy/opt/gz_math_vendor:/opt/ros/jazzy/opt/gz_utils_vendor:/opt/ros/jazzy/opt/gz_cmake_vendor:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com LD_LIBRARY_PATH=/home/kllemo/ros2_ws/install/abb_irb4600_ikfast/lib:${LD_LIBRARY_PATH} /usr/bin/cmake /home/kllemo/ros2_ws/src/block1_kleman -DCMAKE_INSTALL_PREFIX=/home/kllemo/ros2_ws/install/block1_kleman
+[1.916s] Invoking command in '/home/kllemo/ros2_ws/build/block1_kleman': AMENT_PREFIX_PATH=/home/kllemo/ros2_ws/install/abb_model:/home/kllemo/ros2_ws/install/abb_irb4600_ikfast:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/kllemo/ros2_ws/install/abb_model:/home/kllemo/ros2_ws/install/abb_irb4600_ikfast:/opt/ros/jazzy/opt/gz_math_vendor:/opt/ros/jazzy/opt/gz_utils_vendor:/opt/ros/jazzy/opt/gz_cmake_vendor:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com LD_LIBRARY_PATH=/home/kllemo/ros2_ws/install/abb_irb4600_ikfast/lib:${LD_LIBRARY_PATH} /usr/bin/cmake --build /home/kllemo/ros2_ws/build/block1_kleman -- -j16 -l16
+[2.049s] [ 25%] [32mBuilding CXX object CMakeFiles/model_spawner.dir/src/model_spawner.cpp.o[0m
+[2.052s] [ 75%] Built target pose_teacher
+[12.773s] [100%] [32m[1mLinking CXX executable model_spawner[0m
+[13.209s] [100%] Built target model_spawner
+[13.230s] Invoked command in '/home/kllemo/ros2_ws/build/block1_kleman' returned '0': AMENT_PREFIX_PATH=/home/kllemo/ros2_ws/install/abb_model:/home/kllemo/ros2_ws/install/abb_irb4600_ikfast:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/kllemo/ros2_ws/install/abb_model:/home/kllemo/ros2_ws/install/abb_irb4600_ikfast:/opt/ros/jazzy/opt/gz_math_vendor:/opt/ros/jazzy/opt/gz_utils_vendor:/opt/ros/jazzy/opt/gz_cmake_vendor:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com LD_LIBRARY_PATH=/home/kllemo/ros2_ws/install/abb_irb4600_ikfast/lib:${LD_LIBRARY_PATH} /usr/bin/cmake --build /home/kllemo/ros2_ws/build/block1_kleman -- -j16 -l16
+[13.233s] Invoking command in '/home/kllemo/ros2_ws/build/block1_kleman': AMENT_PREFIX_PATH=/home/kllemo/ros2_ws/install/abb_model:/home/kllemo/ros2_ws/install/abb_irb4600_ikfast:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/kllemo/ros2_ws/install/abb_model:/home/kllemo/ros2_ws/install/abb_irb4600_ikfast:/opt/ros/jazzy/opt/gz_math_vendor:/opt/ros/jazzy/opt/gz_utils_vendor:/opt/ros/jazzy/opt/gz_cmake_vendor:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com LD_LIBRARY_PATH=/home/kllemo/ros2_ws/install/abb_irb4600_ikfast/lib:${LD_LIBRARY_PATH} /usr/bin/cmake --install /home/kllemo/ros2_ws/build/block1_kleman
+[13.246s] -- Install configuration: ""
+[13.247s] -- Execute custom install script
+[13.248s] -- Up-to-date symlink: /home/kllemo/ros2_ws/install/block1_kleman/lib/block1_kleman/model_spawner
+[13.248s] -- Up-to-date symlink: /home/kllemo/ros2_ws/install/block1_kleman/lib/block1_kleman/pose_teacher
+[13.249s] -- Up-to-date symlink: /home/kllemo/ros2_ws/install/block1_kleman/share/block1_kleman/launch/teach_scene.launch.py
+[13.250s] -- Up-to-date symlink: /home/kllemo/ros2_ws/install/block1_kleman/share/block1_kleman/meshes/tie.stl
+[13.250s] -- Up-to-date symlink: /home/kllemo/ros2_ws/install/block1_kleman/share/ament_index/resource_index/package_run_dependencies/block1_kleman
+[13.250s] -- Up-to-date symlink: /home/kllemo/ros2_ws/install/block1_kleman/share/ament_index/resource_index/parent_prefix_path/block1_kleman
+[13.250s] -- Up-to-date symlink: /home/kllemo/ros2_ws/install/block1_kleman/share/block1_kleman/environment/ament_prefix_path.sh
+[13.251s] -- Up-to-date symlink: /home/kllemo/ros2_ws/install/block1_kleman/share/block1_kleman/environment/ament_prefix_path.dsv
+[13.251s] -- Up-to-date symlink: /home/kllemo/ros2_ws/install/block1_kleman/share/block1_kleman/environment/path.sh
+[13.251s] -- Up-to-date symlink: /home/kllemo/ros2_ws/install/block1_kleman/share/block1_kleman/environment/path.dsv
+[13.252s] -- Up-to-date symlink: /home/kllemo/ros2_ws/install/block1_kleman/share/block1_kleman/local_setup.bash
+[13.252s] -- Up-to-date symlink: /home/kllemo/ros2_ws/install/block1_kleman/share/block1_kleman/local_setup.sh
+[13.252s] -- Up-to-date symlink: /home/kllemo/ros2_ws/install/block1_kleman/share/block1_kleman/local_setup.zsh
+[13.252s] -- Up-to-date symlink: /home/kllemo/ros2_ws/install/block1_kleman/share/block1_kleman/local_setup.dsv
+[13.253s] -- Symlinking: /home/kllemo/ros2_ws/install/block1_kleman/share/block1_kleman/package.dsv
+[13.271s] -- Up-to-date symlink: /home/kllemo/ros2_ws/install/block1_kleman/share/ament_index/resource_index/packages/block1_kleman
+[13.271s] -- Up-to-date symlink: /home/kllemo/ros2_ws/install/block1_kleman/share/block1_kleman/cmake/block1_klemanConfig.cmake
+[13.271s] -- Up-to-date symlink: /home/kllemo/ros2_ws/install/block1_kleman/share/block1_kleman/cmake/block1_klemanConfig-version.cmake
+[13.271s] -- Up-to-date symlink: /home/kllemo/ros2_ws/install/block1_kleman/share/block1_kleman/package.xml
+[13.276s] Invoked command in '/home/kllemo/ros2_ws/build/block1_kleman' returned '0': AMENT_PREFIX_PATH=/home/kllemo/ros2_ws/install/abb_model:/home/kllemo/ros2_ws/install/abb_irb4600_ikfast:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/kllemo/ros2_ws/install/abb_model:/home/kllemo/ros2_ws/install/abb_irb4600_ikfast:/opt/ros/jazzy/opt/gz_math_vendor:/opt/ros/jazzy/opt/gz_utils_vendor:/opt/ros/jazzy/opt/gz_cmake_vendor:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com LD_LIBRARY_PATH=/home/kllemo/ros2_ws/install/abb_irb4600_ikfast/lib:${LD_LIBRARY_PATH} /usr/bin/cmake --install /home/kllemo/ros2_ws/build/block1_kleman

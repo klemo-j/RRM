@@ -1,0 +1,1 @@
+/home/kllemo/ros2_ws/build/rrm_msgs/rosidl_typesupport_fastrtps_c/rrm_msgs/msg/detail/command__rosidl_typesupport_fastrtps_c.h

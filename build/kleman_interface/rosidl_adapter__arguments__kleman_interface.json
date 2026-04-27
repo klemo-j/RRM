@@ -1,0 +1,8 @@
+{
+  "package_name": "kleman_interface",
+  "non_idl_tuples": [
+    "/home/kllemo/ros2_ws/src/kleman_interface:srv/SavePoint.srv",
+    "/home/kllemo/ros2_ws/src/kleman_interface:srv/SolveIK.srv",
+    "/home/kllemo/ros2_ws/src/kleman_interface:srv/MoveToXYZ.srv"
+  ]
+}

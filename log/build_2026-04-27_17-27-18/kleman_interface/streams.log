@@ -1,0 +1,259 @@
+[0.027s] Invoking command in '/home/kllemo/ros2_ws/build/kleman_interface': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake /home/kllemo/ros2_ws/src/kleman_interface -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/home/kllemo/ros2_ws/install/kleman_interface
+[0.119s] -- The C compiler identification is GNU 13.3.0
+[0.227s] -- The CXX compiler identification is GNU 13.3.0
+[0.256s] -- Detecting C compiler ABI info
+[0.404s] -- Detecting C compiler ABI info - done
+[0.424s] -- Check for working C compiler: /usr/bin/cc - skipped
+[0.424s] -- Detecting C compile features
+[0.425s] -- Detecting C compile features - done
+[0.441s] -- Detecting CXX compiler ABI info
+[0.609s] -- Detecting CXX compiler ABI info - done
+[0.629s] -- Check for working CXX compiler: /usr/bin/c++ - skipped
+[0.629s] -- Detecting CXX compile features
+[0.630s] -- Detecting CXX compile features - done
+[0.635s] -- Found ament_cmake: 2.5.5 (/opt/ros/jazzy/share/ament_cmake/cmake)
+[0.918s] -- Found Python3: /usr/bin/python3 (found version "3.12.3") found components: Interpreter 
+[1.076s] -- Override CMake install command with custom implementation using symlinks instead of copying resources
+[1.131s] -- Found rosidl_default_generators: 1.6.0 (/opt/ros/jazzy/share/rosidl_default_generators/cmake)
+[1.142s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[1.255s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[1.351s] -- Found rosidl_adapter: 4.6.7 (/opt/ros/jazzy/share/rosidl_adapter/cmake)
+[2.825s] -- Found ament_cmake_ros: 0.12.0 (/opt/ros/jazzy/share/ament_cmake_ros/cmake)
+[3.744s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[5.017s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[5.023s] -- Found python_cmake_module: 0.11.1 (/opt/ros/jazzy/share/python_cmake_module/cmake)
+[5.327s] -- Found PythonExtra: /usr/bin/python3  
+[6.275s] -- Found Python3: /usr/bin/python3 (found version "3.12.3") found components: Interpreter Development NumPy Development.Module Development.Embed 
+[6.352s] -- Found ament_lint_auto: 0.17.4 (/opt/ros/jazzy/share/ament_lint_auto/cmake)
+[6.390s] -- Added test 'lint_cmake' to check CMake code style
+[6.392s] -- Added test 'xmllint' to check XML markup files
+[6.400s] -- Configuring done (6.4s)
+[6.504s] -- Generating done (0.1s)
+[6.544s] -- Build files have been written to: /home/kllemo/ros2_ws/build/kleman_interface
+[6.572s] Invoked command in '/home/kllemo/ros2_ws/build/kleman_interface' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake /home/kllemo/ros2_ws/src/kleman_interface -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/home/kllemo/ros2_ws/install/kleman_interface
+[6.576s] Invoking command in '/home/kllemo/ros2_ws/build/kleman_interface': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --build /home/kllemo/ros2_ws/build/kleman_interface -- -j16 -l16
+[6.676s] [  1%] [34m[1mGenerating type hashes for ROS interfaces[0m
+[6.690s] [  1%] Built target ament_cmake_python_symlink_kleman_interface
+[7.186s] running egg_info
+[7.188s] creating kleman_interface.egg-info
+[7.207s] [  1%] Built target kleman_interface__rosidl_generator_type_description
+[7.224s] [  3%] [34m[1mGenerating C code for ROS interfaces[0m
+[7.226s] writing kleman_interface.egg-info/PKG-INFO
+[7.227s] writing dependency_links to kleman_interface.egg-info/dependency_links.txt
+[7.227s] writing top-level names to kleman_interface.egg-info/top_level.txt
+[7.228s] writing manifest file 'kleman_interface.egg-info/SOURCES.txt'
+[7.242s] [  5%] [34m[1mGenerating C++ code for ROS interfaces[0m
+[7.351s] reading manifest file 'kleman_interface.egg-info/SOURCES.txt'
+[7.352s] writing manifest file 'kleman_interface.egg-info/SOURCES.txt'
+[7.402s] [  5%] Built target ament_cmake_python_build_kleman_interface_egg
+[8.283s] [  5%] Built target kleman_interface__cpp
+[8.433s] [  7%] [32mBuilding C object CMakeFiles/kleman_interface__rosidl_generator_c.dir/rosidl_generator_c/kleman_interface/srv/detail/save_point__functions.c.o[0m
+[8.436s] [ 11%] [32mBuilding C object CMakeFiles/kleman_interface__rosidl_generator_c.dir/rosidl_generator_c/kleman_interface/srv/detail/solve_ik__description.c.o[0m
+[8.436s] [ 11%] [32mBuilding C object CMakeFiles/kleman_interface__rosidl_generator_c.dir/rosidl_generator_c/kleman_interface/srv/detail/solve_ik__functions.c.o[0m
+[8.437s] [ 12%] [32mBuilding C object CMakeFiles/kleman_interface__rosidl_generator_c.dir/rosidl_generator_c/kleman_interface/srv/detail/solve_ik__type_support.c.o[0m
+[8.437s] [ 14%] [32mBuilding C object CMakeFiles/kleman_interface__rosidl_generator_c.dir/rosidl_generator_c/kleman_interface/srv/detail/save_point__type_support.c.o[0m
+[8.439s] [ 16%] [32mBuilding C object CMakeFiles/kleman_interface__rosidl_generator_c.dir/rosidl_generator_c/kleman_interface/srv/detail/move_to_xyz__functions.c.o[0m
+[8.439s] [ 18%] [32mBuilding C object CMakeFiles/kleman_interface__rosidl_generator_c.dir/rosidl_generator_c/kleman_interface/srv/detail/save_point__description.c.o[0m
+[8.440s] [ 20%] [32mBuilding C object CMakeFiles/kleman_interface__rosidl_generator_c.dir/rosidl_generator_c/kleman_interface/srv/detail/move_to_xyz__description.c.o[0m
+[8.449s] [ 22%] [32mBuilding C object CMakeFiles/kleman_interface__rosidl_generator_c.dir/rosidl_generator_c/kleman_interface/srv/detail/move_to_xyz__type_support.c.o[0m
+[8.674s] [ 24%] [32m[1mLinking C shared library libkleman_interface__rosidl_generator_c.so[0m
+[8.744s] [ 24%] Built target kleman_interface__rosidl_generator_c
+[8.769s] [ 27%] [34m[1mGenerating C type support for eProsima Fast-RTPS[0m
+[8.770s] [ 29%] [34m[1mGenerating C type support dispatch for ROS interfaces[0m
+[8.770s] [ 29%] [34m[1mGenerating C introspection for ROS interfaces[0m
+[8.770s] [ 31%] [34m[1mGenerating C++ type support for eProsima Fast-RTPS[0m
+[8.771s] [ 33%] [34m[1mGenerating C++ introspection for ROS interfaces[0m
+[8.771s] [ 35%] [34m[1mGenerating C++ type support dispatch for ROS interfaces[0m
+[9.892s] [ 37%] [32mBuilding CXX object CMakeFiles/kleman_interface__rosidl_typesupport_c.dir/rosidl_typesupport_c/kleman_interface/srv/save_point__type_support.cpp.o[0m
+[9.908s] [ 38%] [32mBuilding CXX object CMakeFiles/kleman_interface__rosidl_typesupport_c.dir/rosidl_typesupport_c/kleman_interface/srv/solve_ik__type_support.cpp.o[0m
+[9.910s] [ 40%] [32mBuilding CXX object CMakeFiles/kleman_interface__rosidl_typesupport_c.dir/rosidl_typesupport_c/kleman_interface/srv/move_to_xyz__type_support.cpp.o[0m
+[9.989s] [ 42%] [32mBuilding CXX object CMakeFiles/kleman_interface__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/kleman_interface/srv/solve_ik__type_support.cpp.o[0m
+[9.992s] [ 44%] [32mBuilding CXX object CMakeFiles/kleman_interface__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/kleman_interface/srv/move_to_xyz__type_support.cpp.o[0m
+[9.992s] [ 46%] [32mBuilding CXX object CMakeFiles/kleman_interface__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/kleman_interface/srv/save_point__type_support.cpp.o[0m
+[10.081s] [ 48%] [32m[1mLinking CXX shared library libkleman_interface__rosidl_typesupport_c.so[0m
+[10.206s] [ 50%] [32mBuilding CXX object CMakeFiles/kleman_interface__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/kleman_interface/srv/detail/save_point__type_support.cpp.o[0m
+[10.206s] [ 53%] [32mBuilding CXX object CMakeFiles/kleman_interface__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/kleman_interface/srv/detail/move_to_xyz__type_support.cpp.o[0m
+[10.206s] [ 51%] [32mBuilding CXX object CMakeFiles/kleman_interface__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/kleman_interface/srv/detail/solve_ik__type_support.cpp.o[0m
+[10.227s] [ 53%] Built target kleman_interface__rosidl_typesupport_c
+[10.317s] [ 55%] [32mBuilding C object CMakeFiles/kleman_interface__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/kleman_interface/srv/detail/save_point__type_support.c.o[0m
+[10.331s] [ 57%] [32mBuilding C object CMakeFiles/kleman_interface__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/kleman_interface/srv/detail/move_to_xyz__type_support.c.o[0m
+[10.332s] [ 59%] [32mBuilding C object CMakeFiles/kleman_interface__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/kleman_interface/srv/detail/solve_ik__type_support.c.o[0m
+[10.668s] [ 61%] [32m[1mLinking C shared library libkleman_interface__rosidl_typesupport_introspection_c.so[0m
+[10.814s] [ 62%] [32mBuilding CXX object CMakeFiles/kleman_interface__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/kleman_interface/srv/detail/dds_fastrtps/save_point__type_support.cpp.o[0m
+[10.828s] [ 64%] [32mBuilding CXX object CMakeFiles/kleman_interface__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/kleman_interface/srv/detail/dds_fastrtps/solve_ik__type_support.cpp.o[0m
+[10.837s] [ 66%] [32mBuilding CXX object CMakeFiles/kleman_interface__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/kleman_interface/srv/detail/dds_fastrtps/move_to_xyz__type_support.cpp.o[0m
+[10.869s] [ 66%] Built target kleman_interface__rosidl_typesupport_introspection_c
+[11.051s] [ 68%] [32mBuilding CXX object CMakeFiles/kleman_interface__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/kleman_interface/srv/detail/save_point__type_support_c.cpp.o[0m
+[11.068s] [ 70%] [32mBuilding CXX object CMakeFiles/kleman_interface__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/kleman_interface/srv/detail/solve_ik__type_support_c.cpp.o[0m
+[11.068s] [ 72%] [32mBuilding CXX object CMakeFiles/kleman_interface__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/kleman_interface/srv/detail/move_to_xyz__type_support_c.cpp.o[0m
+[11.690s] [ 74%] [32m[1mLinking CXX shared library libkleman_interface__rosidl_typesupport_cpp.so[0m
+[12.097s] [ 74%] Built target kleman_interface__rosidl_typesupport_cpp
+[12.164s] [ 75%] [32m[1mLinking CXX shared library libkleman_interface__rosidl_typesupport_introspection_cpp.so[0m
+[12.416s] [ 75%] Built target kleman_interface__rosidl_typesupport_introspection_cpp
+[13.236s] [ 77%] [32m[1mLinking CXX shared library libkleman_interface__rosidl_typesupport_fastrtps_c.so[0m
+[13.446s] [ 77%] Built target kleman_interface__rosidl_typesupport_fastrtps_c
+[13.544s] [ 79%] [32m[1mLinking CXX shared library libkleman_interface__rosidl_typesupport_fastrtps_cpp.so[0m
+[13.737s] [ 79%] Built target kleman_interface__rosidl_typesupport_fastrtps_cpp
+[13.778s] [ 79%] Built target kleman_interface
+[13.818s] [ 81%] [34m[1mGenerating Python code for ROS interfaces[0m
+[16.051s] [ 81%] Built target kleman_interface__py
+[16.089s] [ 83%] [32mBuilding C object CMakeFiles/kleman_interface__rosidl_generator_py.dir/rosidl_generator_py/kleman_interface/srv/_save_point_s.c.o[0m
+[16.089s] [ 85%] [32mBuilding C object CMakeFiles/kleman_interface__rosidl_generator_py.dir/rosidl_generator_py/kleman_interface/srv/_move_to_xyz_s.c.o[0m
+[16.090s] [ 87%] [32mBuilding C object CMakeFiles/kleman_interface__rosidl_generator_py.dir/rosidl_generator_py/kleman_interface/srv/_solve_ik_s.c.o[0m
+[16.617s] [ 88%] [32m[1mLinking C shared library libkleman_interface__rosidl_generator_py.so[0m
+[16.727s] [ 88%] Built target kleman_interface__rosidl_generator_py
+[16.786s] [ 90%] [32mBuilding C object CMakeFiles/kleman_interface_s__rosidl_typesupport_fastrtps_c.dir/rosidl_generator_py/kleman_interface/_kleman_interface_s.ep.rosidl_typesupport_fastrtps_c.c.o[0m
+[16.793s] [ 92%] [32mBuilding C object CMakeFiles/kleman_interface_s__rosidl_typesupport_c.dir/rosidl_generator_py/kleman_interface/_kleman_interface_s.ep.rosidl_typesupport_c.c.o[0m
+[16.806s] [ 94%] [32mBuilding C object CMakeFiles/kleman_interface_s__rosidl_typesupport_introspection_c.dir/rosidl_generator_py/kleman_interface/_kleman_interface_s.ep.rosidl_typesupport_introspection_c.c.o[0m
+[17.112s] [ 96%] [32m[1mLinking C shared module rosidl_generator_py/kleman_interface/kleman_interface_s__rosidl_typesupport_c.so[0m
+[17.117s] [ 98%] [32m[1mLinking C shared module rosidl_generator_py/kleman_interface/kleman_interface_s__rosidl_typesupport_fastrtps_c.so[0m
+[17.176s] [ 98%] Built target kleman_interface_s__rosidl_typesupport_c
+[17.183s] [ 98%] Built target kleman_interface_s__rosidl_typesupport_fastrtps_c
+[17.229s] [100%] [32m[1mLinking C shared module rosidl_generator_py/kleman_interface/kleman_interface_s__rosidl_typesupport_introspection_c.so[0m
+[17.309s] [100%] Built target kleman_interface_s__rosidl_typesupport_introspection_c
+[17.333s] Invoked command in '/home/kllemo/ros2_ws/build/kleman_interface' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --build /home/kllemo/ros2_ws/build/kleman_interface -- -j16 -l16
+[17.337s] Invoking command in '/home/kllemo/ros2_ws/build/kleman_interface': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --install /home/kllemo/ros2_ws/build/kleman_interface
+[17.353s] -- Install configuration: ""
+[17.354s] -- Execute custom install script
+[17.355s] -- Symlinking: /home/kllemo/ros2_ws/install/kleman_interface/share/ament_index/resource_index/rosidl_interfaces/kleman_interface
+[17.375s] -- Symlinking: /home/kllemo/ros2_ws/install/kleman_interface/share/kleman_interface/srv/SavePoint.json
+[17.392s] -- Symlinking: /home/kllemo/ros2_ws/install/kleman_interface/share/kleman_interface/srv/SolveIK.json
+[17.413s] -- Symlinking: /home/kllemo/ros2_ws/install/kleman_interface/share/kleman_interface/srv/MoveToXYZ.json
+[17.435s] -- Symlinking: /home/kllemo/ros2_ws/install/kleman_interface/include/kleman_interface/kleman_interface/msg/rosidl_generator_c__visibility_control.h
+[17.464s] -- Symlinking: /home/kllemo/ros2_ws/install/kleman_interface/include/kleman_interface/kleman_interface/srv/detail/move_to_xyz__functions.h
+[17.488s] -- Symlinking: /home/kllemo/ros2_ws/install/kleman_interface/include/kleman_interface/kleman_interface/srv/detail/move_to_xyz__struct.h
+[17.505s] -- Symlinking: /home/kllemo/ros2_ws/install/kleman_interface/include/kleman_interface/kleman_interface/srv/detail/move_to_xyz__type_support.h
+[17.528s] -- Symlinking: /home/kllemo/ros2_ws/install/kleman_interface/include/kleman_interface/kleman_interface/srv/detail/save_point__functions.h
+[17.554s] -- Symlinking: /home/kllemo/ros2_ws/install/kleman_interface/include/kleman_interface/kleman_interface/srv/detail/save_point__struct.h
+[17.576s] -- Symlinking: /home/kllemo/ros2_ws/install/kleman_interface/include/kleman_interface/kleman_interface/srv/detail/save_point__type_support.h
+[17.596s] -- Symlinking: /home/kllemo/ros2_ws/install/kleman_interface/include/kleman_interface/kleman_interface/srv/detail/solve_ik__functions.h
+[17.616s] -- Symlinking: /home/kllemo/ros2_ws/install/kleman_interface/include/kleman_interface/kleman_interface/srv/detail/solve_ik__struct.h
+[17.640s] -- Symlinking: /home/kllemo/ros2_ws/install/kleman_interface/include/kleman_interface/kleman_interface/srv/detail/solve_ik__type_support.h
+[17.659s] -- Symlinking: /home/kllemo/ros2_ws/install/kleman_interface/include/kleman_interface/kleman_interface/srv/move_to_xyz.h
+[17.677s] -- Symlinking: /home/kllemo/ros2_ws/install/kleman_interface/include/kleman_interface/kleman_interface/srv/save_point.h
+[17.696s] -- Symlinking: /home/kllemo/ros2_ws/install/kleman_interface/include/kleman_interface/kleman_interface/srv/solve_ik.h
+[17.716s] -- Symlinking: /home/kllemo/ros2_ws/install/kleman_interface/share/kleman_interface/environment/library_path.sh
+[17.734s] -- Symlinking: /home/kllemo/ros2_ws/install/kleman_interface/share/kleman_interface/environment/library_path.dsv
+[17.757s] -- Symlinking: /home/kllemo/ros2_ws/install/kleman_interface/include/kleman_interface/kleman_interface/msg/rosidl_typesupport_fastrtps_c__visibility_control.h
+[17.773s] -- Symlinking: /home/kllemo/ros2_ws/install/kleman_interface/include/kleman_interface/kleman_interface/srv/detail/move_to_xyz__rosidl_typesupport_fastrtps_c.h
+[17.793s] -- Symlinking: /home/kllemo/ros2_ws/install/kleman_interface/include/kleman_interface/kleman_interface/srv/detail/save_point__rosidl_typesupport_fastrtps_c.h
+[17.816s] -- Symlinking: /home/kllemo/ros2_ws/install/kleman_interface/include/kleman_interface/kleman_interface/srv/detail/solve_ik__rosidl_typesupport_fastrtps_c.h
+[17.837s] -- Symlinking: /home/kllemo/ros2_ws/install/kleman_interface/include/kleman_interface/kleman_interface/msg/rosidl_typesupport_introspection_c__visibility_control.h
+[17.858s] -- Symlinking: /home/kllemo/ros2_ws/install/kleman_interface/include/kleman_interface/kleman_interface/srv/detail/move_to_xyz__rosidl_typesupport_introspection_c.h
+[17.878s] -- Symlinking: /home/kllemo/ros2_ws/install/kleman_interface/include/kleman_interface/kleman_interface/srv/detail/save_point__rosidl_typesupport_introspection_c.h
+[17.898s] -- Symlinking: /home/kllemo/ros2_ws/install/kleman_interface/include/kleman_interface/kleman_interface/srv/detail/solve_ik__rosidl_typesupport_introspection_c.h
+[17.923s] -- Symlinking: /home/kllemo/ros2_ws/install/kleman_interface/include/kleman_interface/kleman_interface/msg/rosidl_generator_cpp__visibility_control.hpp
+[17.941s] -- Symlinking: /home/kllemo/ros2_ws/install/kleman_interface/include/kleman_interface/kleman_interface/srv/detail/move_to_xyz__builder.hpp
+[17.958s] -- Symlinking: /home/kllemo/ros2_ws/install/kleman_interface/include/kleman_interface/kleman_interface/srv/detail/move_to_xyz__struct.hpp
+[17.976s] -- Symlinking: /home/kllemo/ros2_ws/install/kleman_interface/include/kleman_interface/kleman_interface/srv/detail/move_to_xyz__traits.hpp
+[17.998s] -- Symlinking: /home/kllemo/ros2_ws/install/kleman_interface/include/kleman_interface/kleman_interface/srv/detail/move_to_xyz__type_support.hpp
+[18.020s] -- Symlinking: /home/kllemo/ros2_ws/install/kleman_interface/include/kleman_interface/kleman_interface/srv/detail/save_point__builder.hpp
+[18.040s] -- Symlinking: /home/kllemo/ros2_ws/install/kleman_interface/include/kleman_interface/kleman_interface/srv/detail/save_point__struct.hpp
+[18.066s] -- Symlinking: /home/kllemo/ros2_ws/install/kleman_interface/include/kleman_interface/kleman_interface/srv/detail/save_point__traits.hpp
+[18.088s] -- Symlinking: /home/kllemo/ros2_ws/install/kleman_interface/include/kleman_interface/kleman_interface/srv/detail/save_point__type_support.hpp
+[18.110s] -- Symlinking: /home/kllemo/ros2_ws/install/kleman_interface/include/kleman_interface/kleman_interface/srv/detail/solve_ik__builder.hpp
+[18.131s] -- Symlinking: /home/kllemo/ros2_ws/install/kleman_interface/include/kleman_interface/kleman_interface/srv/detail/solve_ik__struct.hpp
+[18.154s] -- Symlinking: /home/kllemo/ros2_ws/install/kleman_interface/include/kleman_interface/kleman_interface/srv/detail/solve_ik__traits.hpp
+[18.179s] -- Symlinking: /home/kllemo/ros2_ws/install/kleman_interface/include/kleman_interface/kleman_interface/srv/detail/solve_ik__type_support.hpp
+[18.200s] -- Symlinking: /home/kllemo/ros2_ws/install/kleman_interface/include/kleman_interface/kleman_interface/srv/move_to_xyz.hpp
+[18.225s] -- Symlinking: /home/kllemo/ros2_ws/install/kleman_interface/include/kleman_interface/kleman_interface/srv/save_point.hpp
+[18.244s] -- Symlinking: /home/kllemo/ros2_ws/install/kleman_interface/include/kleman_interface/kleman_interface/srv/solve_ik.hpp
+[18.264s] -- Symlinking: /home/kllemo/ros2_ws/install/kleman_interface/include/kleman_interface/kleman_interface/msg/rosidl_typesupport_fastrtps_cpp__visibility_control.h
+[18.283s] -- Symlinking: /home/kllemo/ros2_ws/install/kleman_interface/include/kleman_interface/kleman_interface/srv/detail/move_to_xyz__rosidl_typesupport_fastrtps_cpp.hpp
+[18.301s] -- Symlinking: /home/kllemo/ros2_ws/install/kleman_interface/include/kleman_interface/kleman_interface/srv/detail/save_point__rosidl_typesupport_fastrtps_cpp.hpp
+[18.322s] -- Symlinking: /home/kllemo/ros2_ws/install/kleman_interface/include/kleman_interface/kleman_interface/srv/detail/solve_ik__rosidl_typesupport_fastrtps_cpp.hpp
+[18.345s] -- Symlinking: /home/kllemo/ros2_ws/install/kleman_interface/include/kleman_interface/kleman_interface/srv/detail/move_to_xyz__rosidl_typesupport_introspection_cpp.hpp
+[18.362s] -- Symlinking: /home/kllemo/ros2_ws/install/kleman_interface/include/kleman_interface/kleman_interface/srv/detail/save_point__rosidl_typesupport_introspection_cpp.hpp
+[18.378s] -- Symlinking: /home/kllemo/ros2_ws/install/kleman_interface/include/kleman_interface/kleman_interface/srv/detail/solve_ik__rosidl_typesupport_introspection_cpp.hpp
+[18.401s] -- Symlinking: /home/kllemo/ros2_ws/install/kleman_interface/share/kleman_interface/environment/pythonpath.sh
+[18.420s] -- Symlinking: /home/kllemo/ros2_ws/install/kleman_interface/share/kleman_interface/environment/pythonpath.dsv
+[18.438s] -- Symlinking: /home/kllemo/ros2_ws/install/kleman_interface/lib/python3.12/site-packages/kleman_interface-0.0.0-py3.12.egg-info/PKG-INFO
+[18.455s] -- Symlinking: /home/kllemo/ros2_ws/install/kleman_interface/lib/python3.12/site-packages/kleman_interface-0.0.0-py3.12.egg-info/SOURCES.txt
+[18.473s] -- Symlinking: /home/kllemo/ros2_ws/install/kleman_interface/lib/python3.12/site-packages/kleman_interface-0.0.0-py3.12.egg-info/dependency_links.txt
+[18.490s] -- Symlinking: /home/kllemo/ros2_ws/install/kleman_interface/lib/python3.12/site-packages/kleman_interface-0.0.0-py3.12.egg-info/top_level.txt
+[18.517s] -- Symlinking: /home/kllemo/ros2_ws/install/kleman_interface/lib/python3.12/site-packages/kleman_interface/__init__.py
+[18.545s] -- Symlinking: /home/kllemo/ros2_ws/install/kleman_interface/lib/python3.12/site-packages/kleman_interface/_kleman_interface_s.ep.rosidl_typesupport_c.c
+[18.573s] -- Symlinking: /home/kllemo/ros2_ws/install/kleman_interface/lib/python3.12/site-packages/kleman_interface/_kleman_interface_s.ep.rosidl_typesupport_fastrtps_c.c
+[18.593s] -- Symlinking: /home/kllemo/ros2_ws/install/kleman_interface/lib/python3.12/site-packages/kleman_interface/_kleman_interface_s.ep.rosidl_typesupport_introspection_c.c
+[18.616s] -- Symlinking: /home/kllemo/ros2_ws/install/kleman_interface/lib/python3.12/site-packages/kleman_interface/kleman_interface_s__rosidl_typesupport_c.so
+[18.636s] -- Symlinking: /home/kllemo/ros2_ws/install/kleman_interface/lib/python3.12/site-packages/kleman_interface/kleman_interface_s__rosidl_typesupport_fastrtps_c.so
+[18.656s] -- Symlinking: /home/kllemo/ros2_ws/install/kleman_interface/lib/python3.12/site-packages/kleman_interface/kleman_interface_s__rosidl_typesupport_introspection_c.so
+[18.680s] -- Symlinking: /home/kllemo/ros2_ws/install/kleman_interface/lib/python3.12/site-packages/kleman_interface/srv/__init__.py
+[18.703s] -- Symlinking: /home/kllemo/ros2_ws/install/kleman_interface/lib/python3.12/site-packages/kleman_interface/srv/_move_to_xyz.py
+[18.721s] -- Symlinking: /home/kllemo/ros2_ws/install/kleman_interface/lib/python3.12/site-packages/kleman_interface/srv/_move_to_xyz_s.c
+[18.738s] -- Symlinking: /home/kllemo/ros2_ws/install/kleman_interface/lib/python3.12/site-packages/kleman_interface/srv/_save_point.py
+[18.754s] -- Symlinking: /home/kllemo/ros2_ws/install/kleman_interface/lib/python3.12/site-packages/kleman_interface/srv/_save_point_s.c
+[18.769s] -- Symlinking: /home/kllemo/ros2_ws/install/kleman_interface/lib/python3.12/site-packages/kleman_interface/srv/_solve_ik.py
+[18.785s] -- Symlinking: /home/kllemo/ros2_ws/install/kleman_interface/lib/python3.12/site-packages/kleman_interface/srv/_solve_ik_s.c
+[18.801s] -- Up-to-date symlink: /home/kllemo/ros2_ws/install/kleman_interface/lib/python3.12/site-packages/kleman_interface/kleman_interface_s__rosidl_typesupport_fastrtps_c.so
+[18.802s] -- Up-to-date symlink: /home/kllemo/ros2_ws/install/kleman_interface/lib/python3.12/site-packages/kleman_interface/kleman_interface_s__rosidl_typesupport_introspection_c.so
+[18.802s] -- Up-to-date symlink: /home/kllemo/ros2_ws/install/kleman_interface/lib/python3.12/site-packages/kleman_interface/kleman_interface_s__rosidl_typesupport_c.so
+[18.803s] -- Symlinking: /home/kllemo/ros2_ws/install/kleman_interface/share/kleman_interface/srv/SavePoint.idl
+[18.819s] -- Symlinking: /home/kllemo/ros2_ws/install/kleman_interface/share/kleman_interface/srv/SolveIK.idl
+[18.835s] -- Symlinking: /home/kllemo/ros2_ws/install/kleman_interface/share/kleman_interface/srv/MoveToXYZ.idl
+[18.855s] -- Symlinking: /home/kllemo/ros2_ws/install/kleman_interface/share/kleman_interface/srv/SavePoint.srv
+[18.872s] -- Symlinking: /home/kllemo/ros2_ws/install/kleman_interface/share/kleman_interface/srv/SolveIK.srv
+[18.889s] -- Symlinking: /home/kllemo/ros2_ws/install/kleman_interface/share/kleman_interface/srv/MoveToXYZ.srv
+[18.911s] -- Symlinking: /home/kllemo/ros2_ws/install/kleman_interface/share/ament_index/resource_index/package_run_dependencies/kleman_interface
+[18.931s] -- Symlinking: /home/kllemo/ros2_ws/install/kleman_interface/share/ament_index/resource_index/parent_prefix_path/kleman_interface
+[18.947s] -- Symlinking: /home/kllemo/ros2_ws/install/kleman_interface/share/kleman_interface/environment/ament_prefix_path.sh
+[18.965s] -- Symlinking: /home/kllemo/ros2_ws/install/kleman_interface/share/kleman_interface/environment/ament_prefix_path.dsv
+[18.986s] -- Symlinking: /home/kllemo/ros2_ws/install/kleman_interface/share/kleman_interface/environment/path.sh
+[19.003s] -- Symlinking: /home/kllemo/ros2_ws/install/kleman_interface/share/kleman_interface/environment/path.dsv
+[19.024s] -- Symlinking: /home/kllemo/ros2_ws/install/kleman_interface/share/kleman_interface/local_setup.bash
+[19.049s] -- Symlinking: /home/kllemo/ros2_ws/install/kleman_interface/share/kleman_interface/local_setup.sh
+[19.071s] -- Symlinking: /home/kllemo/ros2_ws/install/kleman_interface/share/kleman_interface/local_setup.zsh
+[19.090s] -- Symlinking: /home/kllemo/ros2_ws/install/kleman_interface/share/kleman_interface/local_setup.dsv
+[19.109s] -- Symlinking: /home/kllemo/ros2_ws/install/kleman_interface/share/kleman_interface/package.dsv
+[19.132s] -- Symlinking: /home/kllemo/ros2_ws/install/kleman_interface/share/ament_index/resource_index/packages/kleman_interface
+[19.152s] -- Symlinking: /home/kllemo/ros2_ws/install/kleman_interface/share/kleman_interface/cmake/rosidl_cmake-extras.cmake
+[19.172s] -- Symlinking: /home/kllemo/ros2_ws/install/kleman_interface/share/kleman_interface/cmake/ament_cmake_export_dependencies-extras.cmake
+[19.189s] -- Symlinking: /home/kllemo/ros2_ws/install/kleman_interface/share/kleman_interface/cmake/ament_cmake_export_include_directories-extras.cmake
+[19.210s] -- Symlinking: /home/kllemo/ros2_ws/install/kleman_interface/share/kleman_interface/cmake/ament_cmake_export_libraries-extras.cmake
+[19.229s] -- Symlinking: /home/kllemo/ros2_ws/install/kleman_interface/share/kleman_interface/cmake/ament_cmake_export_targets-extras.cmake
+[19.247s] -- Symlinking: /home/kllemo/ros2_ws/install/kleman_interface/share/kleman_interface/cmake/rosidl_cmake_export_typesupport_targets-extras.cmake
+[19.264s] -- Symlinking: /home/kllemo/ros2_ws/install/kleman_interface/share/kleman_interface/cmake/rosidl_cmake_export_typesupport_libraries-extras.cmake
+[19.281s] -- Symlinking: /home/kllemo/ros2_ws/install/kleman_interface/share/kleman_interface/cmake/kleman_interfaceConfig.cmake
+[19.299s] -- Symlinking: /home/kllemo/ros2_ws/install/kleman_interface/share/kleman_interface/cmake/kleman_interfaceConfig-version.cmake
+[19.318s] -- Symlinking: /home/kllemo/ros2_ws/install/kleman_interface/share/kleman_interface/package.xml
+[19.336s] -- Installing: /home/kllemo/ros2_ws/install/kleman_interface/lib/libkleman_interface__rosidl_generator_c.so
+[19.337s] -- Set non-toolchain portion of runtime path of "/home/kllemo/ros2_ws/install/kleman_interface/lib/libkleman_interface__rosidl_generator_c.so" to ""
+[19.338s] -- Installing: /home/kllemo/ros2_ws/install/kleman_interface/lib/libkleman_interface__rosidl_typesupport_fastrtps_c.so
+[19.338s] -- Set non-toolchain portion of runtime path of "/home/kllemo/ros2_ws/install/kleman_interface/lib/libkleman_interface__rosidl_typesupport_fastrtps_c.so" to ""
+[19.338s] -- Installing: /home/kllemo/ros2_ws/install/kleman_interface/lib/libkleman_interface__rosidl_typesupport_introspection_c.so
+[19.339s] -- Set non-toolchain portion of runtime path of "/home/kllemo/ros2_ws/install/kleman_interface/lib/libkleman_interface__rosidl_typesupport_introspection_c.so" to ""
+[19.339s] -- Installing: /home/kllemo/ros2_ws/install/kleman_interface/lib/libkleman_interface__rosidl_typesupport_c.so
+[19.339s] -- Set non-toolchain portion of runtime path of "/home/kllemo/ros2_ws/install/kleman_interface/lib/libkleman_interface__rosidl_typesupport_c.so" to ""
+[19.340s] -- Installing: /home/kllemo/ros2_ws/install/kleman_interface/lib/libkleman_interface__rosidl_typesupport_fastrtps_cpp.so
+[19.341s] -- Set non-toolchain portion of runtime path of "/home/kllemo/ros2_ws/install/kleman_interface/lib/libkleman_interface__rosidl_typesupport_fastrtps_cpp.so" to ""
+[19.341s] -- Installing: /home/kllemo/ros2_ws/install/kleman_interface/lib/libkleman_interface__rosidl_typesupport_introspection_cpp.so
+[19.342s] -- Set non-toolchain portion of runtime path of "/home/kllemo/ros2_ws/install/kleman_interface/lib/libkleman_interface__rosidl_typesupport_introspection_cpp.so" to ""
+[19.342s] -- Installing: /home/kllemo/ros2_ws/install/kleman_interface/lib/libkleman_interface__rosidl_typesupport_cpp.so
+[19.344s] -- Set non-toolchain portion of runtime path of "/home/kllemo/ros2_ws/install/kleman_interface/lib/libkleman_interface__rosidl_typesupport_cpp.so" to ""
+[19.476s] Listing '/home/kllemo/ros2_ws/install/kleman_interface/lib/python3.12/site-packages/kleman_interface'...
+[19.476s] Compiling '/home/kllemo/ros2_ws/install/kleman_interface/lib/python3.12/site-packages/kleman_interface/__init__.py'...
+[19.476s] Listing '/home/kllemo/ros2_ws/install/kleman_interface/lib/python3.12/site-packages/kleman_interface/srv'...
+[19.476s] Compiling '/home/kllemo/ros2_ws/install/kleman_interface/lib/python3.12/site-packages/kleman_interface/srv/__init__.py'...
+[19.477s] Compiling '/home/kllemo/ros2_ws/install/kleman_interface/lib/python3.12/site-packages/kleman_interface/srv/_move_to_xyz.py'...
+[19.477s] Compiling '/home/kllemo/ros2_ws/install/kleman_interface/lib/python3.12/site-packages/kleman_interface/srv/_save_point.py'...
+[19.477s] Compiling '/home/kllemo/ros2_ws/install/kleman_interface/lib/python3.12/site-packages/kleman_interface/srv/_solve_ik.py'...
+[19.491s] -- Installing: /home/kllemo/ros2_ws/install/kleman_interface/lib/libkleman_interface__rosidl_generator_py.so
+[19.492s] -- Set non-toolchain portion of runtime path of "/home/kllemo/ros2_ws/install/kleman_interface/lib/libkleman_interface__rosidl_generator_py.so" to ""
+[19.492s] -- Installing: /home/kllemo/ros2_ws/install/kleman_interface/share/kleman_interface/cmake/export_kleman_interface__rosidl_generator_cExport.cmake
+[19.493s] -- Installing: /home/kllemo/ros2_ws/install/kleman_interface/share/kleman_interface/cmake/export_kleman_interface__rosidl_generator_cExport-noconfig.cmake
+[19.493s] -- Installing: /home/kllemo/ros2_ws/install/kleman_interface/share/kleman_interface/cmake/export_kleman_interface__rosidl_typesupport_fastrtps_cExport.cmake
+[19.493s] -- Installing: /home/kllemo/ros2_ws/install/kleman_interface/share/kleman_interface/cmake/export_kleman_interface__rosidl_typesupport_fastrtps_cExport-noconfig.cmake
+[19.494s] -- Installing: /home/kllemo/ros2_ws/install/kleman_interface/share/kleman_interface/cmake/kleman_interface__rosidl_typesupport_introspection_cExport.cmake
+[19.494s] -- Installing: /home/kllemo/ros2_ws/install/kleman_interface/share/kleman_interface/cmake/kleman_interface__rosidl_typesupport_introspection_cExport-noconfig.cmake
+[19.494s] -- Installing: /home/kllemo/ros2_ws/install/kleman_interface/share/kleman_interface/cmake/kleman_interface__rosidl_typesupport_cExport.cmake
+[19.495s] -- Installing: /home/kllemo/ros2_ws/install/kleman_interface/share/kleman_interface/cmake/kleman_interface__rosidl_typesupport_cExport-noconfig.cmake
+[19.495s] -- Installing: /home/kllemo/ros2_ws/install/kleman_interface/share/kleman_interface/cmake/export_kleman_interface__rosidl_generator_cppExport.cmake
+[19.496s] -- Installing: /home/kllemo/ros2_ws/install/kleman_interface/share/kleman_interface/cmake/export_kleman_interface__rosidl_typesupport_fastrtps_cppExport.cmake
+[19.497s] -- Installing: /home/kllemo/ros2_ws/install/kleman_interface/share/kleman_interface/cmake/export_kleman_interface__rosidl_typesupport_fastrtps_cppExport-noconfig.cmake
+[19.497s] -- Installing: /home/kllemo/ros2_ws/install/kleman_interface/share/kleman_interface/cmake/kleman_interface__rosidl_typesupport_introspection_cppExport.cmake
+[19.497s] -- Installing: /home/kllemo/ros2_ws/install/kleman_interface/share/kleman_interface/cmake/kleman_interface__rosidl_typesupport_introspection_cppExport-noconfig.cmake
+[19.498s] -- Installing: /home/kllemo/ros2_ws/install/kleman_interface/share/kleman_interface/cmake/kleman_interface__rosidl_typesupport_cppExport.cmake
+[19.498s] -- Installing: /home/kllemo/ros2_ws/install/kleman_interface/share/kleman_interface/cmake/kleman_interface__rosidl_typesupport_cppExport-noconfig.cmake
+[19.498s] -- Installing: /home/kllemo/ros2_ws/install/kleman_interface/share/kleman_interface/cmake/export_kleman_interface__rosidl_generator_pyExport.cmake
+[19.498s] -- Installing: /home/kllemo/ros2_ws/install/kleman_interface/share/kleman_interface/cmake/export_kleman_interface__rosidl_generator_pyExport-noconfig.cmake
+[19.504s] Invoked command in '/home/kllemo/ros2_ws/build/kleman_interface' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --install /home/kllemo/ros2_ws/build/kleman_interface

@@ -1,0 +1,622 @@
+[0.226s] DEBUG:colcon:Command line arguments: ['/usr/bin/colcon', 'build', '--symlink-install']
+[0.226s] DEBUG:colcon:Parsed command line arguments: Namespace(log_base=None, log_level=None, verb_name='build', build_base='build', install_base='install', merge_install=False, symlink_install=True, test_result_base=None, continue_on_error=False, executor='parallel', parallel_workers=16, event_handlers=None, ignore_user_meta=False, metas=['./colcon.meta'], base_paths=['.'], packages_ignore=None, packages_ignore_regex=None, paths=None, packages_up_to=None, packages_up_to_regex=None, packages_above=None, packages_above_and_dependencies=None, packages_above_depth=None, packages_select_by_dep=None, packages_skip_by_dep=None, packages_skip_up_to=None, packages_select_build_failed=False, packages_skip_build_finished=False, packages_select_test_failures=False, packages_skip_test_passed=False, packages_select=None, packages_skip=None, packages_select_regex=None, packages_skip_regex=None, packages_start=None, packages_end=None, allow_overriding=[], cmake_args=None, cmake_target=None, cmake_target_skip_unavailable=False, cmake_clean_cache=False, cmake_clean_first=False, cmake_force_configure=False, ament_cmake_args=None, catkin_cmake_args=None, catkin_skip_building_tests=False, mixin_files=None, mixin=None, verb_parser=<colcon_mixin.mixin.mixin_argument.MixinArgumentDecorator object at 0x7490d8381760>, verb_extension=<colcon_core.verb.build.BuildVerb object at 0x7490d8381040>, main=<bound method BuildVerb.main of <colcon_core.verb.build.BuildVerb object at 0x7490d8381040>>, mixin_verb=('build',))
+[0.306s] Level 1:colcon.colcon_core.package_discovery:discover_packages(colcon_meta) check parameters
+[0.307s] Level 1:colcon.colcon_core.package_discovery:discover_packages(recursive) check parameters
+[0.307s] Level 1:colcon.colcon_core.package_discovery:discover_packages(ignore) check parameters
+[0.307s] Level 1:colcon.colcon_core.package_discovery:discover_packages(path) check parameters
+[0.307s] Level 1:colcon.colcon_core.package_discovery:discover_packages(colcon_meta) discover
+[0.307s] Level 1:colcon.colcon_core.package_discovery:discover_packages(recursive) discover
+[0.307s] INFO:colcon.colcon_core.package_discovery:Crawling recursively for packages in '/home/kllemo/ros2_ws'
+[0.307s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['ignore', 'ignore_ament_install']
+[0.307s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'ignore'
+[0.308s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'ignore_ament_install'
+[0.308s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['colcon_pkg']
+[0.308s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'colcon_pkg'
+[0.308s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['colcon_meta']
+[0.308s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'colcon_meta'
+[0.308s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['ros']
+[0.308s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'ros'
+[0.363s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['cmake', 'python']
+[0.363s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'cmake'
+[0.363s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'python'
+[0.363s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['python_setup_py']
+[0.363s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'python_setup_py'
+[0.364s] Level 1:colcon.colcon_core.package_identification:_identify(build) by extensions ['ignore', 'ignore_ament_install']
+[0.364s] Level 1:colcon.colcon_core.package_identification:_identify(build) by extension 'ignore'
+[0.364s] Level 1:colcon.colcon_core.package_identification:_identify(build) ignored
+[0.364s] Level 1:colcon.colcon_core.package_identification:_identify(install) by extensions ['ignore', 'ignore_ament_install']
+[0.364s] Level 1:colcon.colcon_core.package_identification:_identify(install) by extension 'ignore'
+[0.364s] Level 1:colcon.colcon_core.package_identification:_identify(install) ignored
+[0.365s] Level 1:colcon.colcon_core.package_identification:_identify(log) by extensions ['ignore', 'ignore_ament_install']
+[0.365s] Level 1:colcon.colcon_core.package_identification:_identify(log) by extension 'ignore'
+[0.365s] Level 1:colcon.colcon_core.package_identification:_identify(log) ignored
+[0.365s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['ignore', 'ignore_ament_install']
+[0.365s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'ignore'
+[0.365s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'ignore_ament_install'
+[0.365s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['colcon_pkg']
+[0.365s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'colcon_pkg'
+[0.366s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['colcon_meta']
+[0.366s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'colcon_meta'
+[0.366s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['ros']
+[0.366s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'ros'
+[0.366s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['cmake', 'python']
+[0.366s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'cmake'
+[0.366s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'python'
+[0.366s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['python_setup_py']
+[0.366s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'python_setup_py'
+[0.366s] Level 1:colcon.colcon_core.package_identification:_identify(src/abb_irb4600_ikfast) by extensions ['ignore', 'ignore_ament_install']
+[0.367s] Level 1:colcon.colcon_core.package_identification:_identify(src/abb_irb4600_ikfast) by extension 'ignore'
+[0.367s] Level 1:colcon.colcon_core.package_identification:_identify(src/abb_irb4600_ikfast) by extension 'ignore_ament_install'
+[0.367s] Level 1:colcon.colcon_core.package_identification:_identify(src/abb_irb4600_ikfast) by extensions ['colcon_pkg']
+[0.367s] Level 1:colcon.colcon_core.package_identification:_identify(src/abb_irb4600_ikfast) by extension 'colcon_pkg'
+[0.367s] Level 1:colcon.colcon_core.package_identification:_identify(src/abb_irb4600_ikfast) by extensions ['colcon_meta']
+[0.367s] Level 1:colcon.colcon_core.package_identification:_identify(src/abb_irb4600_ikfast) by extension 'colcon_meta'
+[0.367s] Level 1:colcon.colcon_core.package_identification:_identify(src/abb_irb4600_ikfast) by extensions ['ros']
+[0.367s] Level 1:colcon.colcon_core.package_identification:_identify(src/abb_irb4600_ikfast) by extension 'ros'
+[0.372s] DEBUG:colcon.colcon_core.package_identification:Package 'src/abb_irb4600_ikfast' with type 'ros.ament_cmake' and name 'abb_irb4600_ikfast'
+[0.373s] Level 1:colcon.colcon_core.package_identification:_identify(src/abb_model) by extensions ['ignore', 'ignore_ament_install']
+[0.373s] Level 1:colcon.colcon_core.package_identification:_identify(src/abb_model) by extension 'ignore'
+[0.373s] Level 1:colcon.colcon_core.package_identification:_identify(src/abb_model) by extension 'ignore_ament_install'
+[0.373s] Level 1:colcon.colcon_core.package_identification:_identify(src/abb_model) by extensions ['colcon_pkg']
+[0.373s] Level 1:colcon.colcon_core.package_identification:_identify(src/abb_model) by extension 'colcon_pkg'
+[0.373s] Level 1:colcon.colcon_core.package_identification:_identify(src/abb_model) by extensions ['colcon_meta']
+[0.373s] Level 1:colcon.colcon_core.package_identification:_identify(src/abb_model) by extension 'colcon_meta'
+[0.374s] Level 1:colcon.colcon_core.package_identification:_identify(src/abb_model) by extensions ['ros']
+[0.374s] Level 1:colcon.colcon_core.package_identification:_identify(src/abb_model) by extension 'ros'
+[0.375s] DEBUG:colcon.colcon_core.package_identification:Package 'src/abb_model' with type 'ros.ament_cmake' and name 'abb_model'
+[0.375s] Level 1:colcon.colcon_core.package_identification:_identify(src/block1_kleman) by extensions ['ignore', 'ignore_ament_install']
+[0.375s] Level 1:colcon.colcon_core.package_identification:_identify(src/block1_kleman) by extension 'ignore'
+[0.375s] Level 1:colcon.colcon_core.package_identification:_identify(src/block1_kleman) by extension 'ignore_ament_install'
+[0.375s] Level 1:colcon.colcon_core.package_identification:_identify(src/block1_kleman) by extensions ['colcon_pkg']
+[0.375s] Level 1:colcon.colcon_core.package_identification:_identify(src/block1_kleman) by extension 'colcon_pkg'
+[0.375s] Level 1:colcon.colcon_core.package_identification:_identify(src/block1_kleman) by extensions ['colcon_meta']
+[0.375s] Level 1:colcon.colcon_core.package_identification:_identify(src/block1_kleman) by extension 'colcon_meta'
+[0.376s] Level 1:colcon.colcon_core.package_identification:_identify(src/block1_kleman) by extensions ['ros']
+[0.376s] Level 1:colcon.colcon_core.package_identification:_identify(src/block1_kleman) by extension 'ros'
+[0.377s] DEBUG:colcon.colcon_core.package_identification:Package 'src/block1_kleman' with type 'ros.ament_cmake' and name 'block1_kleman'
+[0.377s] Level 1:colcon.colcon_core.package_identification:_identify(src/cvicenie_2) by extensions ['ignore', 'ignore_ament_install']
+[0.378s] Level 1:colcon.colcon_core.package_identification:_identify(src/cvicenie_2) by extension 'ignore'
+[0.378s] Level 1:colcon.colcon_core.package_identification:_identify(src/cvicenie_2) by extension 'ignore_ament_install'
+[0.378s] Level 1:colcon.colcon_core.package_identification:_identify(src/cvicenie_2) by extensions ['colcon_pkg']
+[0.378s] Level 1:colcon.colcon_core.package_identification:_identify(src/cvicenie_2) by extension 'colcon_pkg'
+[0.378s] Level 1:colcon.colcon_core.package_identification:_identify(src/cvicenie_2) by extensions ['colcon_meta']
+[0.378s] Level 1:colcon.colcon_core.package_identification:_identify(src/cvicenie_2) by extension 'colcon_meta'
+[0.378s] Level 1:colcon.colcon_core.package_identification:_identify(src/cvicenie_2) by extensions ['ros']
+[0.378s] Level 1:colcon.colcon_core.package_identification:_identify(src/cvicenie_2) by extension 'ros'
+[0.378s] Level 1:colcon.colcon_core.package_identification:_identify(src/cvicenie_2) by extensions ['cmake', 'python']
+[0.378s] Level 1:colcon.colcon_core.package_identification:_identify(src/cvicenie_2) by extension 'cmake'
+[0.379s] Level 1:colcon.colcon_core.package_identification:_identify(src/cvicenie_2) by extension 'python'
+[0.379s] Level 1:colcon.colcon_core.package_identification:_identify(src/cvicenie_2) by extensions ['python_setup_py']
+[0.379s] Level 1:colcon.colcon_core.package_identification:_identify(src/cvicenie_2) by extension 'python_setup_py'
+[0.379s] Level 1:colcon.colcon_core.package_identification:_identify(src/cvicenie_2/rrm_msgs) by extensions ['ignore', 'ignore_ament_install']
+[0.379s] Level 1:colcon.colcon_core.package_identification:_identify(src/cvicenie_2/rrm_msgs) by extension 'ignore'
+[0.379s] Level 1:colcon.colcon_core.package_identification:_identify(src/cvicenie_2/rrm_msgs) by extension 'ignore_ament_install'
+[0.379s] Level 1:colcon.colcon_core.package_identification:_identify(src/cvicenie_2/rrm_msgs) by extensions ['colcon_pkg']
+[0.379s] Level 1:colcon.colcon_core.package_identification:_identify(src/cvicenie_2/rrm_msgs) by extension 'colcon_pkg'
+[0.379s] Level 1:colcon.colcon_core.package_identification:_identify(src/cvicenie_2/rrm_msgs) by extensions ['colcon_meta']
+[0.379s] Level 1:colcon.colcon_core.package_identification:_identify(src/cvicenie_2/rrm_msgs) by extension 'colcon_meta'
+[0.380s] Level 1:colcon.colcon_core.package_identification:_identify(src/cvicenie_2/rrm_msgs) by extensions ['ros']
+[0.380s] Level 1:colcon.colcon_core.package_identification:_identify(src/cvicenie_2/rrm_msgs) by extension 'ros'
+[0.381s] DEBUG:colcon.colcon_core.package_identification:Package 'src/cvicenie_2/rrm_msgs' with type 'ros.ament_cmake' and name 'rrm_msgs'
+[0.381s] Level 1:colcon.colcon_core.package_identification:_identify(src/cvicenie_2/rrm_sim) by extensions ['ignore', 'ignore_ament_install']
+[0.381s] Level 1:colcon.colcon_core.package_identification:_identify(src/cvicenie_2/rrm_sim) by extension 'ignore'
+[0.381s] Level 1:colcon.colcon_core.package_identification:_identify(src/cvicenie_2/rrm_sim) by extension 'ignore_ament_install'
+[0.381s] Level 1:colcon.colcon_core.package_identification:_identify(src/cvicenie_2/rrm_sim) by extensions ['colcon_pkg']
+[0.382s] Level 1:colcon.colcon_core.package_identification:_identify(src/cvicenie_2/rrm_sim) by extension 'colcon_pkg'
+[0.382s] Level 1:colcon.colcon_core.package_identification:_identify(src/cvicenie_2/rrm_sim) by extensions ['colcon_meta']
+[0.382s] Level 1:colcon.colcon_core.package_identification:_identify(src/cvicenie_2/rrm_sim) by extension 'colcon_meta'
+[0.382s] Level 1:colcon.colcon_core.package_identification:_identify(src/cvicenie_2/rrm_sim) by extensions ['ros']
+[0.382s] Level 1:colcon.colcon_core.package_identification:_identify(src/cvicenie_2/rrm_sim) by extension 'ros'
+[0.383s] DEBUG:colcon.colcon_core.package_identification:Package 'src/cvicenie_2/rrm_sim' with type 'ros.ament_cmake' and name 'rrm_sim'
+[0.383s] Level 1:colcon.colcon_core.package_identification:_identify(src/cvicenie_2/rrm_simple_robot_model) by extensions ['ignore', 'ignore_ament_install']
+[0.383s] Level 1:colcon.colcon_core.package_identification:_identify(src/cvicenie_2/rrm_simple_robot_model) by extension 'ignore'
+[0.384s] Level 1:colcon.colcon_core.package_identification:_identify(src/cvicenie_2/rrm_simple_robot_model) by extension 'ignore_ament_install'
+[0.384s] Level 1:colcon.colcon_core.package_identification:_identify(src/cvicenie_2/rrm_simple_robot_model) by extensions ['colcon_pkg']
+[0.384s] Level 1:colcon.colcon_core.package_identification:_identify(src/cvicenie_2/rrm_simple_robot_model) by extension 'colcon_pkg'
+[0.384s] Level 1:colcon.colcon_core.package_identification:_identify(src/cvicenie_2/rrm_simple_robot_model) by extensions ['colcon_meta']
+[0.384s] Level 1:colcon.colcon_core.package_identification:_identify(src/cvicenie_2/rrm_simple_robot_model) by extension 'colcon_meta'
+[0.384s] Level 1:colcon.colcon_core.package_identification:_identify(src/cvicenie_2/rrm_simple_robot_model) by extensions ['ros']
+[0.384s] Level 1:colcon.colcon_core.package_identification:_identify(src/cvicenie_2/rrm_simple_robot_model) by extension 'ros'
+[0.385s] DEBUG:colcon.colcon_core.package_identification:Package 'src/cvicenie_2/rrm_simple_robot_model' with type 'ros.ament_cmake' and name 'rrm_simple_robot_model'
+[0.385s] Level 1:colcon.colcon_core.package_identification:_identify(src/kleman_interface) by extensions ['ignore', 'ignore_ament_install']
+[0.385s] Level 1:colcon.colcon_core.package_identification:_identify(src/kleman_interface) by extension 'ignore'
+[0.385s] Level 1:colcon.colcon_core.package_identification:_identify(src/kleman_interface) by extension 'ignore_ament_install'
+[0.386s] Level 1:colcon.colcon_core.package_identification:_identify(src/kleman_interface) by extensions ['colcon_pkg']
+[0.386s] Level 1:colcon.colcon_core.package_identification:_identify(src/kleman_interface) by extension 'colcon_pkg'
+[0.386s] Level 1:colcon.colcon_core.package_identification:_identify(src/kleman_interface) by extensions ['colcon_meta']
+[0.386s] Level 1:colcon.colcon_core.package_identification:_identify(src/kleman_interface) by extension 'colcon_meta'
+[0.386s] Level 1:colcon.colcon_core.package_identification:_identify(src/kleman_interface) by extensions ['ros']
+[0.386s] Level 1:colcon.colcon_core.package_identification:_identify(src/kleman_interface) by extension 'ros'
+[0.387s] DEBUG:colcon.colcon_core.package_identification:Package 'src/kleman_interface' with type 'ros.ament_cmake' and name 'kleman_interface'
+[0.387s] Level 1:colcon.colcon_core.package_identification:_identify(src/msg) by extensions ['ignore', 'ignore_ament_install']
+[0.387s] Level 1:colcon.colcon_core.package_identification:_identify(src/msg) by extension 'ignore'
+[0.387s] Level 1:colcon.colcon_core.package_identification:_identify(src/msg) by extension 'ignore_ament_install'
+[0.387s] Level 1:colcon.colcon_core.package_identification:_identify(src/msg) by extensions ['colcon_pkg']
+[0.388s] Level 1:colcon.colcon_core.package_identification:_identify(src/msg) by extension 'colcon_pkg'
+[0.388s] Level 1:colcon.colcon_core.package_identification:_identify(src/msg) by extensions ['colcon_meta']
+[0.388s] Level 1:colcon.colcon_core.package_identification:_identify(src/msg) by extension 'colcon_meta'
+[0.388s] Level 1:colcon.colcon_core.package_identification:_identify(src/msg) by extensions ['ros']
+[0.388s] Level 1:colcon.colcon_core.package_identification:_identify(src/msg) by extension 'ros'
+[0.388s] Level 1:colcon.colcon_core.package_identification:_identify(src/msg) by extensions ['cmake', 'python']
+[0.388s] Level 1:colcon.colcon_core.package_identification:_identify(src/msg) by extension 'cmake'
+[0.388s] Level 1:colcon.colcon_core.package_identification:_identify(src/msg) by extension 'python'
+[0.388s] Level 1:colcon.colcon_core.package_identification:_identify(src/msg) by extensions ['python_setup_py']
+[0.388s] Level 1:colcon.colcon_core.package_identification:_identify(src/msg) by extension 'python_setup_py'
+[0.388s] Level 1:colcon.colcon_core.package_identification:_identify(src/srv) by extensions ['ignore', 'ignore_ament_install']
+[0.389s] Level 1:colcon.colcon_core.package_identification:_identify(src/srv) by extension 'ignore'
+[0.389s] Level 1:colcon.colcon_core.package_identification:_identify(src/srv) by extension 'ignore_ament_install'
+[0.389s] Level 1:colcon.colcon_core.package_identification:_identify(src/srv) by extensions ['colcon_pkg']
+[0.389s] Level 1:colcon.colcon_core.package_identification:_identify(src/srv) by extension 'colcon_pkg'
+[0.389s] Level 1:colcon.colcon_core.package_identification:_identify(src/srv) by extensions ['colcon_meta']
+[0.389s] Level 1:colcon.colcon_core.package_identification:_identify(src/srv) by extension 'colcon_meta'
+[0.389s] Level 1:colcon.colcon_core.package_identification:_identify(src/srv) by extensions ['ros']
+[0.389s] Level 1:colcon.colcon_core.package_identification:_identify(src/srv) by extension 'ros'
+[0.389s] Level 1:colcon.colcon_core.package_identification:_identify(src/srv) by extensions ['cmake', 'python']
+[0.389s] Level 1:colcon.colcon_core.package_identification:_identify(src/srv) by extension 'cmake'
+[0.389s] Level 1:colcon.colcon_core.package_identification:_identify(src/srv) by extension 'python'
+[0.389s] Level 1:colcon.colcon_core.package_identification:_identify(src/srv) by extensions ['python_setup_py']
+[0.389s] Level 1:colcon.colcon_core.package_identification:_identify(src/srv) by extension 'python_setup_py'
+[0.390s] Level 1:colcon.colcon_core.package_identification:_identify(src/stl_modely) by extensions ['ignore', 'ignore_ament_install']
+[0.390s] Level 1:colcon.colcon_core.package_identification:_identify(src/stl_modely) by extension 'ignore'
+[0.390s] Level 1:colcon.colcon_core.package_identification:_identify(src/stl_modely) by extension 'ignore_ament_install'
+[0.390s] Level 1:colcon.colcon_core.package_identification:_identify(src/stl_modely) by extensions ['colcon_pkg']
+[0.390s] Level 1:colcon.colcon_core.package_identification:_identify(src/stl_modely) by extension 'colcon_pkg'
+[0.390s] Level 1:colcon.colcon_core.package_identification:_identify(src/stl_modely) by extensions ['colcon_meta']
+[0.390s] Level 1:colcon.colcon_core.package_identification:_identify(src/stl_modely) by extension 'colcon_meta'
+[0.390s] Level 1:colcon.colcon_core.package_identification:_identify(src/stl_modely) by extensions ['ros']
+[0.390s] Level 1:colcon.colcon_core.package_identification:_identify(src/stl_modely) by extension 'ros'
+[0.390s] Level 1:colcon.colcon_core.package_identification:_identify(src/stl_modely) by extensions ['cmake', 'python']
+[0.390s] Level 1:colcon.colcon_core.package_identification:_identify(src/stl_modely) by extension 'cmake'
+[0.391s] Level 1:colcon.colcon_core.package_identification:_identify(src/stl_modely) by extension 'python'
+[0.391s] Level 1:colcon.colcon_core.package_identification:_identify(src/stl_modely) by extensions ['python_setup_py']
+[0.391s] Level 1:colcon.colcon_core.package_identification:_identify(src/stl_modely) by extension 'python_setup_py'
+[0.391s] Level 1:colcon.colcon_core.package_discovery:discover_packages(recursive) using defaults
+[0.391s] Level 1:colcon.colcon_core.package_discovery:discover_packages(ignore) discover
+[0.391s] Level 1:colcon.colcon_core.package_discovery:discover_packages(ignore) using defaults
+[0.391s] Level 1:colcon.colcon_core.package_discovery:discover_packages(path) discover
+[0.391s] Level 1:colcon.colcon_core.package_discovery:discover_packages(path) using defaults
+[0.431s] Level 1:colcon.colcon_core.package_discovery:discover_packages(prefix_path) check parameters
+[0.432s] Level 1:colcon.colcon_core.package_discovery:discover_packages(prefix_path) discover
+[0.437s] DEBUG:colcon.colcon_installed_package_information.package_discovery:Found 289 installed packages in /opt/ros/jazzy
+[0.439s] Level 1:colcon.colcon_core.package_discovery:discover_packages(prefix_path) using defaults
+[0.521s] Level 5:colcon.colcon_core.verb:set package 'abb_irb4600_ikfast' build argument 'cmake_args' from command line to 'None'
+[0.521s] Level 5:colcon.colcon_core.verb:set package 'abb_irb4600_ikfast' build argument 'cmake_target' from command line to 'None'
+[0.521s] Level 5:colcon.colcon_core.verb:set package 'abb_irb4600_ikfast' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[0.521s] Level 5:colcon.colcon_core.verb:set package 'abb_irb4600_ikfast' build argument 'cmake_clean_cache' from command line to 'False'
+[0.521s] Level 5:colcon.colcon_core.verb:set package 'abb_irb4600_ikfast' build argument 'cmake_clean_first' from command line to 'False'
+[0.522s] Level 5:colcon.colcon_core.verb:set package 'abb_irb4600_ikfast' build argument 'cmake_force_configure' from command line to 'False'
+[0.522s] Level 5:colcon.colcon_core.verb:set package 'abb_irb4600_ikfast' build argument 'ament_cmake_args' from command line to 'None'
+[0.522s] Level 5:colcon.colcon_core.verb:set package 'abb_irb4600_ikfast' build argument 'catkin_cmake_args' from command line to 'None'
+[0.522s] Level 5:colcon.colcon_core.verb:set package 'abb_irb4600_ikfast' build argument 'catkin_skip_building_tests' from command line to 'False'
+[0.522s] DEBUG:colcon.colcon_core.verb:Building package 'abb_irb4600_ikfast' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/kllemo/ros2_ws/build/abb_irb4600_ikfast', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/kllemo/ros2_ws/install/abb_irb4600_ikfast', 'merge_install': False, 'path': '/home/kllemo/ros2_ws/src/abb_irb4600_ikfast', 'symlink_install': True, 'test_result_base': None}
+[0.522s] Level 5:colcon.colcon_core.verb:set package 'abb_model' build argument 'cmake_args' from command line to 'None'
+[0.522s] Level 5:colcon.colcon_core.verb:set package 'abb_model' build argument 'cmake_target' from command line to 'None'
+[0.522s] Level 5:colcon.colcon_core.verb:set package 'abb_model' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[0.522s] Level 5:colcon.colcon_core.verb:set package 'abb_model' build argument 'cmake_clean_cache' from command line to 'False'
+[0.522s] Level 5:colcon.colcon_core.verb:set package 'abb_model' build argument 'cmake_clean_first' from command line to 'False'
+[0.522s] Level 5:colcon.colcon_core.verb:set package 'abb_model' build argument 'cmake_force_configure' from command line to 'False'
+[0.523s] Level 5:colcon.colcon_core.verb:set package 'abb_model' build argument 'ament_cmake_args' from command line to 'None'
+[0.523s] Level 5:colcon.colcon_core.verb:set package 'abb_model' build argument 'catkin_cmake_args' from command line to 'None'
+[0.523s] Level 5:colcon.colcon_core.verb:set package 'abb_model' build argument 'catkin_skip_building_tests' from command line to 'False'
+[0.523s] DEBUG:colcon.colcon_core.verb:Building package 'abb_model' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/kllemo/ros2_ws/build/abb_model', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/kllemo/ros2_ws/install/abb_model', 'merge_install': False, 'path': '/home/kllemo/ros2_ws/src/abb_model', 'symlink_install': True, 'test_result_base': None}
+[0.523s] Level 5:colcon.colcon_core.verb:set package 'kleman_interface' build argument 'cmake_args' from command line to 'None'
+[0.523s] Level 5:colcon.colcon_core.verb:set package 'kleman_interface' build argument 'cmake_target' from command line to 'None'
+[0.523s] Level 5:colcon.colcon_core.verb:set package 'kleman_interface' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[0.523s] Level 5:colcon.colcon_core.verb:set package 'kleman_interface' build argument 'cmake_clean_cache' from command line to 'False'
+[0.523s] Level 5:colcon.colcon_core.verb:set package 'kleman_interface' build argument 'cmake_clean_first' from command line to 'False'
+[0.523s] Level 5:colcon.colcon_core.verb:set package 'kleman_interface' build argument 'cmake_force_configure' from command line to 'False'
+[0.523s] Level 5:colcon.colcon_core.verb:set package 'kleman_interface' build argument 'ament_cmake_args' from command line to 'None'
+[0.523s] Level 5:colcon.colcon_core.verb:set package 'kleman_interface' build argument 'catkin_cmake_args' from command line to 'None'
+[0.523s] Level 5:colcon.colcon_core.verb:set package 'kleman_interface' build argument 'catkin_skip_building_tests' from command line to 'False'
+[0.524s] DEBUG:colcon.colcon_core.verb:Building package 'kleman_interface' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/kllemo/ros2_ws/build/kleman_interface', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/kllemo/ros2_ws/install/kleman_interface', 'merge_install': False, 'path': '/home/kllemo/ros2_ws/src/kleman_interface', 'symlink_install': True, 'test_result_base': None}
+[0.524s] Level 5:colcon.colcon_core.verb:set package 'rrm_msgs' build argument 'cmake_args' from command line to 'None'
+[0.524s] Level 5:colcon.colcon_core.verb:set package 'rrm_msgs' build argument 'cmake_target' from command line to 'None'
+[0.524s] Level 5:colcon.colcon_core.verb:set package 'rrm_msgs' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[0.524s] Level 5:colcon.colcon_core.verb:set package 'rrm_msgs' build argument 'cmake_clean_cache' from command line to 'False'
+[0.524s] Level 5:colcon.colcon_core.verb:set package 'rrm_msgs' build argument 'cmake_clean_first' from command line to 'False'
+[0.524s] Level 5:colcon.colcon_core.verb:set package 'rrm_msgs' build argument 'cmake_force_configure' from command line to 'False'
+[0.524s] Level 5:colcon.colcon_core.verb:set package 'rrm_msgs' build argument 'ament_cmake_args' from command line to 'None'
+[0.524s] Level 5:colcon.colcon_core.verb:set package 'rrm_msgs' build argument 'catkin_cmake_args' from command line to 'None'
+[0.524s] Level 5:colcon.colcon_core.verb:set package 'rrm_msgs' build argument 'catkin_skip_building_tests' from command line to 'False'
+[0.524s] DEBUG:colcon.colcon_core.verb:Building package 'rrm_msgs' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/kllemo/ros2_ws/build/rrm_msgs', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/kllemo/ros2_ws/install/rrm_msgs', 'merge_install': False, 'path': '/home/kllemo/ros2_ws/src/cvicenie_2/rrm_msgs', 'symlink_install': True, 'test_result_base': None}
+[0.525s] Level 5:colcon.colcon_core.verb:set package 'rrm_simple_robot_model' build argument 'cmake_args' from command line to 'None'
+[0.525s] Level 5:colcon.colcon_core.verb:set package 'rrm_simple_robot_model' build argument 'cmake_target' from command line to 'None'
+[0.525s] Level 5:colcon.colcon_core.verb:set package 'rrm_simple_robot_model' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[0.525s] Level 5:colcon.colcon_core.verb:set package 'rrm_simple_robot_model' build argument 'cmake_clean_cache' from command line to 'False'
+[0.525s] Level 5:colcon.colcon_core.verb:set package 'rrm_simple_robot_model' build argument 'cmake_clean_first' from command line to 'False'
+[0.525s] Level 5:colcon.colcon_core.verb:set package 'rrm_simple_robot_model' build argument 'cmake_force_configure' from command line to 'False'
+[0.525s] Level 5:colcon.colcon_core.verb:set package 'rrm_simple_robot_model' build argument 'ament_cmake_args' from command line to 'None'
+[0.525s] Level 5:colcon.colcon_core.verb:set package 'rrm_simple_robot_model' build argument 'catkin_cmake_args' from command line to 'None'
+[0.525s] Level 5:colcon.colcon_core.verb:set package 'rrm_simple_robot_model' build argument 'catkin_skip_building_tests' from command line to 'False'
+[0.525s] DEBUG:colcon.colcon_core.verb:Building package 'rrm_simple_robot_model' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/kllemo/ros2_ws/build/rrm_simple_robot_model', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/kllemo/ros2_ws/install/rrm_simple_robot_model', 'merge_install': False, 'path': '/home/kllemo/ros2_ws/src/cvicenie_2/rrm_simple_robot_model', 'symlink_install': True, 'test_result_base': None}
+[0.526s] Level 5:colcon.colcon_core.verb:set package 'block1_kleman' build argument 'cmake_args' from command line to 'None'
+[0.526s] Level 5:colcon.colcon_core.verb:set package 'block1_kleman' build argument 'cmake_target' from command line to 'None'
+[0.526s] Level 5:colcon.colcon_core.verb:set package 'block1_kleman' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[0.526s] Level 5:colcon.colcon_core.verb:set package 'block1_kleman' build argument 'cmake_clean_cache' from command line to 'False'
+[0.526s] Level 5:colcon.colcon_core.verb:set package 'block1_kleman' build argument 'cmake_clean_first' from command line to 'False'
+[0.526s] Level 5:colcon.colcon_core.verb:set package 'block1_kleman' build argument 'cmake_force_configure' from command line to 'False'
+[0.526s] Level 5:colcon.colcon_core.verb:set package 'block1_kleman' build argument 'ament_cmake_args' from command line to 'None'
+[0.526s] Level 5:colcon.colcon_core.verb:set package 'block1_kleman' build argument 'catkin_cmake_args' from command line to 'None'
+[0.526s] Level 5:colcon.colcon_core.verb:set package 'block1_kleman' build argument 'catkin_skip_building_tests' from command line to 'False'
+[0.526s] DEBUG:colcon.colcon_core.verb:Building package 'block1_kleman' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/kllemo/ros2_ws/build/block1_kleman', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/kllemo/ros2_ws/install/block1_kleman', 'merge_install': False, 'path': '/home/kllemo/ros2_ws/src/block1_kleman', 'symlink_install': True, 'test_result_base': None}
+[0.527s] Level 5:colcon.colcon_core.verb:set package 'rrm_sim' build argument 'cmake_args' from command line to 'None'
+[0.527s] Level 5:colcon.colcon_core.verb:set package 'rrm_sim' build argument 'cmake_target' from command line to 'None'
+[0.527s] Level 5:colcon.colcon_core.verb:set package 'rrm_sim' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[0.527s] Level 5:colcon.colcon_core.verb:set package 'rrm_sim' build argument 'cmake_clean_cache' from command line to 'False'
+[0.527s] Level 5:colcon.colcon_core.verb:set package 'rrm_sim' build argument 'cmake_clean_first' from command line to 'False'
+[0.527s] Level 5:colcon.colcon_core.verb:set package 'rrm_sim' build argument 'cmake_force_configure' from command line to 'False'
+[0.527s] Level 5:colcon.colcon_core.verb:set package 'rrm_sim' build argument 'ament_cmake_args' from command line to 'None'
+[0.527s] Level 5:colcon.colcon_core.verb:set package 'rrm_sim' build argument 'catkin_cmake_args' from command line to 'None'
+[0.527s] Level 5:colcon.colcon_core.verb:set package 'rrm_sim' build argument 'catkin_skip_building_tests' from command line to 'False'
+[0.527s] DEBUG:colcon.colcon_core.verb:Building package 'rrm_sim' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/kllemo/ros2_ws/build/rrm_sim', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/kllemo/ros2_ws/install/rrm_sim', 'merge_install': False, 'path': '/home/kllemo/ros2_ws/src/cvicenie_2/rrm_sim', 'symlink_install': True, 'test_result_base': None}
+[0.527s] INFO:colcon.colcon_core.executor:Executing jobs using 'parallel' executor
+[0.529s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:run_until_complete
+[0.529s] INFO:colcon.colcon_ros.task.ament_cmake.build:Building ROS package in '/home/kllemo/ros2_ws/src/abb_irb4600_ikfast' with build type 'ament_cmake'
+[0.530s] INFO:colcon.colcon_cmake.task.cmake.build:Building CMake package in '/home/kllemo/ros2_ws/src/abb_irb4600_ikfast'
+[0.533s] INFO:colcon.colcon_core.plugin_system:Skipping extension 'colcon_core.shell.bat': Not used on non-Windows systems
+[0.534s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[0.534s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[0.539s] INFO:colcon.colcon_ros.task.ament_cmake.build:Building ROS package in '/home/kllemo/ros2_ws/src/abb_model' with build type 'ament_cmake'
+[0.539s] INFO:colcon.colcon_cmake.task.cmake.build:Building CMake package in '/home/kllemo/ros2_ws/src/abb_model'
+[0.540s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[0.540s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[0.544s] INFO:colcon.colcon_ros.task.ament_cmake.build:Building ROS package in '/home/kllemo/ros2_ws/src/cvicenie_2/rrm_msgs' with build type 'ament_cmake'
+[0.544s] INFO:colcon.colcon_cmake.task.cmake.build:Building CMake package in '/home/kllemo/ros2_ws/src/cvicenie_2/rrm_msgs'
+[0.545s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[0.545s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[0.549s] INFO:colcon.colcon_ros.task.ament_cmake.build:Building ROS package in '/home/kllemo/ros2_ws/src/kleman_interface' with build type 'ament_cmake'
+[0.550s] INFO:colcon.colcon_cmake.task.cmake.build:Building CMake package in '/home/kllemo/ros2_ws/src/kleman_interface'
+[0.550s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[0.550s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[0.555s] INFO:colcon.colcon_ros.task.ament_cmake.build:Building ROS package in '/home/kllemo/ros2_ws/src/cvicenie_2/rrm_simple_robot_model' with build type 'ament_cmake'
+[0.555s] INFO:colcon.colcon_cmake.task.cmake.build:Building CMake package in '/home/kllemo/ros2_ws/src/cvicenie_2/rrm_simple_robot_model'
+[0.555s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[0.555s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[0.567s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/kllemo/ros2_ws/build/abb_irb4600_ikfast': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake /home/kllemo/ros2_ws/src/abb_irb4600_ikfast -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/home/kllemo/ros2_ws/install/abb_irb4600_ikfast
+[0.570s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/kllemo/ros2_ws/build/abb_model': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake /home/kllemo/ros2_ws/src/abb_model -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/home/kllemo/ros2_ws/install/abb_model
+[0.572s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/kllemo/ros2_ws/build/rrm_msgs': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake /home/kllemo/ros2_ws/src/cvicenie_2/rrm_msgs -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/home/kllemo/ros2_ws/install/rrm_msgs
+[0.578s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/kllemo/ros2_ws/build/kleman_interface': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake /home/kllemo/ros2_ws/src/kleman_interface -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/home/kllemo/ros2_ws/install/kleman_interface
+[0.586s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/kllemo/ros2_ws/build/rrm_simple_robot_model': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake /home/kllemo/ros2_ws/src/cvicenie_2/rrm_simple_robot_model -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/home/kllemo/ros2_ws/install/rrm_simple_robot_model
+[1.946s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/kllemo/ros2_ws/build/rrm_simple_robot_model' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake /home/kllemo/ros2_ws/src/cvicenie_2/rrm_simple_robot_model -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/home/kllemo/ros2_ws/install/rrm_simple_robot_model
+[1.949s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/kllemo/ros2_ws/build/rrm_simple_robot_model': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --build /home/kllemo/ros2_ws/build/rrm_simple_robot_model -- -j16 -l16
+[1.961s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/kllemo/ros2_ws/build/abb_model' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake /home/kllemo/ros2_ws/src/abb_model -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/home/kllemo/ros2_ws/install/abb_model
+[1.964s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/kllemo/ros2_ws/build/abb_model': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --build /home/kllemo/ros2_ws/build/abb_model -- -j16 -l16
+[1.993s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/kllemo/ros2_ws/build/abb_irb4600_ikfast' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake /home/kllemo/ros2_ws/src/abb_irb4600_ikfast -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/home/kllemo/ros2_ws/install/abb_irb4600_ikfast
+[1.996s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/kllemo/ros2_ws/build/abb_irb4600_ikfast': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --build /home/kllemo/ros2_ws/build/abb_irb4600_ikfast -- -j16 -l16
+[2.026s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/kllemo/ros2_ws/build/rrm_simple_robot_model' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --build /home/kllemo/ros2_ws/build/rrm_simple_robot_model -- -j16 -l16
+[2.046s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/kllemo/ros2_ws/build/rrm_simple_robot_model': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --install /home/kllemo/ros2_ws/build/rrm_simple_robot_model
+[2.049s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/kllemo/ros2_ws/build/abb_model' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --build /home/kllemo/ros2_ws/build/abb_model -- -j16 -l16
+[2.052s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/kllemo/ros2_ws/build/abb_model': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --install /home/kllemo/ros2_ws/build/abb_model
+[2.436s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(rrm_simple_robot_model)
+[2.438s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/kllemo/ros2_ws/build/rrm_simple_robot_model' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --install /home/kllemo/ros2_ws/build/rrm_simple_robot_model
+[2.443s] Level 1:colcon.colcon_core.environment:checking '/home/kllemo/ros2_ws/install/rrm_simple_robot_model' for CMake module files
+[2.445s] Level 1:colcon.colcon_core.environment:checking '/home/kllemo/ros2_ws/install/rrm_simple_robot_model' for CMake config files
+[2.446s] Level 1:colcon.colcon_core.shell:create_environment_hook('rrm_simple_robot_model', 'cmake_prefix_path')
+[2.446s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/kllemo/ros2_ws/install/rrm_simple_robot_model/share/rrm_simple_robot_model/hook/cmake_prefix_path.ps1'
+[2.448s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/kllemo/ros2_ws/install/rrm_simple_robot_model/share/rrm_simple_robot_model/hook/cmake_prefix_path.dsv'
+[2.449s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/kllemo/ros2_ws/install/rrm_simple_robot_model/share/rrm_simple_robot_model/hook/cmake_prefix_path.sh'
+[2.452s] Level 1:colcon.colcon_core.environment:checking '/home/kllemo/ros2_ws/install/rrm_simple_robot_model/bin'
+[2.452s] Level 1:colcon.colcon_core.environment:checking '/home/kllemo/ros2_ws/install/rrm_simple_robot_model/lib/pkgconfig/rrm_simple_robot_model.pc'
+[2.453s] Level 1:colcon.colcon_core.environment:checking '/home/kllemo/ros2_ws/install/rrm_simple_robot_model/lib/python3.12/site-packages'
+[2.454s] Level 1:colcon.colcon_core.environment:checking '/home/kllemo/ros2_ws/install/rrm_simple_robot_model/bin'
+[2.454s] INFO:colcon.colcon_core.shell:Creating package script '/home/kllemo/ros2_ws/install/rrm_simple_robot_model/share/rrm_simple_robot_model/package.ps1'
+[2.456s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/kllemo/ros2_ws/install/rrm_simple_robot_model/share/rrm_simple_robot_model/package.dsv'
+[2.458s] INFO:colcon.colcon_core.shell:Creating package script '/home/kllemo/ros2_ws/install/rrm_simple_robot_model/share/rrm_simple_robot_model/package.sh'
+[2.460s] INFO:colcon.colcon_core.shell:Creating package script '/home/kllemo/ros2_ws/install/rrm_simple_robot_model/share/rrm_simple_robot_model/package.bash'
+[2.461s] INFO:colcon.colcon_core.shell:Creating package script '/home/kllemo/ros2_ws/install/rrm_simple_robot_model/share/rrm_simple_robot_model/package.zsh'
+[2.463s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/kllemo/ros2_ws/install/rrm_simple_robot_model/share/colcon-core/packages/rrm_simple_robot_model)
+[2.464s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(rrm_simple_robot_model)
+[2.465s] Level 1:colcon.colcon_core.environment:checking '/home/kllemo/ros2_ws/install/rrm_simple_robot_model' for CMake module files
+[2.466s] Level 1:colcon.colcon_core.environment:checking '/home/kllemo/ros2_ws/install/rrm_simple_robot_model' for CMake config files
+[2.467s] Level 1:colcon.colcon_core.shell:create_environment_hook('rrm_simple_robot_model', 'cmake_prefix_path')
+[2.467s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/kllemo/ros2_ws/install/rrm_simple_robot_model/share/rrm_simple_robot_model/hook/cmake_prefix_path.ps1'
+[2.468s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/kllemo/ros2_ws/install/rrm_simple_robot_model/share/rrm_simple_robot_model/hook/cmake_prefix_path.dsv'
+[2.469s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/kllemo/ros2_ws/install/rrm_simple_robot_model/share/rrm_simple_robot_model/hook/cmake_prefix_path.sh'
+[2.471s] Level 1:colcon.colcon_core.environment:checking '/home/kllemo/ros2_ws/install/rrm_simple_robot_model/bin'
+[2.471s] Level 1:colcon.colcon_core.environment:checking '/home/kllemo/ros2_ws/install/rrm_simple_robot_model/lib/pkgconfig/rrm_simple_robot_model.pc'
+[2.471s] Level 1:colcon.colcon_core.environment:checking '/home/kllemo/ros2_ws/install/rrm_simple_robot_model/lib/python3.12/site-packages'
+[2.472s] Level 1:colcon.colcon_core.environment:checking '/home/kllemo/ros2_ws/install/rrm_simple_robot_model/bin'
+[2.473s] INFO:colcon.colcon_core.shell:Creating package script '/home/kllemo/ros2_ws/install/rrm_simple_robot_model/share/rrm_simple_robot_model/package.ps1'
+[2.474s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/kllemo/ros2_ws/install/rrm_simple_robot_model/share/rrm_simple_robot_model/package.dsv'
+[2.475s] INFO:colcon.colcon_core.shell:Creating package script '/home/kllemo/ros2_ws/install/rrm_simple_robot_model/share/rrm_simple_robot_model/package.sh'
+[2.476s] INFO:colcon.colcon_core.shell:Creating package script '/home/kllemo/ros2_ws/install/rrm_simple_robot_model/share/rrm_simple_robot_model/package.bash'
+[2.477s] INFO:colcon.colcon_core.shell:Creating package script '/home/kllemo/ros2_ws/install/rrm_simple_robot_model/share/rrm_simple_robot_model/package.zsh'
+[2.478s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/kllemo/ros2_ws/install/rrm_simple_robot_model/share/colcon-core/packages/rrm_simple_robot_model)
+[2.838s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(abb_model)
+[2.839s] Level 1:colcon.colcon_core.environment:checking '/home/kllemo/ros2_ws/install/abb_model' for CMake module files
+[2.840s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/kllemo/ros2_ws/build/abb_model' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --install /home/kllemo/ros2_ws/build/abb_model
+[2.841s] Level 1:colcon.colcon_core.environment:checking '/home/kllemo/ros2_ws/install/abb_model' for CMake config files
+[2.842s] Level 1:colcon.colcon_core.shell:create_environment_hook('abb_model', 'cmake_prefix_path')
+[2.843s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/kllemo/ros2_ws/install/abb_model/share/abb_model/hook/cmake_prefix_path.ps1'
+[2.844s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/kllemo/ros2_ws/install/abb_model/share/abb_model/hook/cmake_prefix_path.dsv'
+[2.845s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/kllemo/ros2_ws/install/abb_model/share/abb_model/hook/cmake_prefix_path.sh'
+[2.847s] Level 1:colcon.colcon_core.environment:checking '/home/kllemo/ros2_ws/install/abb_model/bin'
+[2.847s] Level 1:colcon.colcon_core.environment:checking '/home/kllemo/ros2_ws/install/abb_model/lib/pkgconfig/abb_model.pc'
+[2.847s] Level 1:colcon.colcon_core.environment:checking '/home/kllemo/ros2_ws/install/abb_model/lib/python3.12/site-packages'
+[2.849s] Level 1:colcon.colcon_core.environment:checking '/home/kllemo/ros2_ws/install/abb_model/bin'
+[2.849s] INFO:colcon.colcon_core.shell:Creating package script '/home/kllemo/ros2_ws/install/abb_model/share/abb_model/package.ps1'
+[2.851s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/kllemo/ros2_ws/install/abb_model/share/abb_model/package.dsv'
+[2.852s] INFO:colcon.colcon_core.shell:Creating package script '/home/kllemo/ros2_ws/install/abb_model/share/abb_model/package.sh'
+[2.853s] INFO:colcon.colcon_core.shell:Creating package script '/home/kllemo/ros2_ws/install/abb_model/share/abb_model/package.bash'
+[2.854s] INFO:colcon.colcon_core.shell:Creating package script '/home/kllemo/ros2_ws/install/abb_model/share/abb_model/package.zsh'
+[2.855s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/kllemo/ros2_ws/install/abb_model/share/colcon-core/packages/abb_model)
+[2.856s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(abb_model)
+[2.857s] Level 1:colcon.colcon_core.environment:checking '/home/kllemo/ros2_ws/install/abb_model' for CMake module files
+[2.859s] Level 1:colcon.colcon_core.environment:checking '/home/kllemo/ros2_ws/install/abb_model' for CMake config files
+[2.860s] Level 1:colcon.colcon_core.shell:create_environment_hook('abb_model', 'cmake_prefix_path')
+[2.861s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/kllemo/ros2_ws/install/abb_model/share/abb_model/hook/cmake_prefix_path.ps1'
+[2.862s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/kllemo/ros2_ws/install/abb_model/share/abb_model/hook/cmake_prefix_path.dsv'
+[2.863s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/kllemo/ros2_ws/install/abb_model/share/abb_model/hook/cmake_prefix_path.sh'
+[2.865s] Level 1:colcon.colcon_core.environment:checking '/home/kllemo/ros2_ws/install/abb_model/bin'
+[2.865s] Level 1:colcon.colcon_core.environment:checking '/home/kllemo/ros2_ws/install/abb_model/lib/pkgconfig/abb_model.pc'
+[2.866s] Level 1:colcon.colcon_core.environment:checking '/home/kllemo/ros2_ws/install/abb_model/lib/python3.12/site-packages'
+[2.867s] Level 1:colcon.colcon_core.environment:checking '/home/kllemo/ros2_ws/install/abb_model/bin'
+[2.868s] INFO:colcon.colcon_core.shell:Creating package script '/home/kllemo/ros2_ws/install/abb_model/share/abb_model/package.ps1'
+[2.869s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/kllemo/ros2_ws/install/abb_model/share/abb_model/package.dsv'
+[2.871s] INFO:colcon.colcon_core.shell:Creating package script '/home/kllemo/ros2_ws/install/abb_model/share/abb_model/package.sh'
+[2.872s] INFO:colcon.colcon_core.shell:Creating package script '/home/kllemo/ros2_ws/install/abb_model/share/abb_model/package.bash'
+[2.873s] INFO:colcon.colcon_core.shell:Creating package script '/home/kllemo/ros2_ws/install/abb_model/share/abb_model/package.zsh'
+[2.874s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/kllemo/ros2_ws/install/abb_model/share/colcon-core/packages/abb_model)
+[7.065s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/kllemo/ros2_ws/build/rrm_msgs' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake /home/kllemo/ros2_ws/src/cvicenie_2/rrm_msgs -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/home/kllemo/ros2_ws/install/rrm_msgs
+[7.068s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/kllemo/ros2_ws/build/rrm_msgs': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --build /home/kllemo/ros2_ws/build/rrm_msgs -- -j16 -l16
+[7.123s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/kllemo/ros2_ws/build/kleman_interface' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake /home/kllemo/ros2_ws/src/kleman_interface -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/home/kllemo/ros2_ws/install/kleman_interface
+[7.127s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/kllemo/ros2_ws/build/kleman_interface': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --build /home/kllemo/ros2_ws/build/kleman_interface -- -j16 -l16
+[11.656s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/kllemo/ros2_ws/build/abb_irb4600_ikfast' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --build /home/kllemo/ros2_ws/build/abb_irb4600_ikfast -- -j16 -l16
+[11.657s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/kllemo/ros2_ws/build/abb_irb4600_ikfast': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --install /home/kllemo/ros2_ws/build/abb_irb4600_ikfast
+[12.527s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(abb_irb4600_ikfast)
+[12.528s] Level 1:colcon.colcon_core.environment:checking '/home/kllemo/ros2_ws/install/abb_irb4600_ikfast' for CMake module files
+[12.533s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/kllemo/ros2_ws/build/abb_irb4600_ikfast' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --install /home/kllemo/ros2_ws/build/abb_irb4600_ikfast
+[12.533s] Level 1:colcon.colcon_core.environment:checking '/home/kllemo/ros2_ws/install/abb_irb4600_ikfast' for CMake config files
+[12.534s] Level 1:colcon.colcon_core.shell:create_environment_hook('abb_irb4600_ikfast', 'cmake_prefix_path')
+[12.535s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/kllemo/ros2_ws/install/abb_irb4600_ikfast/share/abb_irb4600_ikfast/hook/cmake_prefix_path.ps1'
+[12.543s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/kllemo/ros2_ws/install/abb_irb4600_ikfast/share/abb_irb4600_ikfast/hook/cmake_prefix_path.dsv'
+[12.544s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/kllemo/ros2_ws/install/abb_irb4600_ikfast/share/abb_irb4600_ikfast/hook/cmake_prefix_path.sh'
+[12.548s] Level 1:colcon.colcon_core.environment:checking '/home/kllemo/ros2_ws/install/abb_irb4600_ikfast/lib'
+[12.548s] Level 1:colcon.colcon_core.environment:checking '/home/kllemo/ros2_ws/install/abb_irb4600_ikfast/bin'
+[12.549s] Level 1:colcon.colcon_core.environment:checking '/home/kllemo/ros2_ws/install/abb_irb4600_ikfast/lib/pkgconfig/abb_irb4600_ikfast.pc'
+[12.549s] Level 1:colcon.colcon_core.environment:checking '/home/kllemo/ros2_ws/install/abb_irb4600_ikfast/lib/python3.12/site-packages'
+[12.551s] Level 1:colcon.colcon_core.environment:checking '/home/kllemo/ros2_ws/install/abb_irb4600_ikfast/bin'
+[12.551s] INFO:colcon.colcon_core.shell:Creating package script '/home/kllemo/ros2_ws/install/abb_irb4600_ikfast/share/abb_irb4600_ikfast/package.ps1'
+[12.553s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/kllemo/ros2_ws/install/abb_irb4600_ikfast/share/abb_irb4600_ikfast/package.dsv'
+[12.555s] INFO:colcon.colcon_core.shell:Creating package script '/home/kllemo/ros2_ws/install/abb_irb4600_ikfast/share/abb_irb4600_ikfast/package.sh'
+[12.556s] INFO:colcon.colcon_core.shell:Creating package script '/home/kllemo/ros2_ws/install/abb_irb4600_ikfast/share/abb_irb4600_ikfast/package.bash'
+[12.557s] INFO:colcon.colcon_core.shell:Creating package script '/home/kllemo/ros2_ws/install/abb_irb4600_ikfast/share/abb_irb4600_ikfast/package.zsh'
+[12.558s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/kllemo/ros2_ws/install/abb_irb4600_ikfast/share/colcon-core/packages/abb_irb4600_ikfast)
+[12.560s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(abb_irb4600_ikfast)
+[12.561s] Level 1:colcon.colcon_core.environment:checking '/home/kllemo/ros2_ws/install/abb_irb4600_ikfast' for CMake module files
+[12.564s] Level 1:colcon.colcon_core.environment:checking '/home/kllemo/ros2_ws/install/abb_irb4600_ikfast' for CMake config files
+[12.566s] Level 1:colcon.colcon_core.shell:create_environment_hook('abb_irb4600_ikfast', 'cmake_prefix_path')
+[12.566s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/kllemo/ros2_ws/install/abb_irb4600_ikfast/share/abb_irb4600_ikfast/hook/cmake_prefix_path.ps1'
+[12.568s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/kllemo/ros2_ws/install/abb_irb4600_ikfast/share/abb_irb4600_ikfast/hook/cmake_prefix_path.dsv'
+[12.570s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/kllemo/ros2_ws/install/abb_irb4600_ikfast/share/abb_irb4600_ikfast/hook/cmake_prefix_path.sh'
+[12.572s] Level 1:colcon.colcon_core.environment:checking '/home/kllemo/ros2_ws/install/abb_irb4600_ikfast/lib'
+[12.572s] Level 1:colcon.colcon_core.environment:checking '/home/kllemo/ros2_ws/install/abb_irb4600_ikfast/bin'
+[12.572s] Level 1:colcon.colcon_core.environment:checking '/home/kllemo/ros2_ws/install/abb_irb4600_ikfast/lib/pkgconfig/abb_irb4600_ikfast.pc'
+[12.573s] Level 1:colcon.colcon_core.environment:checking '/home/kllemo/ros2_ws/install/abb_irb4600_ikfast/lib/python3.12/site-packages'
+[12.574s] Level 1:colcon.colcon_core.environment:checking '/home/kllemo/ros2_ws/install/abb_irb4600_ikfast/bin'
+[12.575s] INFO:colcon.colcon_core.shell:Creating package script '/home/kllemo/ros2_ws/install/abb_irb4600_ikfast/share/abb_irb4600_ikfast/package.ps1'
+[12.577s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/kllemo/ros2_ws/install/abb_irb4600_ikfast/share/abb_irb4600_ikfast/package.dsv'
+[12.579s] INFO:colcon.colcon_core.shell:Creating package script '/home/kllemo/ros2_ws/install/abb_irb4600_ikfast/share/abb_irb4600_ikfast/package.sh'
+[12.580s] INFO:colcon.colcon_core.shell:Creating package script '/home/kllemo/ros2_ws/install/abb_irb4600_ikfast/share/abb_irb4600_ikfast/package.bash'
+[12.582s] INFO:colcon.colcon_core.shell:Creating package script '/home/kllemo/ros2_ws/install/abb_irb4600_ikfast/share/abb_irb4600_ikfast/package.zsh'
+[12.583s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/kllemo/ros2_ws/install/abb_irb4600_ikfast/share/colcon-core/packages/abb_irb4600_ikfast)
+[12.588s] INFO:colcon.colcon_ros.task.ament_cmake.build:Building ROS package in '/home/kllemo/ros2_ws/src/block1_kleman' with build type 'ament_cmake'
+[12.589s] INFO:colcon.colcon_cmake.task.cmake.build:Building CMake package in '/home/kllemo/ros2_ws/src/block1_kleman'
+[12.590s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[12.590s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[12.647s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/kllemo/ros2_ws/build/block1_kleman': AMENT_PREFIX_PATH=/home/kllemo/ros2_ws/install/abb_model:/home/kllemo/ros2_ws/install/abb_irb4600_ikfast:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/kllemo/ros2_ws/install/abb_model:/home/kllemo/ros2_ws/install/abb_irb4600_ikfast:/opt/ros/jazzy/opt/gz_math_vendor:/opt/ros/jazzy/opt/gz_utils_vendor:/opt/ros/jazzy/opt/gz_cmake_vendor:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com LD_LIBRARY_PATH=/home/kllemo/ros2_ws/install/abb_irb4600_ikfast/lib:${LD_LIBRARY_PATH} /usr/bin/cmake /home/kllemo/ros2_ws/src/block1_kleman -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/home/kllemo/ros2_ws/install/block1_kleman
+[15.573s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/kllemo/ros2_ws/build/rrm_msgs' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --build /home/kllemo/ros2_ws/build/rrm_msgs -- -j16 -l16
+[15.575s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/kllemo/ros2_ws/build/rrm_msgs': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --install /home/kllemo/ros2_ws/build/rrm_msgs
+[16.417s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/kllemo/ros2_ws/build/block1_kleman' returned '0': AMENT_PREFIX_PATH=/home/kllemo/ros2_ws/install/abb_model:/home/kllemo/ros2_ws/install/abb_irb4600_ikfast:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/kllemo/ros2_ws/install/abb_model:/home/kllemo/ros2_ws/install/abb_irb4600_ikfast:/opt/ros/jazzy/opt/gz_math_vendor:/opt/ros/jazzy/opt/gz_utils_vendor:/opt/ros/jazzy/opt/gz_cmake_vendor:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com LD_LIBRARY_PATH=/home/kllemo/ros2_ws/install/abb_irb4600_ikfast/lib:${LD_LIBRARY_PATH} /usr/bin/cmake /home/kllemo/ros2_ws/src/block1_kleman -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/home/kllemo/ros2_ws/install/block1_kleman
+[16.420s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/kllemo/ros2_ws/build/block1_kleman': AMENT_PREFIX_PATH=/home/kllemo/ros2_ws/install/abb_model:/home/kllemo/ros2_ws/install/abb_irb4600_ikfast:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/kllemo/ros2_ws/install/abb_model:/home/kllemo/ros2_ws/install/abb_irb4600_ikfast:/opt/ros/jazzy/opt/gz_math_vendor:/opt/ros/jazzy/opt/gz_utils_vendor:/opt/ros/jazzy/opt/gz_cmake_vendor:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com LD_LIBRARY_PATH=/home/kllemo/ros2_ws/install/abb_irb4600_ikfast/lib:${LD_LIBRARY_PATH} /usr/bin/cmake --build /home/kllemo/ros2_ws/build/block1_kleman -- -j16 -l16
+[17.352s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(rrm_msgs)
+[17.353s] Level 1:colcon.colcon_core.environment:checking '/home/kllemo/ros2_ws/install/rrm_msgs' for CMake module files
+[17.356s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/kllemo/ros2_ws/build/rrm_msgs' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --install /home/kllemo/ros2_ws/build/rrm_msgs
+[17.357s] Level 1:colcon.colcon_core.environment:checking '/home/kllemo/ros2_ws/install/rrm_msgs' for CMake config files
+[17.358s] Level 1:colcon.colcon_core.shell:create_environment_hook('rrm_msgs', 'cmake_prefix_path')
+[17.359s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/kllemo/ros2_ws/install/rrm_msgs/share/rrm_msgs/hook/cmake_prefix_path.ps1'
+[17.361s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/kllemo/ros2_ws/install/rrm_msgs/share/rrm_msgs/hook/cmake_prefix_path.dsv'
+[17.362s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/kllemo/ros2_ws/install/rrm_msgs/share/rrm_msgs/hook/cmake_prefix_path.sh'
+[17.364s] Level 1:colcon.colcon_core.environment:checking '/home/kllemo/ros2_ws/install/rrm_msgs/lib'
+[17.364s] Level 1:colcon.colcon_core.shell:create_environment_hook('rrm_msgs', 'ld_library_path_lib')
+[17.365s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/kllemo/ros2_ws/install/rrm_msgs/share/rrm_msgs/hook/ld_library_path_lib.ps1'
+[17.366s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/kllemo/ros2_ws/install/rrm_msgs/share/rrm_msgs/hook/ld_library_path_lib.dsv'
+[17.367s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/kllemo/ros2_ws/install/rrm_msgs/share/rrm_msgs/hook/ld_library_path_lib.sh'
+[17.368s] Level 1:colcon.colcon_core.environment:checking '/home/kllemo/ros2_ws/install/rrm_msgs/bin'
+[17.368s] Level 1:colcon.colcon_core.environment:checking '/home/kllemo/ros2_ws/install/rrm_msgs/lib/pkgconfig/rrm_msgs.pc'
+[17.369s] Level 1:colcon.colcon_core.environment:checking '/home/kllemo/ros2_ws/install/rrm_msgs/lib/python3.12/site-packages'
+[17.369s] Level 1:colcon.colcon_core.shell:create_environment_hook('rrm_msgs', 'pythonpath')
+[17.370s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/kllemo/ros2_ws/install/rrm_msgs/share/rrm_msgs/hook/pythonpath.ps1'
+[17.371s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/kllemo/ros2_ws/install/rrm_msgs/share/rrm_msgs/hook/pythonpath.dsv'
+[17.372s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/kllemo/ros2_ws/install/rrm_msgs/share/rrm_msgs/hook/pythonpath.sh'
+[17.374s] Level 1:colcon.colcon_core.environment:checking '/home/kllemo/ros2_ws/install/rrm_msgs/bin'
+[17.375s] INFO:colcon.colcon_core.shell:Creating package script '/home/kllemo/ros2_ws/install/rrm_msgs/share/rrm_msgs/package.ps1'
+[17.378s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/kllemo/ros2_ws/install/rrm_msgs/share/rrm_msgs/package.dsv'
+[17.380s] INFO:colcon.colcon_core.shell:Creating package script '/home/kllemo/ros2_ws/install/rrm_msgs/share/rrm_msgs/package.sh'
+[17.381s] INFO:colcon.colcon_core.shell:Creating package script '/home/kllemo/ros2_ws/install/rrm_msgs/share/rrm_msgs/package.bash'
+[17.382s] INFO:colcon.colcon_core.shell:Creating package script '/home/kllemo/ros2_ws/install/rrm_msgs/share/rrm_msgs/package.zsh'
+[17.383s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/kllemo/ros2_ws/install/rrm_msgs/share/colcon-core/packages/rrm_msgs)
+[17.385s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(rrm_msgs)
+[17.385s] Level 1:colcon.colcon_core.environment:checking '/home/kllemo/ros2_ws/install/rrm_msgs' for CMake module files
+[17.387s] Level 1:colcon.colcon_core.environment:checking '/home/kllemo/ros2_ws/install/rrm_msgs' for CMake config files
+[17.388s] Level 1:colcon.colcon_core.shell:create_environment_hook('rrm_msgs', 'cmake_prefix_path')
+[17.389s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/kllemo/ros2_ws/install/rrm_msgs/share/rrm_msgs/hook/cmake_prefix_path.ps1'
+[17.390s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/kllemo/ros2_ws/install/rrm_msgs/share/rrm_msgs/hook/cmake_prefix_path.dsv'
+[17.391s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/kllemo/ros2_ws/install/rrm_msgs/share/rrm_msgs/hook/cmake_prefix_path.sh'
+[17.393s] Level 1:colcon.colcon_core.environment:checking '/home/kllemo/ros2_ws/install/rrm_msgs/lib'
+[17.393s] Level 1:colcon.colcon_core.shell:create_environment_hook('rrm_msgs', 'ld_library_path_lib')
+[17.394s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/kllemo/ros2_ws/install/rrm_msgs/share/rrm_msgs/hook/ld_library_path_lib.ps1'
+[17.395s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/kllemo/ros2_ws/install/rrm_msgs/share/rrm_msgs/hook/ld_library_path_lib.dsv'
+[17.396s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/kllemo/ros2_ws/install/rrm_msgs/share/rrm_msgs/hook/ld_library_path_lib.sh'
+[17.397s] Level 1:colcon.colcon_core.environment:checking '/home/kllemo/ros2_ws/install/rrm_msgs/bin'
+[17.398s] Level 1:colcon.colcon_core.environment:checking '/home/kllemo/ros2_ws/install/rrm_msgs/lib/pkgconfig/rrm_msgs.pc'
+[17.398s] Level 1:colcon.colcon_core.environment:checking '/home/kllemo/ros2_ws/install/rrm_msgs/lib/python3.12/site-packages'
+[17.399s] Level 1:colcon.colcon_core.shell:create_environment_hook('rrm_msgs', 'pythonpath')
+[17.399s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/kllemo/ros2_ws/install/rrm_msgs/share/rrm_msgs/hook/pythonpath.ps1'
+[17.401s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/kllemo/ros2_ws/install/rrm_msgs/share/rrm_msgs/hook/pythonpath.dsv'
+[17.402s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/kllemo/ros2_ws/install/rrm_msgs/share/rrm_msgs/hook/pythonpath.sh'
+[17.404s] Level 1:colcon.colcon_core.environment:checking '/home/kllemo/ros2_ws/install/rrm_msgs/bin'
+[17.405s] INFO:colcon.colcon_core.shell:Creating package script '/home/kllemo/ros2_ws/install/rrm_msgs/share/rrm_msgs/package.ps1'
+[17.407s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/kllemo/ros2_ws/install/rrm_msgs/share/rrm_msgs/package.dsv'
+[17.409s] INFO:colcon.colcon_core.shell:Creating package script '/home/kllemo/ros2_ws/install/rrm_msgs/share/rrm_msgs/package.sh'
+[17.410s] INFO:colcon.colcon_core.shell:Creating package script '/home/kllemo/ros2_ws/install/rrm_msgs/share/rrm_msgs/package.bash'
+[17.411s] INFO:colcon.colcon_core.shell:Creating package script '/home/kllemo/ros2_ws/install/rrm_msgs/share/rrm_msgs/package.zsh'
+[17.412s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/kllemo/ros2_ws/install/rrm_msgs/share/colcon-core/packages/rrm_msgs)
+[17.413s] INFO:colcon.colcon_ros.task.ament_cmake.build:Building ROS package in '/home/kllemo/ros2_ws/src/cvicenie_2/rrm_sim' with build type 'ament_cmake'
+[17.413s] INFO:colcon.colcon_cmake.task.cmake.build:Building CMake package in '/home/kllemo/ros2_ws/src/cvicenie_2/rrm_sim'
+[17.414s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[17.414s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[17.439s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/kllemo/ros2_ws/build/rrm_sim': AMENT_PREFIX_PATH=/home/kllemo/ros2_ws/install/rrm_msgs:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/kllemo/ros2_ws/install/rrm_msgs:/opt/ros/jazzy/opt/gz_math_vendor:/opt/ros/jazzy/opt/gz_utils_vendor:/opt/ros/jazzy/opt/gz_cmake_vendor:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com LD_LIBRARY_PATH=/home/kllemo/ros2_ws/install/rrm_msgs/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/kllemo/ros2_ws/install/rrm_msgs/lib/python3.12/site-packages:${PYTHONPATH} /usr/bin/cmake /home/kllemo/ros2_ws/src/cvicenie_2/rrm_sim -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/home/kllemo/ros2_ws/install/rrm_sim
+[17.884s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/kllemo/ros2_ws/build/kleman_interface' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --build /home/kllemo/ros2_ws/build/kleman_interface -- -j16 -l16
+[17.888s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/kllemo/ros2_ws/build/kleman_interface': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --install /home/kllemo/ros2_ws/build/kleman_interface
+[20.053s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(kleman_interface)
+[20.054s] Level 1:colcon.colcon_core.environment:checking '/home/kllemo/ros2_ws/install/kleman_interface' for CMake module files
+[20.055s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/kllemo/ros2_ws/build/kleman_interface' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --install /home/kllemo/ros2_ws/build/kleman_interface
+[20.056s] Level 1:colcon.colcon_core.environment:checking '/home/kllemo/ros2_ws/install/kleman_interface' for CMake config files
+[20.057s] Level 1:colcon.colcon_core.shell:create_environment_hook('kleman_interface', 'cmake_prefix_path')
+[20.057s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/kllemo/ros2_ws/install/kleman_interface/share/kleman_interface/hook/cmake_prefix_path.ps1'
+[20.058s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/kllemo/ros2_ws/install/kleman_interface/share/kleman_interface/hook/cmake_prefix_path.dsv'
+[20.059s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/kllemo/ros2_ws/install/kleman_interface/share/kleman_interface/hook/cmake_prefix_path.sh'
+[20.060s] Level 1:colcon.colcon_core.environment:checking '/home/kllemo/ros2_ws/install/kleman_interface/lib'
+[20.060s] Level 1:colcon.colcon_core.shell:create_environment_hook('kleman_interface', 'ld_library_path_lib')
+[20.060s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/kllemo/ros2_ws/install/kleman_interface/share/kleman_interface/hook/ld_library_path_lib.ps1'
+[20.061s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/kllemo/ros2_ws/install/kleman_interface/share/kleman_interface/hook/ld_library_path_lib.dsv'
+[20.062s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/kllemo/ros2_ws/install/kleman_interface/share/kleman_interface/hook/ld_library_path_lib.sh'
+[20.063s] Level 1:colcon.colcon_core.environment:checking '/home/kllemo/ros2_ws/install/kleman_interface/bin'
+[20.063s] Level 1:colcon.colcon_core.environment:checking '/home/kllemo/ros2_ws/install/kleman_interface/lib/pkgconfig/kleman_interface.pc'
+[20.063s] Level 1:colcon.colcon_core.environment:checking '/home/kllemo/ros2_ws/install/kleman_interface/lib/python3.12/site-packages'
+[20.064s] Level 1:colcon.colcon_core.shell:create_environment_hook('kleman_interface', 'pythonpath')
+[20.064s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/kllemo/ros2_ws/install/kleman_interface/share/kleman_interface/hook/pythonpath.ps1'
+[20.065s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/kllemo/ros2_ws/install/kleman_interface/share/kleman_interface/hook/pythonpath.dsv'
+[20.065s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/kllemo/ros2_ws/install/kleman_interface/share/kleman_interface/hook/pythonpath.sh'
+[20.067s] Level 1:colcon.colcon_core.environment:checking '/home/kllemo/ros2_ws/install/kleman_interface/bin'
+[20.068s] INFO:colcon.colcon_core.shell:Creating package script '/home/kllemo/ros2_ws/install/kleman_interface/share/kleman_interface/package.ps1'
+[20.069s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/kllemo/ros2_ws/install/kleman_interface/share/kleman_interface/package.dsv'
+[20.070s] INFO:colcon.colcon_core.shell:Creating package script '/home/kllemo/ros2_ws/install/kleman_interface/share/kleman_interface/package.sh'
+[20.070s] INFO:colcon.colcon_core.shell:Creating package script '/home/kllemo/ros2_ws/install/kleman_interface/share/kleman_interface/package.bash'
+[20.071s] INFO:colcon.colcon_core.shell:Creating package script '/home/kllemo/ros2_ws/install/kleman_interface/share/kleman_interface/package.zsh'
+[20.072s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/kllemo/ros2_ws/install/kleman_interface/share/colcon-core/packages/kleman_interface)
+[20.073s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(kleman_interface)
+[20.073s] Level 1:colcon.colcon_core.environment:checking '/home/kllemo/ros2_ws/install/kleman_interface' for CMake module files
+[20.075s] Level 1:colcon.colcon_core.environment:checking '/home/kllemo/ros2_ws/install/kleman_interface' for CMake config files
+[20.075s] Level 1:colcon.colcon_core.shell:create_environment_hook('kleman_interface', 'cmake_prefix_path')
+[20.076s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/kllemo/ros2_ws/install/kleman_interface/share/kleman_interface/hook/cmake_prefix_path.ps1'
+[20.077s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/kllemo/ros2_ws/install/kleman_interface/share/kleman_interface/hook/cmake_prefix_path.dsv'
+[20.077s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/kllemo/ros2_ws/install/kleman_interface/share/kleman_interface/hook/cmake_prefix_path.sh'
+[20.078s] Level 1:colcon.colcon_core.environment:checking '/home/kllemo/ros2_ws/install/kleman_interface/lib'
+[20.078s] Level 1:colcon.colcon_core.shell:create_environment_hook('kleman_interface', 'ld_library_path_lib')
+[20.079s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/kllemo/ros2_ws/install/kleman_interface/share/kleman_interface/hook/ld_library_path_lib.ps1'
+[20.080s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/kllemo/ros2_ws/install/kleman_interface/share/kleman_interface/hook/ld_library_path_lib.dsv'
+[20.080s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/kllemo/ros2_ws/install/kleman_interface/share/kleman_interface/hook/ld_library_path_lib.sh'
+[20.081s] Level 1:colcon.colcon_core.environment:checking '/home/kllemo/ros2_ws/install/kleman_interface/bin'
+[20.081s] Level 1:colcon.colcon_core.environment:checking '/home/kllemo/ros2_ws/install/kleman_interface/lib/pkgconfig/kleman_interface.pc'
+[20.082s] Level 1:colcon.colcon_core.environment:checking '/home/kllemo/ros2_ws/install/kleman_interface/lib/python3.12/site-packages'
+[20.082s] Level 1:colcon.colcon_core.shell:create_environment_hook('kleman_interface', 'pythonpath')
+[20.082s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/kllemo/ros2_ws/install/kleman_interface/share/kleman_interface/hook/pythonpath.ps1'
+[20.083s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/kllemo/ros2_ws/install/kleman_interface/share/kleman_interface/hook/pythonpath.dsv'
+[20.084s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/kllemo/ros2_ws/install/kleman_interface/share/kleman_interface/hook/pythonpath.sh'
+[20.085s] Level 1:colcon.colcon_core.environment:checking '/home/kllemo/ros2_ws/install/kleman_interface/bin'
+[20.086s] INFO:colcon.colcon_core.shell:Creating package script '/home/kllemo/ros2_ws/install/kleman_interface/share/kleman_interface/package.ps1'
+[20.087s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/kllemo/ros2_ws/install/kleman_interface/share/kleman_interface/package.dsv'
+[20.088s] INFO:colcon.colcon_core.shell:Creating package script '/home/kllemo/ros2_ws/install/kleman_interface/share/kleman_interface/package.sh'
+[20.089s] INFO:colcon.colcon_core.shell:Creating package script '/home/kllemo/ros2_ws/install/kleman_interface/share/kleman_interface/package.bash'
+[20.089s] INFO:colcon.colcon_core.shell:Creating package script '/home/kllemo/ros2_ws/install/kleman_interface/share/kleman_interface/package.zsh'
+[20.090s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/kllemo/ros2_ws/install/kleman_interface/share/colcon-core/packages/kleman_interface)
+[20.749s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/kllemo/ros2_ws/build/rrm_sim' returned '0': AMENT_PREFIX_PATH=/home/kllemo/ros2_ws/install/rrm_msgs:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/kllemo/ros2_ws/install/rrm_msgs:/opt/ros/jazzy/opt/gz_math_vendor:/opt/ros/jazzy/opt/gz_utils_vendor:/opt/ros/jazzy/opt/gz_cmake_vendor:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com LD_LIBRARY_PATH=/home/kllemo/ros2_ws/install/rrm_msgs/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/kllemo/ros2_ws/install/rrm_msgs/lib/python3.12/site-packages:${PYTHONPATH} /usr/bin/cmake /home/kllemo/ros2_ws/src/cvicenie_2/rrm_sim -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/home/kllemo/ros2_ws/install/rrm_sim
+[20.753s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/kllemo/ros2_ws/build/rrm_sim': AMENT_PREFIX_PATH=/home/kllemo/ros2_ws/install/rrm_msgs:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/kllemo/ros2_ws/install/rrm_msgs:/opt/ros/jazzy/opt/gz_math_vendor:/opt/ros/jazzy/opt/gz_utils_vendor:/opt/ros/jazzy/opt/gz_cmake_vendor:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com LD_LIBRARY_PATH=/home/kllemo/ros2_ws/install/rrm_msgs/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/kllemo/ros2_ws/install/rrm_msgs/lib/python3.12/site-packages:${PYTHONPATH} /usr/bin/cmake --build /home/kllemo/ros2_ws/build/rrm_sim -- -j16 -l16
+[34.150s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/kllemo/ros2_ws/build/block1_kleman' returned '0': AMENT_PREFIX_PATH=/home/kllemo/ros2_ws/install/abb_model:/home/kllemo/ros2_ws/install/abb_irb4600_ikfast:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/kllemo/ros2_ws/install/abb_model:/home/kllemo/ros2_ws/install/abb_irb4600_ikfast:/opt/ros/jazzy/opt/gz_math_vendor:/opt/ros/jazzy/opt/gz_utils_vendor:/opt/ros/jazzy/opt/gz_cmake_vendor:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com LD_LIBRARY_PATH=/home/kllemo/ros2_ws/install/abb_irb4600_ikfast/lib:${LD_LIBRARY_PATH} /usr/bin/cmake --build /home/kllemo/ros2_ws/build/block1_kleman -- -j16 -l16
+[34.153s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/kllemo/ros2_ws/build/block1_kleman': AMENT_PREFIX_PATH=/home/kllemo/ros2_ws/install/abb_model:/home/kllemo/ros2_ws/install/abb_irb4600_ikfast:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/kllemo/ros2_ws/install/abb_model:/home/kllemo/ros2_ws/install/abb_irb4600_ikfast:/opt/ros/jazzy/opt/gz_math_vendor:/opt/ros/jazzy/opt/gz_utils_vendor:/opt/ros/jazzy/opt/gz_cmake_vendor:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com LD_LIBRARY_PATH=/home/kllemo/ros2_ws/install/abb_irb4600_ikfast/lib:${LD_LIBRARY_PATH} /usr/bin/cmake --install /home/kllemo/ros2_ws/build/block1_kleman
+[34.457s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(block1_kleman)
+[34.457s] Level 1:colcon.colcon_core.environment:checking '/home/kllemo/ros2_ws/install/block1_kleman' for CMake module files
+[34.458s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/kllemo/ros2_ws/build/block1_kleman' returned '0': AMENT_PREFIX_PATH=/home/kllemo/ros2_ws/install/abb_model:/home/kllemo/ros2_ws/install/abb_irb4600_ikfast:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/kllemo/ros2_ws/install/abb_model:/home/kllemo/ros2_ws/install/abb_irb4600_ikfast:/opt/ros/jazzy/opt/gz_math_vendor:/opt/ros/jazzy/opt/gz_utils_vendor:/opt/ros/jazzy/opt/gz_cmake_vendor:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com LD_LIBRARY_PATH=/home/kllemo/ros2_ws/install/abb_irb4600_ikfast/lib:${LD_LIBRARY_PATH} /usr/bin/cmake --install /home/kllemo/ros2_ws/build/block1_kleman
+[34.460s] Level 1:colcon.colcon_core.environment:checking '/home/kllemo/ros2_ws/install/block1_kleman' for CMake config files
+[34.460s] Level 1:colcon.colcon_core.shell:create_environment_hook('block1_kleman', 'cmake_prefix_path')
+[34.461s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/kllemo/ros2_ws/install/block1_kleman/share/block1_kleman/hook/cmake_prefix_path.ps1'
+[34.462s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/kllemo/ros2_ws/install/block1_kleman/share/block1_kleman/hook/cmake_prefix_path.dsv'
+[34.463s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/kllemo/ros2_ws/install/block1_kleman/share/block1_kleman/hook/cmake_prefix_path.sh'
+[34.465s] Level 1:colcon.colcon_core.environment:checking '/home/kllemo/ros2_ws/install/block1_kleman/lib'
+[34.465s] Level 1:colcon.colcon_core.environment:checking '/home/kllemo/ros2_ws/install/block1_kleman/bin'
+[34.465s] Level 1:colcon.colcon_core.environment:checking '/home/kllemo/ros2_ws/install/block1_kleman/lib/pkgconfig/block1_kleman.pc'
+[34.466s] Level 1:colcon.colcon_core.environment:checking '/home/kllemo/ros2_ws/install/block1_kleman/lib/python3.12/site-packages'
+[34.467s] Level 1:colcon.colcon_core.environment:checking '/home/kllemo/ros2_ws/install/block1_kleman/bin'
+[34.468s] INFO:colcon.colcon_core.shell:Creating package script '/home/kllemo/ros2_ws/install/block1_kleman/share/block1_kleman/package.ps1'
+[34.469s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/kllemo/ros2_ws/install/block1_kleman/share/block1_kleman/package.dsv'
+[34.471s] INFO:colcon.colcon_core.shell:Creating package script '/home/kllemo/ros2_ws/install/block1_kleman/share/block1_kleman/package.sh'
+[34.472s] INFO:colcon.colcon_core.shell:Creating package script '/home/kllemo/ros2_ws/install/block1_kleman/share/block1_kleman/package.bash'
+[34.473s] INFO:colcon.colcon_core.shell:Creating package script '/home/kllemo/ros2_ws/install/block1_kleman/share/block1_kleman/package.zsh'
+[34.474s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/kllemo/ros2_ws/install/block1_kleman/share/colcon-core/packages/block1_kleman)
+[34.476s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(block1_kleman)
+[34.476s] Level 1:colcon.colcon_core.environment:checking '/home/kllemo/ros2_ws/install/block1_kleman' for CMake module files
+[34.478s] Level 1:colcon.colcon_core.environment:checking '/home/kllemo/ros2_ws/install/block1_kleman' for CMake config files
+[34.479s] Level 1:colcon.colcon_core.shell:create_environment_hook('block1_kleman', 'cmake_prefix_path')
+[34.479s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/kllemo/ros2_ws/install/block1_kleman/share/block1_kleman/hook/cmake_prefix_path.ps1'
+[34.480s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/kllemo/ros2_ws/install/block1_kleman/share/block1_kleman/hook/cmake_prefix_path.dsv'
+[34.482s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/kllemo/ros2_ws/install/block1_kleman/share/block1_kleman/hook/cmake_prefix_path.sh'
+[34.483s] Level 1:colcon.colcon_core.environment:checking '/home/kllemo/ros2_ws/install/block1_kleman/lib'
+[34.484s] Level 1:colcon.colcon_core.environment:checking '/home/kllemo/ros2_ws/install/block1_kleman/bin'
+[34.484s] Level 1:colcon.colcon_core.environment:checking '/home/kllemo/ros2_ws/install/block1_kleman/lib/pkgconfig/block1_kleman.pc'
+[34.484s] Level 1:colcon.colcon_core.environment:checking '/home/kllemo/ros2_ws/install/block1_kleman/lib/python3.12/site-packages'
+[34.486s] Level 1:colcon.colcon_core.environment:checking '/home/kllemo/ros2_ws/install/block1_kleman/bin'
+[34.486s] INFO:colcon.colcon_core.shell:Creating package script '/home/kllemo/ros2_ws/install/block1_kleman/share/block1_kleman/package.ps1'
+[34.487s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/kllemo/ros2_ws/install/block1_kleman/share/block1_kleman/package.dsv'
+[34.489s] INFO:colcon.colcon_core.shell:Creating package script '/home/kllemo/ros2_ws/install/block1_kleman/share/block1_kleman/package.sh'
+[34.490s] INFO:colcon.colcon_core.shell:Creating package script '/home/kllemo/ros2_ws/install/block1_kleman/share/block1_kleman/package.bash'
+[34.491s] INFO:colcon.colcon_core.shell:Creating package script '/home/kllemo/ros2_ws/install/block1_kleman/share/block1_kleman/package.zsh'
+[34.493s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/kllemo/ros2_ws/install/block1_kleman/share/colcon-core/packages/block1_kleman)
+[40.633s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/kllemo/ros2_ws/build/rrm_sim' returned '0': AMENT_PREFIX_PATH=/home/kllemo/ros2_ws/install/rrm_msgs:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/kllemo/ros2_ws/install/rrm_msgs:/opt/ros/jazzy/opt/gz_math_vendor:/opt/ros/jazzy/opt/gz_utils_vendor:/opt/ros/jazzy/opt/gz_cmake_vendor:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com LD_LIBRARY_PATH=/home/kllemo/ros2_ws/install/rrm_msgs/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/kllemo/ros2_ws/install/rrm_msgs/lib/python3.12/site-packages:${PYTHONPATH} /usr/bin/cmake --build /home/kllemo/ros2_ws/build/rrm_sim -- -j16 -l16
+[40.636s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/kllemo/ros2_ws/build/rrm_sim': AMENT_PREFIX_PATH=/home/kllemo/ros2_ws/install/rrm_msgs:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/kllemo/ros2_ws/install/rrm_msgs:/opt/ros/jazzy/opt/gz_math_vendor:/opt/ros/jazzy/opt/gz_utils_vendor:/opt/ros/jazzy/opt/gz_cmake_vendor:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com LD_LIBRARY_PATH=/home/kllemo/ros2_ws/install/rrm_msgs/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/kllemo/ros2_ws/install/rrm_msgs/lib/python3.12/site-packages:${PYTHONPATH} /usr/bin/cmake --install /home/kllemo/ros2_ws/build/rrm_sim
+[40.911s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(rrm_sim)
+[40.912s] Level 1:colcon.colcon_core.environment:checking '/home/kllemo/ros2_ws/install/rrm_sim' for CMake module files
+[40.913s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/kllemo/ros2_ws/build/rrm_sim' returned '0': AMENT_PREFIX_PATH=/home/kllemo/ros2_ws/install/rrm_msgs:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/kllemo/ros2_ws/install/rrm_msgs:/opt/ros/jazzy/opt/gz_math_vendor:/opt/ros/jazzy/opt/gz_utils_vendor:/opt/ros/jazzy/opt/gz_cmake_vendor:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com LD_LIBRARY_PATH=/home/kllemo/ros2_ws/install/rrm_msgs/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/kllemo/ros2_ws/install/rrm_msgs/lib/python3.12/site-packages:${PYTHONPATH} /usr/bin/cmake --install /home/kllemo/ros2_ws/build/rrm_sim
+[40.914s] Level 1:colcon.colcon_core.environment:checking '/home/kllemo/ros2_ws/install/rrm_sim' for CMake config files
+[40.914s] Level 1:colcon.colcon_core.shell:create_environment_hook('rrm_sim', 'cmake_prefix_path')
+[40.914s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/kllemo/ros2_ws/install/rrm_sim/share/rrm_sim/hook/cmake_prefix_path.ps1'
+[40.915s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/kllemo/ros2_ws/install/rrm_sim/share/rrm_sim/hook/cmake_prefix_path.dsv'
+[40.916s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/kllemo/ros2_ws/install/rrm_sim/share/rrm_sim/hook/cmake_prefix_path.sh'
+[40.917s] Level 1:colcon.colcon_core.environment:checking '/home/kllemo/ros2_ws/install/rrm_sim/lib'
+[40.917s] Level 1:colcon.colcon_core.environment:checking '/home/kllemo/ros2_ws/install/rrm_sim/bin'
+[40.917s] Level 1:colcon.colcon_core.environment:checking '/home/kllemo/ros2_ws/install/rrm_sim/lib/pkgconfig/rrm_sim.pc'
+[40.918s] Level 1:colcon.colcon_core.environment:checking '/home/kllemo/ros2_ws/install/rrm_sim/lib/python3.12/site-packages'
+[40.919s] Level 1:colcon.colcon_core.environment:checking '/home/kllemo/ros2_ws/install/rrm_sim/bin'
+[40.919s] INFO:colcon.colcon_core.shell:Creating package script '/home/kllemo/ros2_ws/install/rrm_sim/share/rrm_sim/package.ps1'
+[40.920s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/kllemo/ros2_ws/install/rrm_sim/share/rrm_sim/package.dsv'
+[40.921s] INFO:colcon.colcon_core.shell:Creating package script '/home/kllemo/ros2_ws/install/rrm_sim/share/rrm_sim/package.sh'
+[40.921s] INFO:colcon.colcon_core.shell:Creating package script '/home/kllemo/ros2_ws/install/rrm_sim/share/rrm_sim/package.bash'
+[40.922s] INFO:colcon.colcon_core.shell:Creating package script '/home/kllemo/ros2_ws/install/rrm_sim/share/rrm_sim/package.zsh'
+[40.922s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/kllemo/ros2_ws/install/rrm_sim/share/colcon-core/packages/rrm_sim)
+[40.923s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(rrm_sim)
+[40.924s] Level 1:colcon.colcon_core.environment:checking '/home/kllemo/ros2_ws/install/rrm_sim' for CMake module files
+[40.924s] Level 1:colcon.colcon_core.environment:checking '/home/kllemo/ros2_ws/install/rrm_sim' for CMake config files
+[40.925s] Level 1:colcon.colcon_core.shell:create_environment_hook('rrm_sim', 'cmake_prefix_path')
+[40.925s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/kllemo/ros2_ws/install/rrm_sim/share/rrm_sim/hook/cmake_prefix_path.ps1'
+[40.926s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/kllemo/ros2_ws/install/rrm_sim/share/rrm_sim/hook/cmake_prefix_path.dsv'
+[40.926s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/kllemo/ros2_ws/install/rrm_sim/share/rrm_sim/hook/cmake_prefix_path.sh'
+[40.927s] Level 1:colcon.colcon_core.environment:checking '/home/kllemo/ros2_ws/install/rrm_sim/lib'
+[40.928s] Level 1:colcon.colcon_core.environment:checking '/home/kllemo/ros2_ws/install/rrm_sim/bin'
+[40.928s] Level 1:colcon.colcon_core.environment:checking '/home/kllemo/ros2_ws/install/rrm_sim/lib/pkgconfig/rrm_sim.pc'
+[40.928s] Level 1:colcon.colcon_core.environment:checking '/home/kllemo/ros2_ws/install/rrm_sim/lib/python3.12/site-packages'
+[40.929s] Level 1:colcon.colcon_core.environment:checking '/home/kllemo/ros2_ws/install/rrm_sim/bin'
+[40.929s] INFO:colcon.colcon_core.shell:Creating package script '/home/kllemo/ros2_ws/install/rrm_sim/share/rrm_sim/package.ps1'
+[40.930s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/kllemo/ros2_ws/install/rrm_sim/share/rrm_sim/package.dsv'
+[40.931s] INFO:colcon.colcon_core.shell:Creating package script '/home/kllemo/ros2_ws/install/rrm_sim/share/rrm_sim/package.sh'
+[40.931s] INFO:colcon.colcon_core.shell:Creating package script '/home/kllemo/ros2_ws/install/rrm_sim/share/rrm_sim/package.bash'
+[40.932s] INFO:colcon.colcon_core.shell:Creating package script '/home/kllemo/ros2_ws/install/rrm_sim/share/rrm_sim/package.zsh'
+[40.933s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/kllemo/ros2_ws/install/rrm_sim/share/colcon-core/packages/rrm_sim)
+[40.933s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:closing loop
+[40.934s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:loop closed
+[40.934s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:run_until_complete finished with '0'
+[40.934s] DEBUG:colcon.colcon_core.event_reactor:joining thread
+[40.944s] INFO:colcon.colcon_core.plugin_system:Skipping extension 'colcon_notification.desktop_notification.terminal_notifier': Not used on non-Darwin systems
+[40.944s] INFO:colcon.colcon_core.plugin_system:Skipping extension 'colcon_notification.desktop_notification.win32': Not used on non-Windows systems
+[40.944s] INFO:colcon.colcon_notification.desktop_notification:Sending desktop notification using 'notify2'
+[40.970s] DEBUG:colcon.colcon_core.event_reactor:joined thread
+[40.970s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/kllemo/ros2_ws/install/local_setup.ps1'
+[40.972s] INFO:colcon.colcon_core.shell:Creating prefix util module '/home/kllemo/ros2_ws/install/_local_setup_util_ps1.py'
+[40.974s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/kllemo/ros2_ws/install/setup.ps1'
+[40.975s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/kllemo/ros2_ws/install/local_setup.sh'
+[40.976s] INFO:colcon.colcon_core.shell:Creating prefix util module '/home/kllemo/ros2_ws/install/_local_setup_util_sh.py'
+[40.977s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/kllemo/ros2_ws/install/setup.sh'
+[40.979s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/kllemo/ros2_ws/install/local_setup.bash'
+[40.980s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/kllemo/ros2_ws/install/setup.bash'
+[40.981s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/kllemo/ros2_ws/install/local_setup.zsh'
+[40.982s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/kllemo/ros2_ws/install/setup.zsh'

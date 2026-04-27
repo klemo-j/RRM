@@ -1,0 +1,24 @@
+[0.036s] Invoking command in '/home/kllemo/ros2_ws/build/kleman_interface': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --build /home/kllemo/ros2_ws/build/kleman_interface -- -j16 -l16
+[0.119s] [  1%] Built target kleman_interface__rosidl_generator_type_description
+[0.142s] [  1%] Built target ament_cmake_python_symlink_kleman_interface
+[0.163s] [  3%] Built target kleman_interface__cpp
+[0.170s] [ 24%] Built target kleman_interface__rosidl_generator_c
+[0.219s] [ 33%] Built target kleman_interface__rosidl_typesupport_c
+[0.221s] [ 42%] Built target kleman_interface__rosidl_typesupport_introspection_c
+[0.223s] [ 55%] Built target kleman_interface__rosidl_typesupport_fastrtps_cpp
+[0.224s] [ 70%] Built target kleman_interface__rosidl_typesupport_fastrtps_c
+[0.224s] [ 70%] Built target kleman_interface__rosidl_typesupport_introspection_cpp
+[0.226s] [ 79%] Built target kleman_interface__rosidl_typesupport_cpp
+[0.264s] [ 79%] Built target kleman_interface
+[0.299s] [ 81%] Built target kleman_interface__py
+[0.340s] [ 88%] Built target kleman_interface__rosidl_generator_py
+[0.380s] [ 92%] Built target kleman_interface_s__rosidl_typesupport_introspection_c
+[0.381s] [ 96%] Built target kleman_interface_s__rosidl_typesupport_fastrtps_c
+[0.386s] [100%] Built target kleman_interface_s__rosidl_typesupport_c
+[0.642s] running egg_info
+[0.684s] writing kleman_interface.egg-info/PKG-INFO
+[0.685s] writing dependency_links to kleman_interface.egg-info/dependency_links.txt
+[0.685s] writing top-level names to kleman_interface.egg-info/top_level.txt
+[0.807s] reading manifest file 'kleman_interface.egg-info/SOURCES.txt'
+[0.808s] writing manifest file 'kleman_interface.egg-info/SOURCES.txt'
+[0.860s] [100%] Built target ament_cmake_python_build_kleman_interface_egg

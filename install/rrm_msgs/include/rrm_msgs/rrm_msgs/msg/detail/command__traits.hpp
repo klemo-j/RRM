@@ -1,0 +1,1 @@
+/home/kllemo/ros2_ws/build/rrm_msgs/rosidl_generator_cpp/rrm_msgs/msg/detail/command__traits.hpp

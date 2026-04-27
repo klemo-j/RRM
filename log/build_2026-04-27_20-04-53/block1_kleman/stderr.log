@@ -1,0 +1,8 @@
+[01m[K/home/kllemo/ros2_ws/src/block1_kleman/src/model_spawner.cpp:1:10:[m[K [01;31m[Kfatal error: [m[Kblock1_kleman/model_spawner.hpp: No such file or directory
+    1 | #include [01;31m[K"block1_kleman/model_spawner.hpp"[m[K
+      |          [01;31m[K^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+compilation terminated.
+gmake[2]: *** [CMakeFiles/model_spawner.dir/build.make:76: CMakeFiles/model_spawner.dir/src/model_spawner.cpp.o] Error 1
+gmake[1]: *** [CMakeFiles/Makefile2:139: CMakeFiles/model_spawner.dir/all] Error 2
+gmake[1]: *** Waiting for unfinished jobs....
+gmake: *** [Makefile:146: all] Error 2

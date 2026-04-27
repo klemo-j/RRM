@@ -1,0 +1,97 @@
+{
+	"configurations" : 
+	[
+		{
+			"directories" : 
+			[
+				{
+					"build" : ".",
+					"hasInstallRule" : true,
+					"jsonFile" : "directory-.-71d354b9a29de0af9d40.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.15"
+					},
+					"projectIndex" : 0,
+					"source" : ".",
+					"targetIndexes" : 
+					[
+						0,
+						1,
+						2,
+						3,
+						4
+					]
+				}
+			],
+			"name" : "",
+			"projects" : 
+			[
+				{
+					"directoryIndexes" : 
+					[
+						0
+					],
+					"name" : "block1_kleman",
+					"targetIndexes" : 
+					[
+						0,
+						1,
+						2,
+						3,
+						4
+					]
+				}
+			],
+			"targets" : 
+			[
+				{
+					"directoryIndex" : 0,
+					"id" : "block1_kleman_uninstall::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-block1_kleman_uninstall-26ba29409e5f550839cf.json",
+					"name" : "block1_kleman_uninstall",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "joint_logger::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-joint_logger-aa10aba8a6fb03176a8a.json",
+					"name" : "joint_logger",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "model_spawner::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-model_spawner-0468958aff57f8399f69.json",
+					"name" : "model_spawner",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "pose_teacher::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-pose_teacher-a6398320baf941ed303f.json",
+					"name" : "pose_teacher",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "uninstall::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-uninstall-3ef02db018df475305e9.json",
+					"name" : "uninstall",
+					"projectIndex" : 0
+				}
+			]
+		}
+	],
+	"kind" : "codemodel",
+	"paths" : 
+	{
+		"build" : "/home/kllemo/ros2_ws/build/block1_kleman",
+		"source" : "/home/kllemo/ros2_ws/src/block1_kleman"
+	},
+	"version" : 
+	{
+		"major" : 2,
+		"minor" : 6
+	}
+}

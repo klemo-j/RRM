@@ -1,0 +1,33 @@
+[0.017s] Invoking command in '/home/kllemo/ros2_ws/build/block1_kleman': AMENT_PREFIX_PATH=/home/kllemo/ros2_ws/install/abb_model:/home/kllemo/ros2_ws/install/abb_irb4600_ikfast:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/kllemo/ros2_ws/install/abb_model:/home/kllemo/ros2_ws/install/abb_irb4600_ikfast:/opt/ros/jazzy/opt/gz_math_vendor:/opt/ros/jazzy/opt/gz_utils_vendor:/opt/ros/jazzy/opt/gz_cmake_vendor:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com LD_LIBRARY_PATH=/home/kllemo/ros2_ws/install/abb_irb4600_ikfast/lib:${LD_LIBRARY_PATH} /usr/bin/cmake --build /home/kllemo/ros2_ws/build/block1_kleman -- -j16 -l16
+[0.060s] -- Found ament_cmake: 2.5.5 (/opt/ros/jazzy/share/ament_cmake/cmake)
+[0.482s] -- Override CMake install command with custom implementation using symlinks instead of copying resources
+[0.495s] -- Found rclcpp: 28.1.16 (/opt/ros/jazzy/share/rclcpp/cmake)
+[0.555s] -- Found rosidl_generator_c: 4.6.7 (/opt/ros/jazzy/share/rosidl_generator_c/cmake)
+[0.576s] -- Found rosidl_generator_cpp: 4.6.7 (/opt/ros/jazzy/share/rosidl_generator_cpp/cmake)
+[0.605s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[0.629s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[0.760s] -- Found rmw_implementation_cmake: 7.3.3 (/opt/ros/jazzy/share/rmw_implementation_cmake/cmake)
+[0.763s] -- Found rmw_fastrtps_cpp: 8.4.3 (/opt/ros/jazzy/share/rmw_fastrtps_cpp/cmake)
+[0.890s] -- Using RMW implementation 'rmw_fastrtps_cpp' as default
+[1.027s] -- Found sensor_msgs: 5.3.6 (/opt/ros/jazzy/share/sensor_msgs/cmake)
+[1.148s] -- Found visualization_msgs: 5.3.6 (/opt/ros/jazzy/share/visualization_msgs/cmake)
+[1.209s] -- Found interactive_markers: 2.5.5 (/opt/ros/jazzy/share/interactive_markers/cmake)
+[1.228s] -- Found abb_irb4600_ikfast: 0.0.0 (/home/kllemo/ros2_ws/install/abb_irb4600_ikfast/share/abb_irb4600_ikfast/cmake)
+[1.441s] -- Configuring done (1.4s)
+[1.450s] [31mCMake Error at CMakeLists.txt:49 (add_executable):
+[1.450s]   Cannot find source file:
+[1.450s] 
+[1.450s]     src/joint3_logger.cpp
+[1.450s] 
+[1.451s]   Tried extensions .c .C .c++ .cc .cpp .cxx .cu .mpp .m .M .mm .ixx .cppm
+[1.451s]   .ccm .cxxm .c++m .h .hh .h++ .hm .hpp .hxx .in .txx .f .F .for .f77 .f90
+[1.451s]   .f95 .f03 .hip .ispc
+[1.451s] 
+[1.451s] [0m
+[1.453s] [31mCMake Error at CMakeLists.txt:49 (add_executable):
+[1.454s]   No SOURCES given to target: joint3_logger
+[1.454s] 
+[1.454s] [0m
+[1.454s] [0mCMake Generate step failed.  Build files cannot be regenerated correctly.[0m
+[1.468s] gmake: *** [Makefile:308: cmake_check_build_system] Error 1
+[1.472s] Invoked command in '/home/kllemo/ros2_ws/build/block1_kleman' returned '2': AMENT_PREFIX_PATH=/home/kllemo/ros2_ws/install/abb_model:/home/kllemo/ros2_ws/install/abb_irb4600_ikfast:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/kllemo/ros2_ws/install/abb_model:/home/kllemo/ros2_ws/install/abb_irb4600_ikfast:/opt/ros/jazzy/opt/gz_math_vendor:/opt/ros/jazzy/opt/gz_utils_vendor:/opt/ros/jazzy/opt/gz_cmake_vendor:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com LD_LIBRARY_PATH=/home/kllemo/ros2_ws/install/abb_irb4600_ikfast/lib:${LD_LIBRARY_PATH} /usr/bin/cmake --build /home/kllemo/ros2_ws/build/block1_kleman -- -j16 -l16

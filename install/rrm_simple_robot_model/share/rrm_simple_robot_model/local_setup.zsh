@@ -1,0 +1,1 @@
+/home/kllemo/ros2_ws/build/rrm_simple_robot_model/ament_cmake_environment_hooks/local_setup.zsh

@@ -1,0 +1,1 @@
+/home/kllemo/ros2_ws/build/kleman_interface/rosidl_generator_c/kleman_interface/srv/detail/move_to_xyz__type_support.h

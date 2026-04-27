@@ -1,0 +1,1 @@
+/home/kllemo/ros2_ws/build/kleman_interface/ament_cmake_core/kleman_interfaceConfig-version.cmake

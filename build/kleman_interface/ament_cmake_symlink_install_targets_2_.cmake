@@ -1,0 +1,1 @@
+ament_cmake_symlink_install_targets("TARGET_FILES" "/home/kllemo/ros2_ws/build/kleman_interface/rosidl_generator_py/kleman_interface/kleman_interface_s__rosidl_typesupport_c.so" "TARGETS" "kleman_interface_s__rosidl_typesupport_c" "DESTINATION" "lib/python3.12/site-packages/kleman_interface")

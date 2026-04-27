@@ -1,0 +1,4 @@
+source;share/abb_irb4600_ikfast/local_setup.bash
+source;share/abb_irb4600_ikfast/local_setup.dsv
+source;share/abb_irb4600_ikfast/local_setup.sh
+source;share/abb_irb4600_ikfast/local_setup.zsh

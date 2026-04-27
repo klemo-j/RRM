@@ -1,0 +1,1 @@
+ament_cmake_symlink_install_targets("TARGET_FILES" "/home/kllemo/ros2_ws/build/abb_irb4600_ikfast/libabb_irb4600_ikfast.a" "TARGETS" "abb_irb4600_ikfast" "ARCHIVE_DESTINATION" "lib" "LIBRARY_DESTINATION" "lib" "RUNTIME_DESTINATION" "bin")

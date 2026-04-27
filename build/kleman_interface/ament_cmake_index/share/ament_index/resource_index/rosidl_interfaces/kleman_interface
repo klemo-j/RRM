@@ -1,0 +1,6 @@
+srv/MoveToXYZ.idl
+srv/MoveToXYZ.srv
+srv/SavePoint.idl
+srv/SavePoint.srv
+srv/SolveIK.idl
+srv/SolveIK.srv

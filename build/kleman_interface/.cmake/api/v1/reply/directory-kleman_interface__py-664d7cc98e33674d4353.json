@@ -1,0 +1,14 @@
+{
+	"backtraceGraph" : 
+	{
+		"commands" : [],
+		"files" : [],
+		"nodes" : []
+	},
+	"installers" : [],
+	"paths" : 
+	{
+		"build" : "kleman_interface__py",
+		"source" : "/home/kllemo/ros2_ws/build/kleman_interface/kleman_interface__py"
+	}
+}
