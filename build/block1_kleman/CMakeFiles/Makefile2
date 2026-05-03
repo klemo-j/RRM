@@ -65,7 +65,7 @@ CMAKE_BINARY_DIR = /home/kllemo/ros2_ws/build/block1_kleman
 # The main recursive "all" target.
 all: CMakeFiles/model_spawner.dir/all
 all: CMakeFiles/pose_teacher.dir/all
-all: CMakeFiles/joint_logger.dir/all
+all: CMakeFiles/manipulator.dir/all
 .PHONY : all
 
 # The main recursive "preinstall" target.
@@ -77,7 +77,7 @@ clean: CMakeFiles/uninstall.dir/clean
 clean: CMakeFiles/block1_kleman_uninstall.dir/clean
 clean: CMakeFiles/model_spawner.dir/clean
 clean: CMakeFiles/pose_teacher.dir/clean
-clean: CMakeFiles/joint_logger.dir/clean
+clean: CMakeFiles/manipulator.dir/clean
 .PHONY : clean
 
 #=============================================================================
@@ -185,30 +185,30 @@ CMakeFiles/pose_teacher.dir/clean:
 .PHONY : CMakeFiles/pose_teacher.dir/clean
 
 #=============================================================================
-# Target rules for target CMakeFiles/joint_logger.dir
+# Target rules for target CMakeFiles/manipulator.dir
 
 # All Build rule for target.
-CMakeFiles/joint_logger.dir/all:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/joint_logger.dir/build.make CMakeFiles/joint_logger.dir/depend
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/joint_logger.dir/build.make CMakeFiles/joint_logger.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=/home/kllemo/ros2_ws/build/block1_kleman/CMakeFiles --progress-num=1,2 "Built target joint_logger"
-.PHONY : CMakeFiles/joint_logger.dir/all
+CMakeFiles/manipulator.dir/all:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/manipulator.dir/build.make CMakeFiles/manipulator.dir/depend
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/manipulator.dir/build.make CMakeFiles/manipulator.dir/build
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=/home/kllemo/ros2_ws/build/block1_kleman/CMakeFiles --progress-num=1,2 "Built target manipulator"
+.PHONY : CMakeFiles/manipulator.dir/all
 
 # Build rule for subdir invocation for target.
-CMakeFiles/joint_logger.dir/rule: cmake_check_build_system
+CMakeFiles/manipulator.dir/rule: cmake_check_build_system
 	$(CMAKE_COMMAND) -E cmake_progress_start /home/kllemo/ros2_ws/build/block1_kleman/CMakeFiles 2
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 CMakeFiles/joint_logger.dir/all
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 CMakeFiles/manipulator.dir/all
 	$(CMAKE_COMMAND) -E cmake_progress_start /home/kllemo/ros2_ws/build/block1_kleman/CMakeFiles 0
-.PHONY : CMakeFiles/joint_logger.dir/rule
+.PHONY : CMakeFiles/manipulator.dir/rule
 
 # Convenience name for target.
-joint_logger: CMakeFiles/joint_logger.dir/rule
-.PHONY : joint_logger
+manipulator: CMakeFiles/manipulator.dir/rule
+.PHONY : manipulator
 
 # clean rule for target.
-CMakeFiles/joint_logger.dir/clean:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/joint_logger.dir/build.make CMakeFiles/joint_logger.dir/clean
-.PHONY : CMakeFiles/joint_logger.dir/clean
+CMakeFiles/manipulator.dir/clean:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/manipulator.dir/build.make CMakeFiles/manipulator.dir/clean
+.PHONY : CMakeFiles/manipulator.dir/clean
 
 #=============================================================================
 # Special targets to cleanup operation of make.

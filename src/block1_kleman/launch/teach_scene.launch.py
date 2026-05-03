@@ -8,7 +8,6 @@ import os
 
 
 def generate_launch_description():
-    use_joint_state_gui = LaunchConfiguration("use_joint_state_gui")
     use_rviz = LaunchConfiguration("use_rviz")
 
     abb_model_share = get_package_share_directory("abb_model")
@@ -17,19 +16,21 @@ def generate_launch_description():
     with open(urdf_path, "r") as f:
         robot_description = f.read()
 
-    return LaunchDescription([
-        DeclareLaunchArgument(
-            "use_joint_state_gui",
-            default_value="false",
-            description="Use joint_state_publisher_gui"
-        ),
+    # RViz config – use the one from abb_model if a custom one does not exist yet
+    rviz_config_path = os.path.join(
+        get_package_share_directory("block1_kleman"), "rviz", "machining.rviz"
+    )
+    if not os.path.isfile(rviz_config_path):
+        rviz_config_path = os.path.join(abb_model_share, "config", "urdf.rviz")
 
+    return LaunchDescription([
         DeclareLaunchArgument(
             "use_rviz",
             default_value="true",
             description="Start RViz"
         ),
 
+        # Publish robot URDF / TF
         Node(
             package="robot_state_publisher",
             executable="robot_state_publisher",
@@ -38,22 +39,7 @@ def generate_launch_description():
             parameters=[{"robot_description": robot_description}]
         ),
 
-        Node(
-            package="joint_state_publisher_gui",
-            executable="joint_state_publisher_gui",
-            name="joint_state_publisher_gui",
-            output="screen",
-            condition=IfCondition(use_joint_state_gui)
-        ),
-
-        Node(
-            package="rviz2",
-            executable="rviz2",
-            name="rviz2",
-            output="screen",
-            condition=IfCondition(use_rviz)
-        ),
-
+        # Visualise the work object (marker on topic visualization_marker)
         Node(
             package="block1_kleman",
             executable="model_spawner",
@@ -61,10 +47,29 @@ def generate_launch_description():
             output="screen"
         ),
 
+        # Main trajectory executor (service: /execute_machining)
         Node(
             package="block1_kleman",
-            executable="pose_teacher",
-            name="pose_teacher",
+            executable="manipulator",
+            name="manipulator",
             output="screen"
-        )
+        ),
+
+        # Joint data logger → /home/$USER/ros2_ws/joint_log.csv
+        Node(
+            package="block1_kleman",
+            executable="joint_logger",
+            name="joint_logger",
+            output="screen"
+        ),
+
+        # RViz2
+        Node(
+            package="rviz2",
+            executable="rviz2",
+            name="rviz2",
+            output="screen",
+            arguments=["-d", rviz_config_path],
+            condition=IfCondition(use_rviz)
+        ),
     ])

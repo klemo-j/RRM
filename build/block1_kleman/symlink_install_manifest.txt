@@ -1,9 +1,10 @@
 /home/kllemo/ros2_ws/install/block1_kleman/lib/block1_kleman/model_spawner
 /home/kllemo/ros2_ws/install/block1_kleman/lib/block1_kleman/pose_teacher
-/home/kllemo/ros2_ws/install/block1_kleman/lib/block1_kleman/joint_logger
-/home/kllemo/ros2_ws/install/block1_kleman/include/manipulator.hpp
-/home/kllemo/ros2_ws/install/block1_kleman/include/model_spawner.hpp
-/home/kllemo/ros2_ws/install/block1_kleman/include/pose_teacher.hpp
+/home/kllemo/ros2_ws/install/block1_kleman/lib/block1_kleman/manipulator
+/home/kllemo/ros2_ws/install/block1_kleman/share/block1_kleman/include/manipulator.hpp
+/home/kllemo/ros2_ws/install/block1_kleman/share/block1_kleman/include/model_spawner.hpp
+/home/kllemo/ros2_ws/install/block1_kleman/share/block1_kleman/include/pose_teacher.hpp
+/home/kllemo/ros2_ws/install/block1_kleman/share/block1_kleman/launch/run_machining.py
 /home/kllemo/ros2_ws/install/block1_kleman/share/block1_kleman/launch/teach_scene.launch.py
 /home/kllemo/ros2_ws/install/block1_kleman/share/block1_kleman/meshes/tie.stl
 /home/kllemo/ros2_ws/install/block1_kleman/share/ament_index/resource_index/package_run_dependencies/block1_kleman

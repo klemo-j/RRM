@@ -23,9 +23,9 @@ PoseTeacher::PoseTeacher()
     "joint_4",
     "joint_5",
     "joint_6"
-  };
+  }; // prepisat na to aby tahal sam z config abb
 
-  q_ = {0.0, 0.0, 0.0, 0.0, 0.0, 0.0};
+  q_ = {0.0, 0.0, 0.0, 0.0, 0.0, 0.0}; //// pockat na joint states topic
 
   server_ = std::make_shared<interactive_markers::InteractiveMarkerServer>(
     "pose_teacher_marker",

@@ -315,20 +315,14 @@ message(STATUS "Execute custom install script")
 
 # begin of custom install code
 
-# install("TARGETS" "model_spawner" "pose_teacher" "joint_logger" "DESTINATION" "lib/block1_kleman")
+# install("TARGETS" "model_spawner" "pose_teacher" "manipulator" "DESTINATION" "lib/block1_kleman")
 include("/home/kllemo/ros2_ws/build/block1_kleman/ament_cmake_symlink_install_targets_0_${CMAKE_INSTALL_CONFIG_NAME}.cmake")
 
-# install(DIRECTORY "include/" "DESTINATION" "include")
-ament_cmake_symlink_install_directory("/home/kllemo/ros2_ws/src/block1_kleman" DIRECTORY "include/" "DESTINATION" "include")
-
-# install(DIRECTORY "launch" "DESTINATION" "share/block1_kleman")
-ament_cmake_symlink_install_directory("/home/kllemo/ros2_ws/src/block1_kleman" DIRECTORY "launch" "DESTINATION" "share/block1_kleman")
+# install(DIRECTORY "include" "launch" "meshes" "DESTINATION" "share/block1_kleman")
+ament_cmake_symlink_install_directory("/home/kllemo/ros2_ws/src/block1_kleman" DIRECTORY "include" "launch" "meshes" "DESTINATION" "share/block1_kleman")
 
 # install(DIRECTORY "rviz" "DESTINATION" "share/block1_kleman" "OPTIONAL")
 ament_cmake_symlink_install_directory("/home/kllemo/ros2_ws/src/block1_kleman" DIRECTORY "rviz" "DESTINATION" "share/block1_kleman" "OPTIONAL")
-
-# install(DIRECTORY "meshes" "DESTINATION" "share/block1_kleman")
-ament_cmake_symlink_install_directory("/home/kllemo/ros2_ws/src/block1_kleman" DIRECTORY "meshes" "DESTINATION" "share/block1_kleman")
 
 # install(FILES "/home/kllemo/ros2_ws/build/block1_kleman/ament_cmake_index/share/ament_index/resource_index/package_run_dependencies/block1_kleman" "DESTINATION" "share/ament_index/resource_index/package_run_dependencies")
 ament_cmake_symlink_install_files("/home/kllemo/ros2_ws/src/block1_kleman" FILES "/home/kllemo/ros2_ws/build/block1_kleman/ament_cmake_index/share/ament_index/resource_index/package_run_dependencies/block1_kleman" "DESTINATION" "share/ament_index/resource_index/package_run_dependencies")

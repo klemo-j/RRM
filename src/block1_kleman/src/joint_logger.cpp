@@ -2,102 +2,116 @@
 #include <string>
 #include <fstream>
 #include <functional>
+#include <cstdlib>   // getenv
 
 #include "rclcpp/rclcpp.hpp"
 #include "sensor_msgs/msg/joint_state.hpp"
 
-class Joint3Logger : public rclcpp::Node
+/*
+ * Logs joint_3 position, velocity and acceleration to a CSV file.
+ *
+ * Velocity and acceleration are taken directly from the JointState message
+ * (manipulator node fills msg.velocity  = q_vel_  and
+ *                             msg.effort = q_acc_  for all joints).
+ *
+ * The log file path is determined at runtime:
+ *   $ROS_LOG_DIR/joint_log.csv   if ROS_LOG_DIR is set
+ *   $HOME/ros2_ws/joint_log.csv  otherwise
+ */
+
+class JointLogger : public rclcpp::Node
 {
 public:
-  Joint3Logger()
-  : Node("joint3_logger")
+  JointLogger()
+  : Node("joint_logger")
   {
-    file_.open("/home/kllemo/ros2_ws/joint3_log.csv");
+    // Resolve output path without hardcoding the username
+    std::string log_path;
+    const char * ros_log = std::getenv("ROS_LOG_DIR");
+    const char * home    = std::getenv("HOME");
 
-    file_ << "time,position,velocity,acceleration\n";
+    if (ros_log) {
+      log_path = std::string(ros_log) + "/joint_log.csv";
+    } else if (home) {
+      log_path = std::string(home) + "/ros2_ws/joint_log.csv";
+    } else {
+      log_path = "/tmp/joint_log.csv";
+    }
+
+    file_.open(log_path);
+
+    if (!file_.is_open()) {
+      RCLCPP_ERROR(get_logger(), "Cannot open log file: %s", log_path.c_str());
+    } else {
+      RCLCPP_INFO(get_logger(), "Logging joint_3 to: %s", log_path.c_str());
+      file_ << "time,position,velocity,acceleration\n";
+    }
 
     start_time_ = now();
-
-    last_time_ = 0.0;
-    last_position_ = 0.0;
-    last_velocity_ = 0.0;
-    first_value_ = true;
 
     sub_ = create_subscription<sensor_msgs::msg::JointState>(
       "joint_states",
       10,
-      std::bind(&Joint3Logger::joint_callback, this, std::placeholders::_1)
+      std::bind(&JointLogger::joint_callback, this, std::placeholders::_1)
     );
 
-    RCLCPP_INFO(get_logger(), "Joint 3 logger started");
+    RCLCPP_INFO(get_logger(), "Joint logger started");
   }
 
-  ~Joint3Logger()
+  ~JointLogger()
   {
-    file_.close();
+    if (file_.is_open()) {
+      file_.close();
+    }
   }
 
 private:
   rclcpp::Subscription<sensor_msgs::msg::JointState>::SharedPtr sub_;
   std::ofstream file_;
-
-  rclcpp::Time start_time_;
-
-  double last_time_;
-  double last_position_;
-  double last_velocity_;
-  bool first_value_;
+  rclcpp::Time  start_time_;
 
   void joint_callback(const sensor_msgs::msg::JointState::SharedPtr msg)
   {
-    int joint_index = -1;
-
-    for (size_t i = 0; i < msg->name.size(); i++) {
-      if (msg->name[i] == "joint_3") {
-        joint_index = i;
-        break;
-      }
-    }
-
-    if (joint_index == -1) {
+    if (!file_.is_open()) {
       return;
     }
 
-    double time = (now() - start_time_).seconds();
-    double position = msg->position[joint_index];
-
-    double velocity = 0.0;
-    double acceleration = 0.0;
-
-    if (!first_value_) {
-      double dt = time - last_time_;
-
-      if (dt > 0.0001) {
-        velocity = (position - last_position_) / dt;
-        acceleration = (velocity - last_velocity_) / dt;
+    // Find joint_3
+    int idx = -1;
+    for (size_t i = 0; i < msg->name.size(); i++) {
+      if (msg->name[i] == "joint_3") {
+        idx = static_cast<int>(i);
+        break;
       }
     }
+    if (idx == -1) { return; }
 
-    file_ << time << ","
-          << position << ","
-          << velocity << ","
+    const double time     = (now() - start_time_).seconds();
+    const double position = msg->position[idx];
+
+    // Velocity is published in msg.velocity, acceleration in msg.effort
+    // (see manipulator.cpp publish_joints())
+    double velocity     = 0.0;
+    double acceleration = 0.0;
+
+    if (idx < static_cast<int>(msg->velocity.size())) {
+      velocity = msg->velocity[idx];
+    }
+    if (idx < static_cast<int>(msg->effort.size())) {
+      acceleration = msg->effort[idx];
+    }
+
+    file_ << time         << ","
+          << position     << ","
+          << velocity     << ","
           << acceleration << "\n";
-
-    last_time_ = time;
-    last_position_ = position;
-    last_velocity_ = velocity;
-    first_value_ = false;
   }
 };
 
 int main(int argc, char ** argv)
 {
   rclcpp::init(argc, argv);
-
-  auto node = std::make_shared<Joint3Logger>();
-  rclcpp::spin(node);
-
+  rclcpp::spin(std::make_shared<JointLogger>());
   rclcpp::shutdown();
-
   return 0;
 }

@@ -1,1 +1,1 @@
-rclcpp;visualization_msgs;sensor_msgs;geometry_msgs;interactive_markers;abb_irb4600_ikfast;robot_state_publisher;joint_state_publisher_gui;rviz2;abb_model;ament_index_python
+rclcpp;sensor_msgs;geometry_msgs;visualization_msgs;interactive_markers;std_msgs;std_srvs;abb_irb4600_ikfast;robot_state_publisher;rviz2;abb_model

@@ -224,41 +224,41 @@ pose_teacher/fast:
 .PHONY : pose_teacher/fast
 
 #=============================================================================
-# Target rules for targets named joint_logger
+# Target rules for targets named manipulator
 
 # Build rule for target.
-joint_logger: cmake_check_build_system
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 joint_logger
-.PHONY : joint_logger
+manipulator: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 manipulator
+.PHONY : manipulator
 
 # fast build rule for target.
-joint_logger/fast:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/joint_logger.dir/build.make CMakeFiles/joint_logger.dir/build
-.PHONY : joint_logger/fast
+manipulator/fast:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/manipulator.dir/build.make CMakeFiles/manipulator.dir/build
+.PHONY : manipulator/fast
 
-src/joint_logger.o: src/joint_logger.cpp.o
-.PHONY : src/joint_logger.o
+src/manipulator.o: src/manipulator.cpp.o
+.PHONY : src/manipulator.o
 
 # target to build an object file
-src/joint_logger.cpp.o:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/joint_logger.dir/build.make CMakeFiles/joint_logger.dir/src/joint_logger.cpp.o
-.PHONY : src/joint_logger.cpp.o
+src/manipulator.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/manipulator.dir/build.make CMakeFiles/manipulator.dir/src/manipulator.cpp.o
+.PHONY : src/manipulator.cpp.o
 
-src/joint_logger.i: src/joint_logger.cpp.i
-.PHONY : src/joint_logger.i
+src/manipulator.i: src/manipulator.cpp.i
+.PHONY : src/manipulator.i
 
 # target to preprocess a source file
-src/joint_logger.cpp.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/joint_logger.dir/build.make CMakeFiles/joint_logger.dir/src/joint_logger.cpp.i
-.PHONY : src/joint_logger.cpp.i
+src/manipulator.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/manipulator.dir/build.make CMakeFiles/manipulator.dir/src/manipulator.cpp.i
+.PHONY : src/manipulator.cpp.i
 
-src/joint_logger.s: src/joint_logger.cpp.s
-.PHONY : src/joint_logger.s
+src/manipulator.s: src/manipulator.cpp.s
+.PHONY : src/manipulator.s
 
 # target to generate assembly for a file
-src/joint_logger.cpp.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/joint_logger.dir/build.make CMakeFiles/joint_logger.dir/src/joint_logger.cpp.s
-.PHONY : src/joint_logger.cpp.s
+src/manipulator.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/manipulator.dir/build.make CMakeFiles/manipulator.dir/src/manipulator.cpp.s
+.PHONY : src/manipulator.cpp.s
 
 src/model_spawner.o: src/model_spawner.cpp.o
 .PHONY : src/model_spawner.o
@@ -323,12 +323,12 @@ help:
 	@echo "... test"
 	@echo "... block1_kleman_uninstall"
 	@echo "... uninstall"
-	@echo "... joint_logger"
+	@echo "... manipulator"
 	@echo "... model_spawner"
 	@echo "... pose_teacher"
-	@echo "... src/joint_logger.o"
-	@echo "... src/joint_logger.i"
-	@echo "... src/joint_logger.s"
+	@echo "... src/manipulator.o"
+	@echo "... src/manipulator.i"
+	@echo "... src/manipulator.s"
 	@echo "... src/model_spawner.o"
 	@echo "... src/model_spawner.i"
 	@echo "... src/model_spawner.s"
